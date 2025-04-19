@@ -1,3 +1,12 @@
+# Allow all ethical crawlers access to the site content
 User-agent: *
 Allow: /
+
+# Disallow access to specific paths (e.g., source control, dependencies)
+# Add any other private paths you don't want indexed here.
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Point crawlers to the sitemap for better indexing 
+# IMPORTANT: Replace https://levitrask.vercel.app with your actual domain!
 Sitemap: https://levitrask.com/sitemap.xml
