@@ -4,7 +4,7 @@ const blogsData = {
     listTitle: 'Vardenafil (Generic Levitra): Key Information',
     listDescription:
       'Detailed overview of generic Vardenafil, including usage, effectiveness, and differences from brand-name Levitra.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-01.webp',
     listDate: '2024-01-01',
     metaTitle: 'Vardenafil (Generic Levitra): Key Information | Levitrask Blog',
     metaDescription:
@@ -19,6 +19,24 @@ const blogsData = {
       { id: 'generic-vs-brand', title: 'Generic vs. Brand' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/fda-vardenafil-info', text: 'FDA Vardenafil Info' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        // Merged from similarDrugs
+        { to: '/blog/sildenafil-generic-info', text: 'Sildenafil (Generic)' },
+        { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil (Generic)' },
+        { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
+        // Merged from drugComparison
+        { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
+        { to: '/compare/viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/compare/cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+      ],
+      frequentlyAskedQuestions: [], // No FAQs in the source file
+    },
     content: `
           <h1>Vardenafil (Generic): Uses & Side Effects</h1>
           <hr />
@@ -194,7 +212,7 @@ const blogsData = {
     listTitle: 'FDA Drug Information: Vardenafil',
     listDescription:
       'Summary of key FDA information regarding Vardenafil (Levitra, Staxyn), including uses, dosage, safety, and patient guidance.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-02.webp',
     listDate: '2024-01-12',
     metaTitle: 'FDA Drug Information: Vardenafil | Levitrask Blog',
     metaDescription:
@@ -208,6 +226,19 @@ const blogsData = {
       { id: 'warnings-side-effects', title: 'Warnings & Side Effects' },
       { id: 'comparison-conclusion', title: 'Comparison & Conclusion' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/vardenafil-generic-info', text: 'Generic Vardenafil Info' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/questions/questions-01', text: 'Why is Levitra Unavailable?' }, // Updated path
+        { to: '/questions/questions-07', text: 'Can You Still Buy Levitra?' }, // Updated path
+      ],
+      frequentlyAskedQuestions: [
+        { to: '/questions/questions-01', text: 'Why is Levitra Unavailable?' }, // Updated path
+        { to: '/questions/questions-07', text: 'Can You Still Buy Levitra?' }, // Updated path
+        { to: '/questions/questions-05', text: 'What Is Levitra Used For?' }, // Updated path
+      ],
+    },
     content: `
           <h1>FDA Drug Information: Vardenafil</h1>
           <hr />
@@ -427,7 +458,7 @@ const blogsData = {
     listTitle: 'Understanding Erectile Dysfunction (ED)',
     listDescription:
       'Exploring the causes, symptoms, and various factors contributing to erectile dysfunction in men.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-03.jpeg',
     listDate: '2024-01-03',
     metaTitle: 'Understanding Erectile Dysfunction (ED) | Levitrask Blog',
     metaDescription:
@@ -443,6 +474,15 @@ const blogsData = {
       { id: 'when-to-talk', title: 'When to Talk to Doctor' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        { to: '/blog/switching-ed-meds', text: 'Switching ED Medications' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
     content: `
           <h1>Understanding Erectile Dysfunction (ED)</h1>
           <hr />
@@ -622,7 +662,7 @@ const blogsData = {
     listTitle: 'How to Talk to Your Doctor About ED',
     listDescription:
       'Tips and guidance on preparing for and having a conversation with your doctor about erectile dysfunction.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-04.webp',
     listDate: '2024-01-07',
     metaTitle: 'How to Talk to Your Doctor About ED | Levitrask Blog',
     metaDescription:
@@ -638,6 +678,15 @@ const blogsData = {
       { id: 'involving-partner', title: 'Involving Partner' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/understanding-ed', text: 'Understanding ED Basics' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/switching-ed-meds', text: 'Switching ED Medications' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
     content: `
             <h1>How to Talk to Your Doctor About ED</h1>
             <hr />
@@ -789,7 +838,7 @@ const blogsData = {
     listTitle: 'Comparing ED Drugs: Factors to Consider',
     listDescription:
       'A look at the key factors to weigh when comparing different ED medications like Viagra, Cialis, Levitra, and Stendra.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-05.jpg',
     listDate: '2024-01-05',
     metaTitle: 'Comparing ED Drugs: Factors to Consider | Levitrask Blog',
     metaDescription:
@@ -806,6 +855,21 @@ const blogsData = {
       { id: 'daily-use', title: 'Daily Use vs. On-Demand' },
       { id: 'conclusion', title: 'Which is Best?' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/side-effect-profiles', text: 'ED Side Effect Profiles' },
+        { to: '/blog/switching-ed-meds', text: 'Switching ED Medications' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/sildenafil-generic-info', text: 'Sildenafil (Generic) Info' },
+        { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil (Generic) FAQ' },
+        { to: '/blog/vardenafil-generic-info', text: 'Vardenafil (Generic) Info' },
+        { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra) Guide' },
+      ],
+      frequentlyAskedQuestions: [
+        { to: '/questions/questions-03', text: 'Is Levitra Better Than Viagra?' }, // Updated path
+        { to: '/questions/questions-06', text: 'Is Levitra Stronger Than Viagra?' }, // Updated path
+      ],
+    },
     content: `
         <h1>Comparing ED Drugs: Factors to Consider</h1>
         <hr />
@@ -1092,7 +1156,7 @@ const blogsData = {
     listTitle: 'Side Effect Profiles of Common ED Medications',
     listDescription:
       'An overview of the potential side effects associated with different ED treatments and how they compare.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-06.png',
     listDate: '2024-01-06',
     metaTitle: 'Side Effect Profiles of Common ED Medications | Levitrask Blog',
     metaDescription:
@@ -1110,6 +1174,17 @@ const blogsData = {
       { id: 'psychological-effects', title: 'Psychological Effects' },
       { id: 'managing-tips', title: 'Managing Tips' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/understanding-ed', text: 'Understanding ED Basics' },
+        { to: '/blog/managing-side-effects', text: 'Managing Treatment Side Effects' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        // Placeholders from source, adjust if actual pages exist
+        // { to: '/blog/diet-exercise-ed', text: 'Diet & Exercise Guide' },
+        // { to: '/blog/mental-health-ed', text: 'Mental Health Strategies' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
     content: `
         <h1>Side Effect Profiles of Common ED Medications</h1>
         <hr />
@@ -1350,7 +1425,7 @@ const blogsData = {
     listTitle: 'Lifestyle Factors Impacting Erectile Dysfunction',
     listDescription:
       'Discussion on how diet, exercise, stress, and other lifestyle choices can affect erectile function.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-07.jpg',
     listDate: '2024-01-07',
     metaTitle: 'Lifestyle Factors Impacting Erectile Dysfunction | Levitrask Blog',
     metaDescription:
@@ -1368,6 +1443,19 @@ const blogsData = {
       { id: 'medication-use', title: 'Medication Use' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    // --- Start: Add sidebarData for lifestyle-impact ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/understanding-ed', text: 'Understanding ED Basics' },
+        { to: '/blog/managing-side-effects', text: 'Managing Treatment Side Effects' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        // Placeholders from source, adjust if actual pages exist
+        // { to: '/blog/diet-exercise-ed', text: 'Diet & Exercise Guide' },
+        // { to: '/blog/mental-health-ed', text: 'Mental Health Strategies' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
+    // --- End: Add sidebarData for lifestyle-impact ---
     content: `
         <h1>Lifestyle Factors Impacting Erectile Dysfunction</h1>
         <hr />
@@ -1548,7 +1636,7 @@ const blogsData = {
     listTitle: 'Switching Between ED Medications: What to Know',
     listDescription:
       'Guidance on how to safely switch between different ED medications like Viagra, Cialis, Levitra, or Stendra.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-08.jpg',
     listDate: '2024-01-13',
     metaTitle: 'Switching Between ED Medications | Levitrask Blog',
     metaDescription:
@@ -1564,6 +1652,20 @@ const blogsData = {
       { id: 'lifestyle-matters', title: 'Lifestyle Matters' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        { to: '/blog/fda-sildenafil-info', text: 'Sildenafil (Viagra) Info' },
+        { to: '/blog/fda-tadalafil-info', text: 'Tadalafil (Cialis) Info' },
+        { to: '/blog/fda-vardenafil-info', text: 'Vardenafil (Levitra) Info' },
+        { to: '/blog/sildenafil-generic-info', text: 'Sildenafil Generic Guide' },
+        // Merged from drugComparison
+        { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
     content: `
         <h1>Switching Between ED Medications: What to Know</h1>
         <hr />
@@ -1754,7 +1856,7 @@ const blogsData = {
     listTitle: 'Managing Side Effects of ED Medications',
     listDescription:
       'Tips and strategies for managing common side effects like headaches, flushing, etc., when taking PDE5 inhibitors.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-09.jpeg',
     listDate: '2024-01-09',
     metaTitle: 'Managing Side Effects of ED Medications | Levitrask Blog',
     metaDescription:
@@ -1770,6 +1872,20 @@ const blogsData = {
       { id: 'talk-to-doctor', title: 'Talk to Your Doctor' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    // --- Start: Add sidebarData ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/understanding-ed', text: 'Understanding ED Basics' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        { to: '/blog/fda-sildenafil-info', text: 'Sildenafil (Viagra) Info' },
+        { to: '/blog/fda-tadalafil-info', text: 'Tadalafil (Cialis) Info' },
+        { to: '/blog/fda-vardenafil-info', text: 'Vardenafil (Levitra) Info' },
+        // The source file seems to cut off, check if other links like Avanafil info are missing
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
+    // --- End: Add sidebarData ---
     content: `
         <h1>Managing Side Effects of ED Medications</h1>
         <hr />
@@ -1971,7 +2087,7 @@ const blogsData = {
     listTitle: 'Tadalafil (Generic Cialis): FAQs',
     listDescription:
       'Answers to common questions about generic Tadalafil, including usage, duration, side effects, and daily dosing.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-10.webp',
     listDate: '2024-01-10',
     metaTitle: 'Tadalafil (Generic Cialis): FAQs | Levitrask Blog',
     metaDescription:
@@ -1991,6 +2107,25 @@ const blogsData = {
       { id: 'storage', title: 'Storage' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    // --- Start: Add sidebarData ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/fda-tadalafil-info', text: 'FDA Tadalafil Info' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        // Merged from similarDrugs
+        { to: '/blog/sildenafil-generic-info', text: 'Sildenafil (Generic)' },
+        { to: '/blog/vardenafil-generic-info', text: 'Vardenafil (Generic)' },
+        { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
+        // Merged from drugComparison
+        { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
+        { to: '/compare/viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
+    // --- End: Add sidebarData ---
     content: `
           <h1>Tadalafil (Generic Cialis): FAQs</h1>
           <hr />
@@ -2174,7 +2309,7 @@ const blogsData = {
     listTitle: 'FDA Drug Information: Tadalafil',
     listDescription:
       'Summary of FDA information for Tadalafil (Cialis, Adcirca), covering uses, dosage, safety warnings, and patient guidelines.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-11.jpg',
     listDate: '2024-01-16',
     metaTitle: 'FDA Drug Information: Tadalafil | Levitrask Blog',
     metaDescription:
@@ -2186,6 +2321,20 @@ const blogsData = {
       { id: 'warnings-side-effects', title: 'Warnings & Side Effects' },
       { id: 'comparison-conclusion', title: 'Comparison & Conclusion' },
     ],
+    // --- Start: Add sidebarData ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil Generic FAQ' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/questions/questions-03', text: 'Cialis vs. Viagra Comparison' }, // Updated path
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle & ED' },
+      ],
+      frequentlyAskedQuestions: [
+        { to: '/questions/questions-03', text: 'Cialis vs. Viagra' }, // Updated path
+        { to: '/questions/questions-04', text: 'How Long Does Cialis Last?' }, // Updated path
+      ],
+    },
+    // --- End: Add sidebarData ---
     content: `
           <h1>FDA Drug Information: Tadalafil</h1>
           <hr />
@@ -2427,7 +2576,7 @@ const blogsData = {
     listTitle: 'Avanafil (Stendra): Patient Guide',
     listDescription:
       'A guide for patients using Avanafil (Stendra), covering usage, expectations, side effects, and doctor communication.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-12.jpg',
     listDate: '2024-01-12',
     metaTitle: 'Avanafil (Stendra): Patient Guide | Levitrask Blog',
     metaDescription:
@@ -2657,7 +2806,7 @@ const blogsData = {
     listTitle: 'FDA Drug Information: Avanafil',
     listDescription:
       'Key information from the FDA regarding Avanafil (Stendra), including approved uses, safety warnings, and patient info.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-13.jpg',
     listDate: '2024-01-13',
     metaTitle: 'FDA Drug Information: Avanafil | Levitrask Blog',
     metaDescription:
@@ -2676,6 +2825,16 @@ const blogsData = {
       { id: 'unique-benefits', title: 'Unique Benefits' },
       { id: 'final-thoughts', title: 'Final Thoughts' },
     ],
+    // --- Start: Add sidebarData ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/avanafil-patient-guide', text: 'Avanafil Patient Guide' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/comparing-factors', text: 'Comparing ED Drugs' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
+    // --- End: Add sidebarData ---
     content: `
           <h1>FDA Drug Information: Avanafil</h1>
           <hr />
@@ -2910,7 +3069,7 @@ const blogsData = {
     listTitle: 'Sildenafil (Generic Viagra): What to Expect',
     listDescription:
       'Information about generic Sildenafil, effectiveness compared to Viagra, dosages, side effects, and cost savings.',
-    listImage: '/images/levitra-20mg.jpg',
+    listImage: '/images/blog-14.jpg',
     listDate: '2024-01-14',
     metaTitle: 'Sildenafil (Generic Viagra): What to Expect | Levitrask Blog',
     metaDescription:
@@ -2927,6 +3086,25 @@ const blogsData = {
       { id: 'faq', title: 'FAQ' },
       { id: 'conclusion', title: 'Conclusion' },
     ],
+    // --- Start: Add sidebarData ---
+    sidebarData: {
+      relatedResources: [
+        { to: '/blog/fda-sildenafil-info', text: 'FDA Sildenafil Info' },
+        { to: '/blog/managing-side-effects', text: 'Managing Side Effects' },
+        { to: '/blog/lifestyle-impact', text: 'Lifestyle Factors & ED' },
+        { to: '/blog/talking-to-doctor-ed', text: 'Talking to Your Doctor' },
+        // Merged from similarDrugs
+        { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil (Generic)' },
+        { to: '/blog/vardenafil-generic-info', text: 'Vardenafil (Generic)' },
+        { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
+        // Merged from drugComparison
+        { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
+        { to: '/compare/cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+      ],
+      frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
+    },
+    // --- End: Add sidebarData ---
     content: `
           <h1>Sildenafil (Generic): What to Expect</h1>
           <hr />

@@ -1,7 +1,10 @@
 <template>
   <header class="page-header">
     <div class="container">
-      <router-link to="/" class="logo">Drug Info Hub</router-link>
+      <router-link to="/" class="logo">
+        <img src="/images/logo.png" alt="Levitrask Logo" class="logo-image" />
+        <span class="logo-text">Levitrask</span>
+      </router-link>
 
       <!-- 汉堡包菜单按钮 (仅移动端显示) -->
       <button @click="toggleMobileMenu" class="mobile-menu-button">
@@ -22,14 +25,17 @@
           @mouseleave="isBlogDropdownOpen = false"
         >
           <a class="dropdown-trigger" :class="{ 'active-dropdown': isBlogActive }"
-            >Drugs in this Class
-            <span class="arrow" :class="{ rotated: isBlogDropdownOpen }">▼</span></a
+            >Such drugs <span class="arrow" :class="{ rotated: isBlogDropdownOpen }">▼</span></a
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isBlogDropdownOpen">
-              <router-link to="/drugs/cialis" class="dropdown-item">Cialis Details</router-link>
-              <router-link to="/drugs/stendra" class="dropdown-item">Stendra Details</router-link>
-              <router-link to="/drugs/viagra" class="dropdown-item">Viagra Details</router-link>
+              <router-link to="/drugs/viagra" class="dropdown-item"
+                >Viagra (sildenafil)
+              </router-link>
+              <router-link to="/drugs/cialis" class="dropdown-item">Cialis (tadalafil)</router-link>
+              <router-link to="/drugs/stendra" class="dropdown-item"
+                >Stendra (avanafil)</router-link
+              >
             </div>
           </transition>
         </div>
@@ -46,9 +52,15 @@
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isComparisonDropdownOpen">
-              <router-link to="/compare/cialis" class="dropdown-item">Cialis</router-link>
-              <router-link to="/compare/stendra" class="dropdown-item">Stendra</router-link>
-              <router-link to="/compare/viagra" class="dropdown-item">Viagra</router-link>
+              <router-link to="/compare/viagra" class="dropdown-item"
+                >levitra vs viagra</router-link
+              >
+              <router-link to="/compare/cialis" class="dropdown-item"
+                >levitra vs Cialis</router-link
+              >
+              <router-link to="/compare/stendra" class="dropdown-item"
+                >levitra vs Stendra</router-link
+              >
             </div>
           </transition>
         </div>
@@ -173,10 +185,23 @@ const toggleMobileSubmenu = (menuName) => {
 }
 
 .logo {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Vertically center items */
   font-size: 1.3rem; /* 轻微减小移动端 logo 大小 */
   font-weight: bold;
   color: #343a40; /* Logo 颜色 */
   text-decoration: none;
+}
+
+/* Add styles for the logo image and text */
+.logo-image {
+  height: 60px; /* Adjust height as needed */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 8px; /* Add some space between image and text */
+}
+
+.logo-text {
+  /* Optional: add specific styles for the text if needed */
 }
 
 /* 桌面导航样式 */
@@ -251,10 +276,11 @@ const toggleMobileSubmenu = (menuName) => {
   border-radius: 8px; /* Slightly larger radius */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
   padding: 0; /* Remove padding, rely on item padding */
-  min-width: 240px; /* Increased width */
+  min-width: 200px; /* Increased width */
   z-index: 1001;
   display: block;
   overflow: hidden; /* Ensure border-radius clips items */
+  text-align: center;
 }
 
 /* 下拉菜单项 */

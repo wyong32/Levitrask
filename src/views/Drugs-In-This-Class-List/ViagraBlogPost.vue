@@ -10,21 +10,26 @@
           <h1>Viagra: A Detailed Look at Uses, Dosage, Side Effects, and Warnings</h1>
           <p>
             Viagra, a well-known medication, has gained worldwide recognition for its role in
-            treating erectile dysfunction (ED). But there's more to this little blue pill than its
-            widespread fame. In this blog post, we'll take a detailed look at Viagra, including its
-            official name, its uses, dosage guidelines, possible side effects, and important
-            warnings.
+            treating
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>. But
+            there's more to this little blue pill than its widespread fame. In this blog post, we'll
+            take a detailed look at Viagra, including its official name, its uses, dosage
+            guidelines, possible side effects, and important warnings.
           </p>
           <!-- Basic info -->
           <p><strong>Brand Name:</strong> Viagra</p>
-          <p><strong>Generic Name:</strong> Sildenafil Citrate</p>
+          <p>
+            <strong>Generic Name:</strong>
+            <router-link to="/blog/sildenafil-generic-info">Sildenafil Citrate</router-link>
+          </p>
           <p><strong>Drug Category:</strong> Phosphodiesterase type 5 (PDE5) Inhibitors</p>
         </header>
 
         <section id="what-is-viagra" class="tab-content">
           <h2>What is Viagra?</h2>
           <p>
-            Viagra is a prescription medication primarily used to treat erectile dysfunction (ED), a
+            Viagra is a prescription medication primarily used to treat
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>, a
             condition in which a man has difficulty achieving or maintaining an erection sufficient
             for sexual activity. It was developed by Pfizer and first approved by the U.S. Food and
             Drug Administration (FDA) in 1998. Since then, it has helped millions of men regain
@@ -74,7 +79,10 @@
           </ul>
           <p>
             The effects of Viagra can last for up to 4-5 hours, but this can vary from person to
-            person. It's essential not to take more than one dose in a 24-hour period.
+            person. It's essential not to take more than one dose in a 24-hour period. Remember that
+            certain
+            <router-link to="/blog/lifestyle-impact">lifestyle factors</router-link>
+            can also influence how well ED medications work.
           </p>
         </section>
 
@@ -103,7 +111,10 @@
           </ul>
           <p>
             If you experience any of these serious side effects, you should seek medical attention
-            immediately.
+            immediately. For guidance on handling common side effects, check our post on
+            <router-link to="/blog/managing-side-effects"
+              >managing ED medication side effects</router-link
+            >.
           </p>
         </section>
 
@@ -138,7 +149,11 @@
           <h3>Older Adults:</h3>
           <p>
             Older men (especially those over 65) may need a lower dose of Viagra, as they are more
-            likely to experience side effects or slower metabolism of the drug.
+            likely to experience side effects or slower metabolism of the drug. Always
+            <router-link to="/blog/talking-to-doctor-ed"
+              >discuss your health profile with your doctor</router-link
+            >
+            before starting any new medication.
           </p>
         </section>
         <section id="other-considerations" class="tab-content">
@@ -166,37 +181,55 @@
             or reactions.
           </p>
           <p>
-            If you're struggling with erectile dysfunction, don't hesitate to speak with your
-            doctor. Viagra could be the solution that helps you regain your confidence and improve
-            your quality of life.
+            If you're struggling with
+            <router-link to="/blog/understanding-ed">erectile dysfunction</router-link>, don't
+            hesitate to
+            <router-link to="/blog/talking-to-doctor-ed">speak with your doctor</router-link>.
+            Viagra could be the solution that helps you regain your confidence and improve your
+            quality of life.
           </p>
         </section>
 
         <section id="generic-drugs" class="tab-content">
           <h2>Generic Drugs (Sildenafil)</h2>
           <p>
-            Generic Viagra, containing Sildenafil Citrate, is widely available and often provides a
-            more cost-effective option for treating ED. As with the brand name, a prescription is
-            required.
+            Generic Viagra, containing
+            <router-link to="/blog/sildenafil-generic-info">Sildenafil Citrate</router-link>, is
+            widely available and often provides a more cost-effective option for treating ED. As
+            with the brand name, a prescription is required.
           </p>
-          <p><strong>Potential Purchase Options (Prescription Required):</strong></p>
+          <p><strong>Explore More on ED Drugs:</strong></p>
           <ul>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Compare Sildenafil prices on GoodRx (Placeholder)</a
+              <router-link to="/blog/generic-vs-brand-deep-dive"
+                >Generic vs. Brand Name: Key Differences Explained</router-link
               >
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Check availability at local pharmacies (Placeholder)</a
+              <router-link to="/blog/tadalafil-generic-faq"
+                >Generic Cialis (Tadalafil) FAQ</router-link
               >
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Explore accredited online pharmacies (Placeholder)</a
+              <router-link to="/blog/vardenafil-generic-info"
+                >Generic Levitra (Vardenafil) Information</router-link
               >
             </li>
-            <!-- Add other relevant placeholder links -->
+            <li>
+              <router-link to="/blog/avanafil-patient-guide"
+                >Generic Stendra (Avanafil): Patient Guide</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/saving-on-ed-meds"
+                >Tips for Saving Money on ED Medication</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/comparing-factors"
+                >Comparing Different ED Treatment Options</router-link
+              >
+            </li>
           </ul>
         </section>
       </article>
@@ -236,7 +269,8 @@ const viagraSidebarData = ref({
     approvalHistory: 'FDA Approved 1998',
   },
   quickSummary: {
-    formsStrengths: 'Tablets: 25mg, 50mg, 100mg (Also Revatio for PAH)',
+    formsStrengths:
+      '<br/>Tablets: <br/>Viagra 25mg <br/>Viagra 50mg <br/> Viagra100mg (Also Revatio for PAH)',
     reminders: [
       'Take 30-60 mins before activity.',
       'Do NOT take with nitrates.',
@@ -246,7 +280,7 @@ const viagraSidebarData = ref({
     ],
   },
   drugImage: {
-    src: '/images/viagra-100mg.jpg', // Keep or replace image
+    src: '/images/Viagra-01.jpg', // Keep or replace image
     alt: 'Viagra (Sildenafil) 100mg pills',
   },
   relatedResources: [
@@ -393,4 +427,14 @@ const viagraSidebarData = ref({
 }
 
 /* PageHeader, PageFooter, SideNav, DrugSidebar styles are in their respective components */
+
+/* Optional: Add styles for inline links if needed */
+.main-content a {
+  color: #007bff; /* Match sidebar link color */
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
 </style> 

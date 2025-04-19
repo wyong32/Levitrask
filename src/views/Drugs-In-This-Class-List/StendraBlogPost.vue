@@ -9,12 +9,14 @@
         <header class="drug-header">
           <h1>Stendra: A Comprehensive Guide to Usage, Dosage, Side Effects, and More</h1>
           <p>
-            Stendra (generic name: avanafil) is a prescription medication primarily used to treat
-            erectile dysfunction (ED) in men. It belongs to a class of drugs known as
-            phosphodiesterase type 5 (PDE5) inhibitors, which work by increasing blood flow to the
-            penis to help achieve and maintain an erection during sexual activity. Below, we will
-            cover important aspects of Stendra, including its usage, dosage, side effects, and
-            warnings.
+            Stendra (generic name:
+            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link>) is a prescription
+            medication primarily used to treat
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link> in men.
+            It belongs to a class of drugs known as phosphodiesterase type 5 (PDE5) inhibitors,
+            which work by increasing blood flow to the penis to help achieve and maintain an
+            erection during sexual activity. Below, we will cover important aspects of Stendra,
+            including its usage, dosage, side effects, and warnings.
           </p>
           <!-- Basic info -->
           <p><strong>Brand Name:</strong> Stendra</p>
@@ -25,10 +27,13 @@
         <section id="what-is-stendra" class="tab-content">
           <h2>What is Stendra?</h2>
           <p>
-            Stendra is the brand name for avanafil, a medication developed to treat erectile
-            dysfunction (ED), a condition where a man has difficulty achieving or maintaining an
-            erection sufficient for sexual activity. ED can result from various factors, including
-            stress, anxiety, certain health conditions, and medications.
+            Stendra is the brand name for
+            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link>, a medication
+            developed to treat
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>, a
+            condition where a man has difficulty achieving or maintaining an erection sufficient for
+            sexual activity. ED can result from various factors, including stress, anxiety, certain
+            health conditions, and medications.
           </p>
           <p>
             Stendra works by blocking the enzyme PDE5, which increases blood flow to the penis. This
@@ -58,7 +63,9 @@
           <p>
             The medication is taken as a tablet, and it should not be taken more than once a day.
             For best results, Stendra should not be consumed with high-fat meals, as this can delay
-            its effects.
+            its effects. Additionally, certain
+            <router-link to="/blog/lifestyle-impact">lifestyle factors</router-link> can impact the
+            effectiveness of ED treatments.
           </p>
         </section>
 
@@ -116,6 +123,13 @@
             <li>Priapism (a painful erection lasting more than 4 hours)</li>
             <li>Shortness of breath or swelling of the legs or ankles</li>
           </ul>
+          <p>
+            If you experience any of these serious symptoms, stop taking Stendra and seek medical
+            attention immediately. Learn more about
+            <router-link to="/blog/managing-side-effects"
+              >managing potential side effects</router-link
+            >.
+          </p>
         </section>
 
         <section id="warnings" class="tab-content">
@@ -150,7 +164,10 @@
           </ul>
           <p>
             Additionally, Stendra may cause dizziness or blurred vision. Therefore, avoid driving or
-            operating machinery until you know how the medication affects you.
+            operating machinery until you know how the medication affects you. Always ensure you
+            have an open
+            <router-link to="/blog/talking-to-doctor-ed">conversation with your doctor</router-link>
+            about potential risks and benefits.
           </p>
         </section>
 
@@ -177,39 +194,64 @@
         <section id="conclusion" class="tab-content">
           <h2>Conclusion</h2>
           <p>
-            Stendra (avanafil) is an effective and fast-acting medication used to treat erectile
-            dysfunction in men. It works by increasing blood flow to the penis, helping men achieve
-            and sustain an erection during sexual activity. It is important to follow the prescribed
-            dosage and consult with a healthcare provider before starting treatment, especially if
-            you have any pre-existing conditions.
+            Stendra (<router-link to="/blog/avanafil-patient-guide">avanafil</router-link>) is an
+            effective and fast-acting medication used to treat erectile dysfunction in men. It works
+            by increasing blood flow to the penis, helping men achieve and sustain an erection
+            during sexual activity. It is important to follow the prescribed dosage and consult with
+            a healthcare provider before starting treatment, especially if you have any pre-existing
+            conditions.
           </p>
           <p>
             As with any medication, it is crucial to be aware of potential side effects and
-            interactions with other drugs. If you have concerns about Stendra or ED, talk to your
-            healthcare provider to determine the best treatment options for you.
+            interactions with other drugs. If you have concerns about Stendra or ED,
+            <router-link to="/blog/talking-to-doctor-ed"
+              >talk to your healthcare provider</router-link
+            >
+            to determine the best treatment options for you.
           </p>
         </section>
 
         <section id="generic-drugs" class="tab-content">
           <h2>Generic Drugs (Avanafil)</h2>
           <p>
-            Currently, generic versions of Stendra (Avanafil) may have limited availability or may
-            not yet be widely available in all regions. Check with your pharmacy or healthcare
-            provider for the latest information. A prescription is required for Avanafil.
+            Currently, generic versions of Stendra (<router-link to="/blog/avanafil-patient-guide"
+              >Avanafil</router-link
+            >) may have limited availability or may not yet be widely available in all regions.
+            Check with your pharmacy or healthcare provider for the latest information. A
+            prescription is required for Avanafil.
           </p>
-          <p><strong>Information Resources (Placeholder):</strong></p>
+          <p><strong>Explore More on ED Drugs:</strong></p>
           <ul>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Check FDA Generic Drug Database (Placeholder)</a
+              <router-link to="/blog/generic-vs-brand-deep-dive"
+                >Generic vs. Brand Name: What You Need to Know</router-link
               >
             </li>
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Information on Avanafil (Placeholder)</a
+              <router-link to="/blog/sildenafil-generic-info"
+                >Generic Viagra (Sildenafil) Overview</router-link
               >
             </li>
-            <!-- Add other relevant placeholder links -->
+            <li>
+              <router-link to="/blog/tadalafil-generic-faq"
+                >Generic Cialis (Tadalafil) FAQ</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/vardenafil-generic-info"
+                >Generic Levitra (Vardenafil) Information</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/saving-on-ed-meds"
+                >Tips for Saving on ED Medication Costs</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/comparing-factors"
+                >Comparing Different ED Treatment Options</router-link
+              >
+            </li>
           </ul>
         </section>
       </article>
@@ -250,7 +292,7 @@ const stendraSidebarData = ref({
     approvalHistory: 'FDA Approved (check specific year)', // Add specific year if known
   },
   quickSummary: {
-    formsStrengths: 'Tablets: 50mg, 100mg, 200mg',
+    formsStrengths: '<br/>Tablets: <br/>Stendra 50mg <br/>Stendra 100mg <br/>Stendra 200mg',
     reminders: [
       'Take 15-30 mins before activity.',
       'Fast onset of action.',
@@ -260,7 +302,7 @@ const stendraSidebarData = ref({
     ],
   },
   drugImage: {
-    src: '/images/stendra-pills.jpg', // Replace with actual or better placeholder image
+    src: '/images/Stendra-01.jpg', // Replace with actual or better placeholder image
     alt: 'Stendra (Avanafil) pills',
   },
   relatedResources: [
@@ -407,4 +449,14 @@ const stendraSidebarData = ref({
 }
 
 /* PageHeader, PageFooter, SideNav, DrugSidebar styles are in their respective components */
+
+/* Optional: Add styles for inline links if needed */
+.main-content a {
+  color: #007bff; /* Match sidebar link color */
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
 </style> 

@@ -22,18 +22,31 @@
         <section id="what-is-levitra" class="tab-content">
           <h2>What is Levitra?</h2>
           <p>
-            Levitra is a prescription medication used to treat erectile dysfunction (ED) in adult
-            men. ED is a common condition characterized by the inability to achieve or maintain an
-            erection sufficient for satisfactory sexual performance. Levitra contains the active
-            ingredient vardenafil, which enhances blood flow to the penis by relaxing smooth muscle
-            tissue and inhibiting the PDE5 enzyme.
+            Levitra is a prescription medication used to treat
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link> in
+            adult men. ED is a common condition characterized by the inability to achieve or
+            maintain an erection sufficient for satisfactory sexual performance. Levitra contains
+            the active ingredient
+            <router-link to="/blog/vardenafil-generic-info">vardenafil</router-link>, which enhances
+            blood flow to the penis by relaxing smooth muscle tissue and inhibiting the PDE5 enzyme.
           </p>
           <p>
             Levitra is taken on an as-needed basis before sexual activity. It typically takes effect
-            within 30 to 60 minutes, and its duration of action can last up to 4–5 hours. Sexual
+            within 30 to 60 minutes, and its duration of action can last up to 4-5 hours. Sexual
             stimulation is still required for Levitra to work—it does not cause an erection on its
             own.
           </p>
+          <img
+            src="/images/index-01.webp"
+            alt="Image illustrating the use or effects of Levitra (vardenafil)"
+            style="
+              max-width: 100%;
+              height: auto;
+              margin: 1.5rem 0;
+              border-radius: 8px;
+              display: block;
+            "
+          />
         </section>
 
         <section id="how-to-use" class="tab-content">
@@ -111,7 +124,10 @@
           </ul>
           <p>
             If any serious side effects occur, stop taking Levitra and seek emergency medical
-            attention.
+            attention. For tips on handling common side effects, see our article on
+            <router-link to="/blog/managing-side-effects"
+              >managing ED medication side effects</router-link
+            >.
           </p>
         </section>
 
@@ -144,8 +160,10 @@
         <section id="comparison" class="tab-content">
           <h2>Levitra Compared to Other ED Medications</h2>
           <p>
-            There are several other PDE5 inhibitors available to treat ED, including Viagra
-            (sildenafil), Cialis (tadalafil), and Stendra (avanafil). Each has unique
+            There are several other PDE5 inhibitors available to treat ED, including
+            <router-link to="/drugs/viagra">Viagra (sildenafil)</router-link>,
+            <router-link to="/drugs/cialis">Cialis (tadalafil)</router-link>, and
+            <router-link to="/drugs/stendra">Stendra (avanafil)</router-link>. Each has unique
             characteristics. Here's a detailed comparison to help understand how Levitra stands
             apart:
           </p>
@@ -228,6 +246,18 @@
               </tbody>
             </table>
           </div>
+          <!-- Inserted Second Image -->
+          <img
+            src="/images/index-02.webp"
+            alt="Visual representation related to Levitra or ED treatment options"
+            style="
+              max-width: 100%;
+              height: auto;
+              margin: 1.5rem 0;
+              border-radius: 8px;
+              display: block;
+            "
+          />
         </section>
 
         <section id="choosing-medication" class="tab-content">
@@ -235,11 +265,18 @@
           <p>When selecting the most appropriate ED medication, consider:</p>
           <ul>
             <li>
-              How frequently you expect to have sex – Cialis is ideal for spontaneous, frequent
-              encounters.
+              How frequently you expect to have sex –
+              <router-link to="/drugs/cialis">Cialis</router-link> is ideal for spontaneous,
+              frequent encounters.
             </li>
-            <li>How quickly you want it to work – Stendra works the fastest.</li>
-            <li>How long you want effects to last – Cialis offers the longest duration.</li>
+            <li>
+              How quickly you want it to work –
+              <router-link to="/drugs/stendra">Stendra</router-link> works the fastest.
+            </li>
+            <li>
+              How long you want effects to last –
+              <router-link to="/drugs/cialis">Cialis</router-link> offers the longest duration.
+            </li>
             <li>
               Tolerance and sensitivity to side effects – Levitra may be better tolerated if you're
               prone to visual disturbances.
@@ -248,99 +285,86 @@
           </ul>
         </section>
 
+        <section id="generic-drugs" class="tab-content">
+          <h2>Generic Levitra (Vardenafil)</h2>
+          <p>
+            Levitra's active ingredient,
+            <router-link to="/blog/vardenafil-generic-info">vardenafil</router-link>, is available
+            in a generic form. Generic medications contain the same active ingredients and work the
+            same way as their brand-name counterparts but are typically available at a lower cost.
+          </p>
+          <p>Key points about generic vardenafil:</p>
+          <ul>
+            <li>
+              <strong>Same Effectiveness:</strong> Offers the same efficacy and safety profile as
+              brand-name Levitra.
+            </li>
+            <li>
+              <strong>Cost Savings:</strong> Usually significantly cheaper than the brand-name
+              version.
+            </li>
+            <li>
+              <strong>Availability:</strong> Widely available with a prescription. Brand Levitra has
+              been discontinued in the US, making generic vardenafil the primary option.
+            </li>
+          </ul>
+          <p>
+            Choosing between generic and brand-name drugs often comes down to cost and availability.
+            Discuss with your doctor if generic vardenafil is a suitable option for you. You can
+            find more detailed information in our
+            <router-link to="/blog/vardenafil-generic-info"
+              >article on generic Vardenafil</router-link
+            >.
+          </p>
+
+          <!-- Add placeholder link list -->
+          <h3>Related Generic Drug Information:</h3>
+          <ul>
+            <li>
+              <router-link to="/blog/generic-vs-brand-deep-dive"
+                >Generic vs. Brand Name: What's the Real Difference?</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/saving-on-ed-meds"
+                >Tips for Saving Money on ED Medications</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/sildenafil-generic-info"
+                >Generic Viagra (Sildenafil) Overview</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/tadalafil-generic-faq"
+                >Generic Cialis (Tadalafil) FAQ</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/blog/how-to-buy-generics-safely"
+                >How to Safely Purchase Generic Drugs Online</router-link
+              >
+            </li>
+          </ul>
+        </section>
+
         <section id="conclusion" class="tab-content">
           <h2>Conclusion: Is Levitra Right for You?</h2>
           <p>
             Levitra is a highly effective and well-tolerated medication for treating erectile
             dysfunction. Its quick onset, moderate duration, and relatively low risk of visual side
-            effects make it a strong option for many men. However, the right ED medication depends
-            on personal needs, health status, and individual response.
+            effects make it a strong option for many men. You can learn more about the active
+            ingredient, <router-link to="/blog/vardenafil-generic-info">vardenafil</router-link>,
+            here. However, the right ED medication depends on personal needs, health status, and
+            individual response.
           </p>
           <p>
-            Before starting Levitra, have an open conversation with your healthcare provider to
-            ensure it's the safest and most effective choice for your situation.
+            Before starting Levitra, have an open
+            <router-link to="/blog/talking-to-doctor-ed"
+              >conversation with your healthcare provider</router-link
+            >
+            to ensure it's the safest and most effective choice for your situation.
           </p>
-        </section>
-
-        <!-- Generic Drugs section remains -->
-        <section id="generic-drugs" class="tab-content">
-          <h2>Levitra Generic Drugs</h2>
-          <p>
-            Vardenafil, the active ingredient in Levitra, is now available in generic versions.
-            Generic Levitra offers the same effectiveness in treating erectile dysfunction as the
-            brand-name medication but often at a more affordable price. Like the brand-name drug,
-            generic Levitra requires a prescription.
-          </p>
-          <p><strong>Potential Purchase Options (Prescription Required):</strong></p>
-          <ul>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Compare Vardenafil prices at different pharmacies (Placeholder)</a
-              >
-            </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Check local pharmacy availability (Placeholder)</a
-              >
-            </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer"
-                >Learn about accredited online pharmacies (Placeholder)</a
-              >
-            </li>
-            <!-- You can add other relevant placeholder links here -->
-          </ul>
-        </section>
-
-        <section id="faq" class="tab-content">
-          <h2>Frequently Asked Questions (FAQ)</h2>
-          <ul>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-01' } }"
-                >Why Is Levitra No Longer Available?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-02' } }"
-                >How to Make Levitra More Effective?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-03' } }"
-                >Is Levitra Better Than Viagra?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-04' } }"
-                >How Long Does Levitra Last?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-05' } }"
-                >What Is Levitra Used For?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-06' } }"
-                >Is Levitra Stronger Than Viagra?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-07' } }"
-                >Can You Still Buy Levitra?</router-link
-              >
-            </li>
-            <li>
-              <router-link :to="{ name: 'question-details', params: { id: 'questions-08' } }"
-                >What Does Levitra Do To A Man?</router-link
-              >
-            </li>
-          </ul>
-        </section>
-
-        <section id="learn-more" class="tab-content">
-          <h2>Learn More</h2>
-          <p></p>
         </section>
       </article>
 
@@ -352,7 +376,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import PageHeader from '../components/PageHeader.vue'
 import PageFooter from '../components/PageFooter.vue'
 import SideNav from '../components/SideNav.vue'
@@ -367,8 +391,8 @@ const navSections = ref([
   { id: 'drug-interactions', title: 'Drug Interactions' },
   { id: 'comparison', title: 'Drug Comparison' },
   { id: 'choosing-medication', title: 'Choosing Medication' },
-  { id: 'conclusion', title: 'Conclusion' },
   { id: 'generic-drugs', title: 'Generic Drugs' },
+  { id: 'conclusion', title: 'Conclusion' },
 ])
 
 // Sidebar data remains largely the same, but could be updated
@@ -380,7 +404,8 @@ const levitraSidebarData = ref({
     approvalHistory: 'Generic Vardenafil FDA approved',
   },
   quickSummary: {
-    formsStrengths: 'Tablets (5mg, 10mg, 20mg), Orally disintegrating tablets (Staxyn 10mg)',
+    formsStrengths:
+      '<br />Oral Tablet: <br />Levitrask 2.5mg <br>Levitrask 5mg <br />Levitrask 10mg <br />Levitrask 20mg',
     reminders: [
       'Take 30-60 mins before activity.',
       'Do NOT take with nitrates.',
@@ -390,8 +415,9 @@ const levitraSidebarData = ref({
     ],
   },
   drugImage: {
-    src: '/images/levitra-20mg.jpg',
+    src: '/images/levitrask-01.jpg',
     alt: 'Levitra 20mg pill image',
+    caption: 'Image of a Levitra 20mg tablet.',
   },
   relatedResources: [
     { text: 'Vardenafil (Generic): Uses & Side Effects', to: '/blog/vardenafil-generic-info' },
@@ -405,9 +431,9 @@ const levitraSidebarData = ref({
     { text: 'Viagra (sildenafil)', to: '/drugs/viagra' },
   ],
   drugComparison: [
+    { text: 'Levitra vs Viagra', to: '/compare/viagra' },
     { text: 'Levitra vs Cialis', to: '/compare/cialis' },
     { text: 'Levitra vs Stendra', to: '/compare/stendra' },
-    { text: 'Levitra vs Viagra', to: '/compare/viagra' },
   ],
   frequentlyAskedQuestions: [
     {
@@ -616,5 +642,15 @@ tbody tr:nth-child(odd) {
 
 tbody tr:hover {
   background-color: #e9ecef;
+}
+
+/* Optional: Add styles for inline links if needed */
+.main-content a {
+  color: #007bff; /* Match sidebar link color */
+  text-decoration: none;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
 }
 </style>

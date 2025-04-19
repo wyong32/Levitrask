@@ -21,8 +21,9 @@
     <!-- Quick Summary Section -->
     <div v-if="sidebarData.quickSummary" class="sidebar-section quick-summary">
       <h3>Quick Summary</h3>
-      <p v-if="sidebarData.quickSummary.formsStrengths">
-        <strong>Forms/Strengths:</strong> {{ sidebarData.quickSummary.formsStrengths }}
+      <p v-if="sidebarData.quickSummary.formsStrengths" class="forms-strengths-text">
+        <strong>Forms/Strengths:</strong>
+        <span v-html="sidebarData.quickSummary.formsStrengths"></span>
       </p>
       <p v-if="sidebarData.quickSummary.reminders && sidebarData.quickSummary.reminders.length">
         <strong>Key Reminders:</strong>
@@ -41,6 +42,9 @@
     <div v-if="sidebarData.drugImage" class="sidebar-section drug-image">
       <h3>Drug Image</h3>
       <img :src="sidebarData.drugImage.src" :alt="sidebarData.drugImage.alt || 'Drug image'" />
+      <p v-if="sidebarData.drugImage.caption" class="drug-image-caption">
+        {{ sidebarData.drugImage.caption }}
+      </p>
     </div>
 
     <!-- Related Resources Section -->
@@ -159,6 +163,16 @@ defineProps({
   border-radius: 4px;
   border: 1px solid #dee2e6;
   display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Add style for the image caption */
+.drug-image-caption {
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 /* Styling for lists and links within the sidebar */
