@@ -65,8 +65,8 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
     sitemap({
-      hostname: 'https://levitrask.vercel.app/',
-      dynamicRoutes: allRoutes, // 使用最终合并的路由列表
+      hostname: 'https://levitrask.com/',
+      dynamicRoutes: allRoutes,
       // exclude: ['/admin/**'],
     }),
   ],

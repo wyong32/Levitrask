@@ -91,8 +91,8 @@
       <h2>10. Contact Us</h2>
       <p>If you have any questions about these Terms, please contact us at:</p>
       <ul>
-        <li>Email: maieldilmie223321@gmail.com</li>
-        <li>Website: https://levitrask.com</li>
+        <li>Email: [Insert Contact Email]</li>
+        <li>Website: https://levitrask.com/</li>
       </ul>
     </main>
     <PageFooter />

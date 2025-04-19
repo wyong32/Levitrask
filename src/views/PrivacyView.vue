@@ -109,7 +109,7 @@
       </p>
       <ul>
         <li>Email: maieldilmie223321@gmail.com</li>
-        <li>Website: https://levitrask.com</li>
+        <li>Website: https://levitrask.com/</li>
       </ul>
     </main>
     <PageFooter />
