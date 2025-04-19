@@ -14,151 +14,183 @@
         <header class="drug-header">
           <h1>Levitra VS Cialis: A Detailed Analysis of Two Leading ED Medications</h1>
           <p>
-            A comprehensive breakdown of the differences and strengths between
-            <router-link to="/">Levitra</router-link>
-            (<router-link to="/blog/vardenafil-generic-info">Vardenafil</router-link>) and
-            <router-link to="/drugs/cialis">Cialis</router-link>
-            (<router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link>) for treating
-            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>.
+            <router-link to="/blog/understanding-ed">Erectile dysfunction (ED)</router-link> is a
+            common condition affecting millions of men worldwide, and the pharmaceutical industry
+            has responded with a variety of treatment options. Two of the most widely prescribed
+            medications for ED are <router-link to="/">Levitra</router-link> and
+            <router-link to="/drugs/cialis">Cialis</router-link>. Both have proven to be effective,
+            but they differ in several important ways. In this article, we'll explore Levitra vs
+            Cialis in depth to help you make an informed decision about which treatment might be
+            right for you.
           </p>
         </header>
 
-        <!-- 比较内容区域 -->
-        <section id="overview" class="tab-content">
-          <h2>Overview</h2>
+        <!-- NEW CONTENT AREA START -->
+        <section id="what-is-levitra" class="tab-content">
+          <h2>What Is Levitra?</h2>
           <p>
-            The comparison between <router-link to="/">Levitra</router-link> (<router-link
+            <router-link to="/">Levitra</router-link> (<router-link
               to="/blog/vardenafil-generic-info"
-              >Vardenafil</router-link
-            >) and
-            <router-link to="/drugs/cialis">Cialis</router-link>
-            (<router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link>) revolves around
-            their pharmacological profiles, clinical efficacy, and real-world applicability for
-            treating
-            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>.
+              >vardenafil</router-link
+            >) is a phosphodiesterase type 5 (PDE5) inhibitor. It works by increasing blood flow to
+            the penis, helping men with ED achieve and maintain an erection during sexual activity.
+            <router-link to="/">Levitra</router-link> is typically taken 30 to 60 minutes before
+            intercourse and its effects last for about 4 to 6 hours.
           </p>
           <p>
-            Both medications work by inhibiting the PDE5 enzyme, but differ significantly in onset
-            time, duration of action, and specific patient suitability.
+            One of <router-link to="/">Levitra</router-link>'s key advantages is its potency. Many
+            users report strong, consistent results, even with lower dosages. Additionally,
+            <router-link to="/">Levitra</router-link> tends to have fewer side effects in men with
+            diabetes and may be more suitable for men who are sensitive to other ED medications.
           </p>
         </section>
-        <section id="mechanism" class="tab-content">
-          <h2>Mechanism of Action and Pharmacokinetics</h2>
+
+        <section id="what-is-cialis" class="tab-content">
+          <h2>What Is Cialis?</h2>
+          <p>
+            <router-link to="/drugs/cialis">Cialis</router-link> (<router-link
+              to="/blog/tadalafil-generic-faq"
+              >tadalafil</router-link
+            >) is another PDE5 inhibitor used to treat ED. Unlike
+            <router-link to="/">Levitra</router-link>,
+            <router-link to="/drugs/cialis">Cialis</router-link> is known for its longer duration of
+            action — up to 36 hours in some cases. Because of this,
+            <router-link to="/drugs/cialis">Cialis</router-link> is often referred to as the
+            "weekend pill," allowing greater flexibility and spontaneity in sexual activity.
+          </p>
+          <p>
+            <router-link to="/drugs/cialis">Cialis</router-link> can be taken as needed or as a
+            daily low-dose treatment. This makes
+            <router-link to="/drugs/cialis">Cialis</router-link> a preferred option for men who want
+            to maintain readiness without planning sexual activity around medication timing.
+          </p>
+        </section>
+
+        <section id="key-differences" class="tab-content">
+          <h2>Levitra vs Cialis: Key Differences</h2>
+          <p>Let's break down the major differences between Levitra and Cialis:</p>
+          <div class="comparison-table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th><router-link to="/">Levitra</router-link></th>
+                  <th><router-link to="/drugs/cialis">Cialis</router-link></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Active Ingredient</td>
+                  <td>
+                    <router-link to="/blog/vardenafil-generic-info">Vardenafil</router-link>
+                  </td>
+                  <td>
+                    <router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Onset Time</td>
+                  <td>30–60 minutes</td>
+                  <td>30–45 minutes</td>
+                </tr>
+                <tr>
+                  <td>Duration</td>
+                  <td>4–6 hours</td>
+                  <td>Up to 36 hours</td>
+                </tr>
+                <tr>
+                  <td>Daily Use Option</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Food Interaction</td>
+                  <td>Less effective with high-fat meals</td>
+                  <td>Minimal effect from food</td>
+                </tr>
+                <tr>
+                  <td>Suitable for Daily Use</td>
+                  <td>No</td>
+                  <td>Yes</td>
+                </tr>
+                <tr>
+                  <td>Ideal For</td>
+                  <td>Short-term results</td>
+                  <td>Long-lasting flexibility</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            The <router-link to="/">Levitra</router-link> vs
+            <router-link to="/drugs/cialis">Cialis</router-link> debate often comes down to personal
+            preferences and lifestyle. If you're looking for a fast-acting, short-term option,
+            <router-link to="/">Levitra</router-link> may be ideal. On the other hand, if you prefer
+            long-lasting results and spontaneity,
+            <router-link to="/drugs/cialis">Cialis</router-link> might be the better fit.
+          </p>
+        </section>
+
+        <section id="side-effects" class="tab-content">
+          <h2>Side Effects and Safety</h2>
           <p>
             Both <router-link to="/">Levitra</router-link> and
-            <router-link to="/drugs/cialis">Cialis</router-link> inhibit the PDE5 enzyme to enhance
-            blood flow to the penis during sexual stimulation. However, their pharmacokinetic
-            properties differ significantly:
+            <router-link to="/drugs/cialis">Cialis</router-link> have similar side effects,
+            including:
           </p>
           <ul>
-            <li>
-              <strong>Levitra:</strong> Begins working within 25–60 minutes and lasts 4–6 hours.
-              Suitable for planned intimacy. Absorption minimally affected by food.
-            </li>
-            <li>
-              <strong>Cialis:</strong> Slower onset (30 minutes–2 hours) but offers a prolonged
-              duration of up to 36 hours (the "weekend pill"). Supports spontaneous activity.
-            </li>
+            <li>Headache</li>
+            <li>Flushing</li>
+            <li>Nasal congestion</li>
+            <li>Dizziness</li>
+            <li>Indigestion</li>
           </ul>
-        </section>
-        <section id="onset-duration" class="tab-content">
-          <h2>Onset and Duration</h2>
           <p>
-            <router-link to="/">Levitra</router-link> offers a quicker onset (25-60 minutes) with a
-            shorter duration (4-6 hours), ideal for planned encounters.
-            <router-link to="/drugs/cialis">Cialis</router-link> has a longer onset time (30 minutes
-            to 2 hours) but provides a significantly extended window of effectiveness (up to 36
-            hours), allowing for more spontaneity.
+            However, <router-link to="/drugs/cialis">Cialis</router-link> may cause muscle aches and
+            back pain due to its longer duration in the body. Meanwhile,
+            <router-link to="/">Levitra</router-link> may be slightly better tolerated by men with
+            diabetes or high blood pressure.
+          </p>
+          <p>
+            It's essential to consult a healthcare provider before starting either
+            <router-link to="/">Levitra</router-link> or
+            <router-link to="/drugs/cialis">Cialis</router-link>, especially if you are taking
+            medications for heart conditions, or if you have liver or kidney issues.
           </p>
         </section>
-        <section id="efficacy" class="tab-content">
-          <h2>Efficacy in Specific Populations</h2>
+
+        <section id="which-is-better" class="tab-content">
+          <h2>Levitra vs Cialis: Which One Is Better?</h2>
           <p>
-            <strong>Diabetic Patients:</strong> <router-link to="/">Levitra</router-link> often
-            demonstrates superior efficacy in men with diabetes due to its targeted action on nitric
-            oxide sensitivity.
-          </p>
-          <p>
-            <strong>BPH Patients:</strong> <router-link to="/drugs/cialis">Cialis</router-link> is
-            preferred for patients with benign prostatic hyperplasia (BPH), as it alleviates urinary
-            symptoms alongside ED.
-          </p>
-          <p>
-            <strong>Alcohol and Food Tolerance:</strong>
-            <router-link to="/">Levitra</router-link> maintains efficacy with moderate alcohol
-            consumption. <router-link to="/drugs/cialis">Cialis</router-link> is less affected by
-            high-fat meals compared to other PDE5 inhibitors.
-          </p>
-        </section>
-        <section id="side-effects-comparison" class="tab-content">
-          <h2>Side Effects Comparison</h2>
-          <p>
-            Both medications share common PDE5 inhibitor side effects like headaches and flushing.
+            There is no universal answer in the Levitra vs Cialis debate. Your choice should depend
+            on:
           </p>
           <ul>
-            <li>
-              <strong>Levitra:</strong> Associated with a higher risk of muscle pain and visual
-              disturbances (e.g., blue-tinted vision).
-            </li>
-            <li>
-              <strong>Cialis:</strong> More frequently causes indigestion but has fewer reports of
-              vision-related issues.
-            </li>
+            <li>How quickly you need the medication to work</li>
+            <li>How long you want the effects to last</li>
+            <li>Your medical history</li>
+            <li>Your tolerance to side effects</li>
           </ul>
           <p>
-            <strong>Contraindications:</strong> Both drugs are strictly contraindicated with
-            nitrates (e.g., nitroglycerin) due to risks of severe hypotension. Learn more about
-            <router-link to="/blog/managing-side-effects">managing side effects</router-link>.
+            Some men even try both <router-link to="/">Levitra</router-link> and
+            <router-link to="/drugs/cialis">Cialis</router-link> (under medical supervision) before
+            deciding which one works best for them.
           </p>
         </section>
-        <section id="dosage" class="tab-content">
-          <h2>Dosage and Administration</h2>
+
+        <section id="conclusion" class="tab-content">
+          <h2>Conclusion</h2>
           <p>
-            Dosage and administration differ based on the drug and patient needs. Levitra is
-            typically taken as needed before sexual activity. Cialis offers both as-needed and
-            low-dose daily options.
-          </p>
-          <!-- Specific dosage details would require more info or linking -->
-        </section>
-        <section id="cost" class="tab-content">
-          <h2>Market Positioning and Accessibility (Cost)</h2>
-          <p>
-            <strong>Levitra's Market Challenges:</strong> Faced declining market share due to
-            generic competition (<router-link to="/blog/vardenafil-generic-info"
-              >Vardenafil</router-link
-            >) and limited innovation. Generic prices can be very low (e.g., $0.5–$1 per dose in
-            some markets).
-          </p>
-          <p>
-            <strong>Cialis's Strategic Edge:</strong> Emphasized longevity, capturing a large market
-            share. Even generic
-            <router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link> remains pricier
-            ($1.5–$3 per dose) due to sustained demand for its 36-hour window. Explore options for
-            <router-link to="/blog/saving-on-ed-meds">saving on medication costs</router-link>.
+            When it comes to <router-link to="/">Levitra</router-link> vs
+            <router-link to="/drugs/cialis">Cialis</router-link>, both are powerful and effective
+            treatments for ED, each with its own strengths.
+            <router-link to="/">Levitra</router-link> is known for its fast-acting, reliable
+            results, while <router-link to="/drugs/cialis">Cialis</router-link> offers a longer
+            window of effectiveness and flexibility. Whichever you choose, be sure to speak with
+            your doctor to determine the safest and most effective option for your individual needs.
           </p>
         </section>
-        <section id="interactions" class="tab-content">
-          <h2>Clinical Preferences and Future Trends (Interactions & Use)</h2>
-          <p>
-            <strong>Physician Recommendations:</strong> <router-link to="/">Levitra</router-link> is
-            often favored for quick results and compatibility with mild liver impairment.
-            <router-link to="/drugs/cialis">Cialis</router-link> is ideal for patients prioritizing
-            flexibility or managing BPH-related urinary issues.
-          </p>
-          <p>
-            <strong>Innovations & Interactions:</strong> Cialis is increasingly used in combination
-            therapies (e.g., with Dapoxetine) and telemedicine. Both have significant interactions,
-            most notably with nitrates. Always consult a healthcare provider.
-          </p>
-          <p>
-            <strong>Conclusion:</strong> The choice between
-            <router-link to="/">Levitra</router-link> and
-            <router-link to="/drugs/cialis">Cialis</router-link> hinges on balancing immediacy,
-            duration, and patient-specific needs. Always
-            <router-link to="/blog/talking-to-doctor-ed">consult a healthcare provider</router-link>
-            to determine the optimal choice.
-          </p>
-        </section>
+        <!-- NEW CONTENT AREA END -->
       </article>
 
       <!-- 右侧边栏 -->
@@ -175,27 +207,23 @@ import PageFooter from '../../components/PageFooter.vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue' // 引入 DrugSidebar
 
-// 定义比较页面的导航项数据
+// 定义比较页面的导航项数据 (Updated to match new content)
 const comparisonSections = ref([
-  { id: 'overview', title: 'Overview' },
-  { id: 'mechanism', title: 'Mechanism & Pharmacokinetics' },
-  { id: 'onset-duration', title: 'Onset and Duration' },
-  { id: 'efficacy', title: 'Efficacy (Specific Pops)' },
-  { id: 'side-effects-comparison', title: 'Side Effects Comparison' },
-  { id: 'dosage', title: 'Dosage & Administration' },
-  { id: 'cost', title: 'Cost & Market Position' },
-  { id: 'interactions', title: 'Clinical Preferences & Use' },
+  { id: 'what-is-levitra', title: 'What Is Levitra?' },
+  { id: 'what-is-cialis', title: 'What Is Cialis?' },
+  { id: 'key-differences', title: 'Key Differences' },
+  { id: 'side-effects', title: 'Side Effects & Safety' },
+  { id: 'which-is-better', title: 'Which Is Better?' },
+  { id: 'conclusion', title: 'Conclusion' },
 ])
 
-// 定义比较页面的右侧边栏内容数据 (占位符)
+// 定义比较页面的右侧边栏内容数据 (保持不变，或按需调整)
 const cialisComparisonSidebarData = ref({
   drugStatus: {
-    // Placeholder - maybe show status for both?
     availability: { text: 'Both Prescription', statusClass: '' },
     approvalHistory: 'Levitra (2003), Cialis (2003)',
   },
   quickSummary: {
-    // Placeholder - key comparison points
     formsStrengths: 'Levitra: Tablets (5-20mg), ODT. Cialis: Tablets (2.5-20mg)',
     reminders: [
       'Compare onset/duration carefully.',
@@ -203,15 +231,12 @@ const cialisComparisonSidebarData = ref({
       'Consider daily vs. on-demand use.',
     ],
   },
-  // No specific drug image for comparison page, or use a generic one
-  // drugImage: { src: '/images/comparison.jpg', alt: 'Comparison image' },
   relatedResources: [
     { text: 'Factors to Consider When Comparing ED Drugs', to: '/blog/comparing-factors' },
     { text: 'Understanding Side Effect Profiles', to: '/blog/side-effect-profiles' },
     { text: 'Lifestyle Impacts on ED Treatment Success', to: '/blog/lifestyle-impact' },
     { text: 'When to Talk to Your Doctor About Switching Meds', to: '/blog/switching-meds' },
   ],
-  // similarDrugs and drugComparison might not be relevant here, or could link elsewhere
 })
 </script>
 
@@ -351,5 +376,40 @@ li {
     width: 100%; /* Ensure it takes full width */
     order: 2; /* Place it after main content */
   }
+}
+
+/* Add specific styles for the new comparison table if needed */
+.comparison-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px; /* Adjust min-width as needed */
+}
+
+th,
+td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:hover {
+  background-color: #e9ecef;
 }
 </style>
