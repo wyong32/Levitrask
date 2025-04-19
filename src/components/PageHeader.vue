@@ -200,10 +200,6 @@ const toggleMobileSubmenu = (menuName) => {
   margin-right: 8px; /* Add some space between image and text */
 }
 
-.logo-text {
-  /* Optional: add specific styles for the text if needed */
-}
-
 /* 桌面导航样式 */
 .main-nav.desktop-nav {
   display: none; /* 默认隐藏 */
