@@ -10,6 +10,11 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import sitemap from 'vite-plugin-sitemap'
 
+// --- 导入数据文件 --- // (修改)
+import blogsData from './src/Datas/BlogsData.js' // 直接导入 JS 对象
+import questionData from './src/Datas/questionData.js'
+import newsData from './src/Datas/newsData.js'
+
 // --- 获取路由文件内容 --- // (修改)
 const routerPath = path.resolve(__dirname, 'src/router/index.js')
 let routerContent = ''
@@ -33,33 +38,21 @@ while ((match = staticPathRegex.exec(routerContent)) !== null) {
 staticRoutes = [...new Set(staticRoutes)]
 console.log(`[Sitemap] Found static routes via regex: ${staticRoutes.join(', ')}`)
 
-// --- 辅助函数：读取 JSON 文件并生成动态路由 --- // (保持不变)
-const getDynamicRoutesFromJson = (filePath, routePrefix, idOrSlugKey) => {
-  const fullPath = path.resolve(__dirname, filePath)
-  let dynamicRoutes = []
-  try {
-    if (fs.existsSync(fullPath)) {
-      const jsonData = JSON.parse(fs.readFileSync(fullPath, 'utf-8'))
-      if (Array.isArray(jsonData)) {
-        dynamicRoutes = jsonData.map((item) => `${routePrefix}${item[idOrSlugKey]}`)
-        console.log(`[Sitemap] Found ${dynamicRoutes.length} routes from ${filePath}`)
-      } else {
-        console.warn(`[Sitemap] Data in ${filePath} is not an array.`)
-      }
-    } else {
-      console.warn(`[Sitemap] Data file not found at: ${fullPath}`)
-    }
-  } catch (error) {
-    console.error(`[Sitemap] Error processing ${fullPath}:`, error)
+// --- 从导入的数据对象生成动态路由 --- // (修改)
+const generateRoutesFromData = (dataObject, routePrefix) => {
+  if (typeof dataObject !== 'object' || dataObject === null) {
+    console.warn(`[Sitemap] Invalid data object provided for prefix ${routePrefix}`)
+    return []
   }
-  return dynamicRoutes
+  // 遍历对象的键 (keys)，这些键就是 ID/Slug
+  const routes = Object.keys(dataObject).map((key) => `${routePrefix}${key}`)
+  console.log(`[Sitemap] Generated ${routes.length} dynamic routes for prefix ${routePrefix}`)
+  return routes
 }
 
-// --- 生成动态路由 --- // (保持不变)
-// !! 请根据你的实际文件名和 JSON 结构调整这里的参数 !!
-const blogRoutes = getDynamicRoutesFromJson('Datas/blogPosts.json', '/blog/', 'slug')
-const questionRoutes = getDynamicRoutesFromJson('Datas/questions.json', '/questions/', 'id')
-const newsRoutes = getDynamicRoutesFromJson('Datas/news.json', '/news/', 'id')
+const blogRoutes = generateRoutesFromData(blogsData, '/blog/')
+const questionRoutes = generateRoutesFromData(questionData, '/questions/')
+const newsRoutes = generateRoutesFromData(newsData, '/news/')
 
 // --- 合并所有路由 --- // (保持不变)
 const allRoutes = [...new Set([...staticRoutes, ...blogRoutes, ...questionRoutes, ...newsRoutes])]
