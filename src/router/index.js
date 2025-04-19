@@ -52,11 +52,11 @@ const router = createRouter({
       name: 'levitra',
       component: () => import('../views/IndexView.vue'), // Use lazy loading
       meta: {
-        title: 'Levitra (Vardenafil): Uses, Dosage, Side Effects | Levitrask 111',
+        title: 'Levitra:Dosage, Side Effects-levitra online-Levitrask.com',
         description:
-          'Learn about Levitra (vardenafil), an effective ED treatment. Find information on how to use Levitra, side effects, interactions, and comparisons with Viagra, Cialis, and Stendra.',
+          'Levitra is an effective ED treatment. Find information on how to use Levitra, side effects, interactions, and comparisons with Viagra, Cialis, and Stendra.',
         keywords:
-          'Levitra, vardenafil, Staxyn, erectile dysfunction, ED treatment, PDE5 inhibitor, Levitra dosage, Levitra side effects, Levitra vs Viagra, Levitra vs Cialis',
+          'Levitra online,Levitra dosage, Levitra side effects, Levitra vs Viagra, Levitra vs Cialis,Stendra',
       },
     },
     {
@@ -65,11 +65,11 @@ const router = createRouter({
       component: () => import('../views/Drug-Comparison-List/CialisComparison.vue'),
       // beforeEnter: requireNavigationFromApp, // Consider if this guard is still needed/appropriate
       meta: {
-        title: 'Levitra vs Cialis: Comparison | Levitrask Demo',
+        title: 'Cialis Dosage, Side Effects-Cialis online-Levitrask.com',
         description:
-          'Detailed comparison between Levitra (vardenafil) and Cialis (tadalafil) for ED treatment, covering onset, duration, side effects, and more.',
+          'Cialis,a long-lasting ED medication. Covers Cialis usage, Cialis dosage, Cialis side effects,  Cialis generic, Cialis vs Viagra and more.',
         keywords:
-          'Levitra vs Cialis, vardenafil vs tadalafil, ED medication comparison, Cialis comparison, Levitra comparison',
+          'Cialis dosage, Cialis side effects,  Cialis vs Viagra, Cialis vs Lavitra,Stendra,Cialis online',
       },
     },
     {
@@ -78,11 +78,11 @@ const router = createRouter({
       component: () => import('../views/Drug-Comparison-List/StendraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Levitra vs Stendra: Comparison | Levitrask Demo',
+        title: 'Stendra Dosage, Side Effects-Stendra online-Levitrask.com',
         description:
-          'Compare Levitra (vardenafil) and Stendra (avanafil) for treating ED. Learn about their differences in speed, duration, and side effects.',
+          'Stendra,a long-lasting ED medication. Covers Stendra usage, Stendra dosage, Stendra side effects,  Stendr generic, Stendra vs Viagra and more.',
         keywords:
-          'Levitra vs Stendra, vardenafil vs avanafil, ED medication comparison, Stendra comparison, Levitra comparison',
+          'Stendra dosage, Stendra sidae effects, Stendra vs Viagra, Stendra vs Lavitra,Stendra,Stendra online',
       },
     },
     {
@@ -91,11 +91,11 @@ const router = createRouter({
       component: () => import('../views/Drug-Comparison-List/ViagraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Levitra vs Viagra: Comparison | Levitrask Demo',
+        title: 'Viagra pill​,generic,side effects​,online buy|Levitrask.com',
         description:
-          'Head-to-head comparison of Levitra (vardenafil) and Viagra (sildenafil) for erectile dysfunction treatment. Understand the key differences.',
+          'Viagra (sildenafil), is a well-known ED medication. Covers how it works, dosage, side effects, Viagra vs Levitra,Viagra vs Cialis,Viagra vs Stendra and more.',
         keywords:
-          'Levitra vs Viagra, vardenafil vs sildenafil, ED medication comparison, Viagra comparison, Levitra comparison',
+          'Viagra dosage, Viagra side effects,  Viagra vs Levitra, Viagra vs Cialis,Stendra,Viagra online',
       },
     },
     {

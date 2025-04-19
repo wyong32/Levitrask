@@ -3,7 +3,7 @@
     <div class="container">
       <router-link to="/" class="logo">
         <img src="/images/logo.png" alt="Levitrask Logo" class="logo-image" />
-        <span class="logo-text">Levitrask</span>
+        <span class="logo-text">Levitrask.com</span>
       </router-link>
 
       <!-- 汉堡包菜单按钮 (仅移动端显示) -->

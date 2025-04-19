@@ -316,40 +316,32 @@
             Choosing between generic and brand-name drugs often comes down to cost and availability.
             Discuss with your doctor if generic vardenafil is a suitable option for you. You can
             find more detailed information in our
-            <router-link to="/blog/vardenafil-generic-info"
-              >article on generic Vardenafil</router-link
+            <router-link to="/blog/levitra-generic-drugs">article on generic Vardenafil</router-link
             >.
           </p>
 
-          <!-- Add placeholder link list -->
+          <!-- Updated Related Links Section -->
           <h3>Related Generic Drug Information:</h3>
-          <ul>
-            <li>
-              <router-link to="/blog/generic-vs-brand-deep-dive"
-                >Generic vs. Brand Name: What's the Real Difference?</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/blog/saving-on-ed-meds"
-                >Tips for Saving Money on ED Medications</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/blog/sildenafil-generic-info"
-                >Generic Viagra (Sildenafil) Overview</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/blog/tadalafil-generic-faq"
-                >Generic Cialis (Tadalafil) FAQ</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/blog/how-to-buy-generics-safely"
-                >How to Safely Purchase Generic Drugs Online</router-link
-              >
-            </li>
-          </ul>
+          <div class="related-generics-grid">
+            <router-link to="/blog/generic-vs-brand-deep-dive" class="related-generic-item-link">
+              <div class="related-generic-item">
+                <img src="/images/blog-08.jpg" alt="Compare" class="related-generic-icon" />
+                <span>A buy Levitra Generic drugs online</span>
+              </div>
+            </router-link>
+            <router-link to="/blog/saving-on-ed-meds" class="related-generic-item-link">
+              <div class="related-generic-item">
+                <img src="/images/blog-08.jpg" alt="Savings" class="related-generic-icon" />
+                <span>B buy Levitra Generic drugs online</span>
+              </div>
+            </router-link>
+            <router-link to="/blog/sildenafil-generic-info" class="related-generic-item-link">
+              <div class="related-generic-item">
+                <img src="/images/blog-08.jpg" alt="Viagra" class="related-generic-icon" />
+                <span>C buy Levitra Generic drugs online</span>
+              </div>
+            </router-link>
+          </div>
         </section>
 
         <section id="conclusion" class="tab-content">
@@ -656,6 +648,53 @@ tbody tr:hover {
 
 .main-content a:hover {
   text-decoration: underline;
+}
+
+/* Styles for Related Generics Section */
+.related-generics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* New style for the router-link wrapper */
+.related-generic-item-link {
+  text-decoration: none; /* Remove underline from the link wrapper */
+  color: inherit; /* Inherit color from parent */
+}
+
+.related-generic-item {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center the text below the image */
+  gap: 0.5rem; /* Reduced gap */
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.related-generic-item-link:hover .related-generic-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.related-generic-icon {
+  width: 100px; /* Increased width */
+  height: 100px; /* Increased height */
+  object-fit: cover; /* Change to cover to fill the area, or keep contain */
+  flex-shrink: 0;
+  font-size: 0.9rem; /* Smaller font size */
+}
+
+.related-generic-item a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem; /* Smaller font size */
 }
 
 /* --- Responsive Styles --- */

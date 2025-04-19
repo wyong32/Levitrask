@@ -16,7 +16,7 @@
       <div class="social-media-links">
         <span class="social-label">Follow us:</span>
         <a
-          href="#"
+          href="https://x.com/laura48803/status/1913544726663581780"
           target="_blank"
           rel="noopener noreferrer"
           title="Follow us on Twitter"
@@ -30,7 +30,7 @@
           </svg>
         </a>
         <a
-          href="#"
+          href="https://www.facebook.com/profile.php?id=61575225757881"
           target="_blank"
           rel="noopener noreferrer"
           title="Follow us on Facebook"
@@ -44,7 +44,7 @@
           </svg>
         </a>
         <a
-          href="#"
+          href="https://www.youtube.com/channel/UCKro0a2XfUNFwsHHhq1gthQ"
           target="_blank"
           rel="noopener noreferrer"
           title="Visit our YouTube Channel"
