@@ -7,7 +7,7 @@
         v-if="blogPost && blogPost.navSections && blogPost.navSections.length > 0"
         :sections="blogPost.navSections"
         content-selector=".post-body > section"
-        class="sidebar-left"
+        class="sidebar-left side-nav-component"
       />
       <!-- Add a placeholder or adjust grid if navSections are empty -->
       <div v-else class="sidebar-left-placeholder"></div>
@@ -18,7 +18,7 @@
           <div class="post-body" ref="postBodyRef" v-html="blogPost.content"></div>
         </article>
 
-        <aside class="post-sidebar">
+        <aside class="post-sidebar drug-sidebar-component">
           <!-- Replace placeholder with DrugSidebar -->
           <DrugSidebar
             v-if="blogPost && blogPost.sidebarData"
@@ -325,27 +325,42 @@ onUnmounted(() => {
 }
 
 /* Responsive adjustments */
+/* Tablet and smaller screens: Hide left sidebar, stack main and right */
 @media (max-width: 1024px) {
-  /* Adjust breakpoint */
   .post-details-page {
     flex-direction: column;
+    /* padding: 1.5rem 1rem; /* Adjust padding as needed */
   }
   .sidebar-left,
-  .sidebar-left-placeholder {
-    display: none; /* Hide left sidebar on smaller screens */
+  .sidebar-left-placeholder,
+  .side-nav-component {
+    /* Ensure targeting by class too */
+    display: none; /* Hide left sidebar */
   }
   .post-container {
     flex-direction: column; /* Stack content and right sidebar */
     flex: 1; /* Take full width */
+    padding: 0; /* Reset padding if main container has it */
+    gap: 1.5rem; /* Adjust gap */
   }
-  .post-sidebar {
-    min-width: unset;
-    margin-top: 2rem;
+  .post-content-area {
+    order: 1; /* Ensure content comes first */
+  }
+  .post-sidebar.drug-sidebar-component {
+    min-width: unset; /* Allow sidebar to shrink */
+    width: 100%; /* Ensure it takes full width */
+    margin-top: 1rem; /* Adjust top margin */
+    order: 2; /* Ensure sidebar comes after content */
   }
 }
 
+/* Further Mobile adjustments (optional, if 1024px is not enough) */
 @media (max-width: 768px) {
-  /* Further adjustments if needed, right sidebar might stack */
+  .post-details-page {
+    padding: 1rem; /* Consistent padding with IndexView */
+  }
+  /* Styles from 1024px breakpoint already handle the main layout changes */
+  /* Add more specific mobile adjustments here if needed */
   .post-container {
     gap: 1rem;
   }

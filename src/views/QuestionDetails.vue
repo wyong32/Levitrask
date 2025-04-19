@@ -6,7 +6,7 @@
       <SideNav
         :sections="question.navSections || []"
         content-selector=".post-body"
-        class="sidebar-left"
+        class="sidebar-left side-nav-component"
       />
 
       <!-- 主内容区域 (Main Content Area) -->
@@ -16,7 +16,10 @@
       </article>
 
       <!-- 右侧边栏 (Right Sidebar) -->
-      <DrugSidebar :sidebar-data="question.sidebarData || {}" class="sidebar-right" />
+      <DrugSidebar
+        :sidebar-data="question.sidebarData || {}"
+        class="sidebar-right drug-sidebar-component"
+      />
     </main>
     <!-- 处理找不到问题的情况 -->
     <main v-else class="content-area-single-column">
@@ -268,29 +271,33 @@ watch(question, (newQuestion) => {
 @media (max-width: 992px) {
   .content-area-3-column {
     flex-direction: column;
+    padding: 1rem;
   }
   .sidebar-left,
-  .sidebar-right {
-    flex-basis: auto;
-    width: 100%;
-    position: static;
-    margin-bottom: 1.5rem;
+  .side-nav-component {
+    display: none;
   }
-  .sidebar-right {
-    /* Keep original sidebar styles if needed */
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    border: 1px solid #dee2e6;
+  .main-content-middle {
+    order: 1;
+    padding: 1rem;
+  }
+  .sidebar-right,
+  .drug-sidebar-component {
+    order: 2;
+    margin-bottom: 0;
+    min-width: unset;
   }
 }
 
 @media (max-width: 768px) {
+  .content-area-3-column {
+    padding: 1rem;
+  }
   .main-content-middle {
-    padding: 1.5rem;
+    padding: 1rem;
   }
   .post-body :deep(h1) {
-    font-size: 1.75rem; /* Slightly smaller H1 on mobile */
+    font-size: 1.75rem;
   }
   .post-body :deep(h2) {
     font-size: 1.3rem;
@@ -299,11 +306,11 @@ watch(question, (newQuestion) => {
 
 /* Style for simple tables */
 .post-body :deep(.simple-table table) {
-  min-width: auto; /* Allow simple tables to be narrower */
+  min-width: auto;
 }
 
 .post-body :deep(.simple-table th),
 .post-body :deep(.simple-table td) {
-  vertical-align: middle; /* Center content vertically */
+  vertical-align: middle;
 }
 </style> 

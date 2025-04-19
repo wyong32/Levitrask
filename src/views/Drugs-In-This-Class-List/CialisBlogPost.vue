@@ -3,7 +3,11 @@
     <PageHeader />
 
     <main class="content-area">
-      <SideNav :sections="navSections" content-selector=".main-content > .tab-content" />
+      <SideNav
+        class="side-nav-component"
+        :sections="navSections"
+        content-selector=".main-content > .tab-content"
+      />
 
       <article class="main-content">
         <header class="drug-header">
@@ -271,7 +275,7 @@
         </section>
       </article>
 
-      <DrugSidebar :sidebarData="cialisSidebarData" />
+      <DrugSidebar class="drug-sidebar-component" :sidebarData="cialisSidebarData" />
     </main>
 
     <PageFooter />
@@ -474,5 +478,49 @@ const cialisSidebarData = ref({
 
 .main-content a:hover {
   text-decoration: underline;
+}
+
+/* --- Responsive Styles --- */
+
+/* Tablet (Optional adjustments, can be refined later) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-area {
+    gap: 1.5rem; /* Reduce gap slightly */
+    padding: 1.5rem 1rem; /* Adjust padding */
+  }
+  /* Optionally adjust flex basis or width of sidebars if needed */
+}
+
+/* Mobile (Hide left nav, stack main and right sidebar) */
+@media (max-width: 768px) {
+  .content-area {
+    flex-direction: column; /* Stack items vertically */
+    padding: 1rem; /* Adjust padding for mobile */
+    gap: 1.5rem; /* Adjust gap for vertical stacking */
+  }
+
+  /* Hide the SideNav component */
+  /* Using :deep() as fallback just in case class targeting fails */
+  .content-area > :deep(aside:first-of-type),
+  .content-area > .side-nav-component {
+    /* Target added class */
+    display: none;
+  }
+
+  /* Allow main content and right sidebar to take full width */
+  .main-content {
+    flex: 1; /* Reset flex basis for column layout */
+    order: 1; /* Ensure main content is first */
+  }
+
+  /* Target DrugSidebar */
+  /* Using :deep() as fallback just in case class targeting fails */
+  .content-area > :deep(aside:last-of-type),
+  .content-area > .drug-sidebar-component {
+    /* Target added class */
+    flex: 1; /* Reset flex basis */
+    width: 100%; /* Ensure it takes full width */
+    order: 2; /* Place it after main content */
+  }
 }
 </style> 
