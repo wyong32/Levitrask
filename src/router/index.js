@@ -215,16 +215,10 @@ const router = createRouter({
         keywords: '隐私, 政策, 数据保护, 用户隐私, 法律',
       },
     },
-    // Catch-all 404 route (Keep this last)
+    // Catch-all route: Redirect unmatched paths to home (Keep this last)
     {
       path: '/:pathMatch(.*)*',
-      name: 'NotFound',
-      component: () => import('../views/NotFoundView.vue'),
-      meta: {
-        title: '404 - 页面未找到 | Levitrask Demo',
-        description: '您请求的页面无法找到。',
-        keywords: '404, 未找到, 错误',
-      },
+      redirect: '/', // Redirect to the homepage
     },
   ],
   scrollBehavior(to, from, savedPosition) {
