@@ -29,13 +29,9 @@
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isBlogDropdownOpen">
-              <router-link to="/drugs/viagra" class="dropdown-item"
-                >Viagra (sildenafil)
-              </router-link>
-              <router-link to="/drugs/cialis" class="dropdown-item">Cialis (tadalafil)</router-link>
-              <router-link to="/drugs/stendra" class="dropdown-item"
-                >Stendra (avanafil)</router-link
-              >
+              <router-link to="/Viagra" class="dropdown-item">Viagra (sildenafil) </router-link>
+              <router-link to="/Cialis" class="dropdown-item">Cialis (tadalafil)</router-link>
+              <router-link to="/Stendra" class="dropdown-item">Stendra (avanafil)</router-link>
             </div>
           </transition>
         </div>
@@ -52,13 +48,13 @@
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isComparisonDropdownOpen">
-              <router-link to="/compare/viagra" class="dropdown-item"
+              <router-link to="/levitra-VS-viagra" class="dropdown-item"
                 >levitra vs viagra</router-link
               >
-              <router-link to="/compare/cialis" class="dropdown-item"
+              <router-link to="/levitra-VS-cialis" class="dropdown-item"
                 >levitra vs Cialis</router-link
               >
-              <router-link to="/compare/stendra" class="dropdown-item"
+              <router-link to="/levitra-VS-stendra" class="dropdown-item"
                 >levitra vs Stendra</router-link
               >
             </div>
@@ -82,11 +78,9 @@
               <span class="arrow" :class="{ rotated: mobileSubmenuOpen === 'drugs' }">▼</span>
             </button>
             <div v-if="mobileSubmenuOpen === 'drugs'" class="mobile-submenu">
-              <router-link to="/drugs/cialis" @click="closeMobileMenu">Cialis Details</router-link>
-              <router-link to="/drugs/stendra" @click="closeMobileMenu"
-                >Stendra Details</router-link
-              >
-              <router-link to="/drugs/viagra" @click="closeMobileMenu">Viagra Details</router-link>
+              <router-link to="/Cialis" @click="closeMobileMenu">Cialis Details</router-link>
+              <router-link to="/Stendra" @click="closeMobileMenu">Stendra Details</router-link>
+              <router-link to="/Viagra" @click="closeMobileMenu">Viagra Details</router-link>
             </div>
           </div>
 
@@ -97,9 +91,9 @@
               <span class="arrow" :class="{ rotated: mobileSubmenuOpen === 'compare' }">▼</span>
             </button>
             <div v-if="mobileSubmenuOpen === 'compare'" class="mobile-submenu">
-              <router-link to="/compare/cialis" @click="closeMobileMenu">Cialis</router-link>
-              <router-link to="/compare/stendra" @click="closeMobileMenu">Stendra</router-link>
-              <router-link to="/compare/viagra" @click="closeMobileMenu">Viagra</router-link>
+              <router-link to="/levitra-VS-cialis" @click="closeMobileMenu">Cialis</router-link>
+              <router-link to="/levitra-VS-stendra" @click="closeMobileMenu">Stendra</router-link>
+              <router-link to="/levitra-VS-viagra" @click="closeMobileMenu">Viagra</router-link>
             </div>
           </div>
 

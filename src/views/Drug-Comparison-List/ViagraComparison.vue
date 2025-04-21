@@ -14,167 +14,224 @@
         <header class="drug-header">
           <h1>Levitra VS Viagra: A Comprehensive Comparison of ED Medications</h1>
           <p>
-            When addressing
-            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>,
-            <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> remains a pivotal discussion. Both
-            medications belong to the PDE5 inhibitor class but exhibit distinct characteristics.
+            <router-link to="/blog/understanding-ed">Erectile dysfunction (ED)</router-link> affects
+            millions of men worldwide, and fortunately, several treatment options are available.
+            Among the most commonly prescribed medications are
+            <router-link to="/">Levitra</router-link> and
+            <router-link to="/Viagra">Viagra</router-link>. This article dives into Levitra VS
+            Viagra, examining their differences, similarities, effectiveness, side effects, and more
+            to help you make an informed decision.
           </p>
         </header>
 
         <!-- 比较内容区域 -->
-        <section id="overview" class="tab-content">
-          <h2>Overview & Introduction</h2>
+        <section id="what-is-ed" class="tab-content">
+          <h2>What Is Erectile Dysfunction?</h2>
           <p>
-            When addressing
-            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>, the
-            comparison between <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> is crucial. Both are PDE5
-            inhibitors but differ in efficacy, onset, duration, and side effects.
+            Before we get into Levitra VS Viagra, it's important to understand ED.
+            <router-link to="/blog/understanding-ed">Erectile dysfunction</router-link> is the
+            inability to get or keep an erection firm enough for sexual intercourse. It can be
+            caused by physical conditions like diabetes, high blood pressure, and heart disease, or
+            by psychological factors such as stress, anxiety, or depression.
           </p>
         </section>
-        <section id="mechanism" class="tab-content">
-          <h2>Mechanism of Action</h2>
+
+        <section id="basics" class="tab-content">
+          <h2>Levitra VS Viagra: The Basics</h2>
           <p>
-            <router-link to="/">Levitra</router-link> (<router-link
-              to="/blog/vardenafil-generic-info"
-              >Vardenafil</router-link
-            >) and <router-link to="/drugs/viagra">Viagra</router-link> (<router-link
-              to="/blog/sildenafil-generic-info"
-              >Sildenafil</router-link
-            >) both inhibit the PDE5 enzyme, enhancing nitric oxide's effects to improve penile
-            blood flow during sexual stimulation.
-          </p>
-          <p>
-            Subtle differences exist: <router-link to="/">Levitra</router-link>'s structure allows
-            better absorption with food, while
-            <router-link to="/drugs/viagra">Viagra</router-link>'s efficacy may decrease with
-            high-fat meals. <router-link to="/">Levitra</router-link> often has a faster onset
-            (25–60 minutes) compared to <router-link to="/drugs/viagra">Viagra</router-link> (30–60
-            minutes).
-          </p>
-        </section>
-        <section id="efficacy-duration" class="tab-content">
-          <h2>Efficacy and Duration</h2>
-          <p>
-            <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> trials show varied patient
-            responses:
+            Levitra VS Viagra is a common comparison because both medications belong to the same
+            class of drugs known as phosphodiesterase type 5 (PDE5) inhibitors. They work by
+            increasing blood flow to the penis during sexual stimulation. However, they contain
+            different active ingredients:
           </p>
           <ul>
             <li>
-              <strong>Duration:</strong> Both last 4–6 hours.
-              <router-link to="/drugs/viagra">Viagra</router-link>'s effects may peak earlier
-              (around 1 hour). <router-link to="/">Levitra</router-link>'s sustained action can be
-              beneficial.
+              <router-link to="/">Levitra</router-link> contains
+              <router-link to="/blog/vardenafil-generic-info">vardenafil</router-link>.
             </li>
             <li>
-              <strong>Hardness:</strong> <router-link to="/drugs/viagra">Viagra</router-link> is
-              sometimes associated with higher rigidity in studies.
-            </li>
-            <li>
-              <strong>Diabetic Patients:</strong> <router-link to="/">Levitra</router-link> often
-              excels in diabetic patients.
-            </li>
-            <li>
-              <strong>Alcohol Tolerance:</strong>
-              <router-link to="/">Levitra</router-link> maintains efficacy with moderate alcohol,
-              unlike <router-link to="/drugs/viagra">Viagra</router-link>.
+              <router-link to="/Viagra">Viagra</router-link> contains
+              <router-link to="/blog/sildenafil-generic-info">sildenafil</router-link>.
             </li>
           </ul>
+          <p>
+            Despite working similarly, these medications have different properties that can
+            influence user experience.
+          </p>
         </section>
+
+        <section id="onset-duration" class="tab-content">
+          <h2>Onset and Duration</h2>
+          <p>
+            When comparing Levitra VS Viagra, one key factor is how quickly each medication works
+            and how long the effects last.
+          </p>
+          <ul>
+            <li>
+              <router-link to="/">Levitra</router-link> usually takes effect in about 25 to 60
+              minutes and lasts up to 5 hours.
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> generally takes effect within 30 to 60
+              minutes and lasts about 4 hours.
+            </li>
+          </ul>
+          <p>
+            In the Levitra VS Viagra debate, Levitra may offer a slight advantage in terms of
+            longer-lasting effects for some users.
+          </p>
+        </section>
+
+        <section id="effectiveness" class="tab-content">
+          <h2>Effectiveness</h2>
+          <p>
+            Both drugs are highly effective, but some studies suggest that
+            <router-link to="/">Levitra</router-link> may work better in men with diabetes. That
+            said, individual response varies. In the Levitra VS Viagra comparison, some men prefer
+            one over the other based on how their bodies respond.
+          </p>
+        </section>
+
         <section id="side-effects" class="tab-content">
-          <h2>Side Effects and Safety</h2>
+          <h2>Side Effects</h2>
           <p>
-            <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> share common side effects
-            (headaches, flushing), but differences include:
+            As with any medication, Levitra VS Viagra comes with potential
+            <router-link to="/blog/managing-side-effects">side effects</router-link>. Here's a
+            comparison:
           </p>
-          <ul>
-            <li>
-              <strong><router-link to="/drugs/viagra">Viagra</router-link>:</strong> Higher risk of
-              visual disturbances (e.g., blue-tinted vision).
-            </li>
-            <li>
-              <strong><router-link to="/">Levitra</router-link>:</strong> More reports of muscle
-              pain and back discomfort.
-            </li>
-          </ul>
+          <div class="comparison-table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Medication</th>
+                  <th>Common Side Effects</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong><router-link to="/Viagra">Viagra</router-link></strong>
+                  </td>
+                  <td>Headache, flushing, nasal congestion, dizziness, vision changes.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong><router-link to="/">Levitra</router-link></strong>
+                  </td>
+                  <td>Headache, stuffy nose, indigestion, dizziness, and flushing.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <p>
-            <strong>Contraindications:</strong> Both interact dangerously with nitrates.
-            <router-link to="/drugs/viagra">Viagra</router-link>'s cardiovascular warnings might be
-            slightly more pronounced in some guidelines. Learn about
-            <router-link to="/blog/managing-side-effects"
-              >managing potential side effects</router-link
-            >.
+            <router-link to="/">Levitra</router-link> is less likely to cause vision-related side
+            effects, which could be a deciding factor in the Levitra VS Viagra conversation.
           </p>
         </section>
-        <section id="suitability" class="tab-content">
-          <h2>Patient Suitability</h2>
+
+        <section id="interactions" class="tab-content">
+          <h2>Food and Alcohol Interactions</h2>
           <p>
-            <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> caters to different needs:
+            Another important element in Levitra VS Viagra is how food and alcohol affect the
+            medications.
           </p>
           <ul>
             <li>
-              <strong><router-link to="/">Levitra</router-link>:</strong> Preferred for potentially
-              faster onset, compatibility with meals, and often for diabetics.
+              <router-link to="/Viagra">Viagra</router-link> may be less effective if taken with a
+              heavy or high-fat meal.
             </li>
             <li>
-              <strong><router-link to="/drugs/viagra">Viagra</router-link>:</strong> Favored for
-              severe ED cases potentially requiring higher doses (50–100 mg).
+              <router-link to="/">Levitra</router-link> is less affected by food, offering more
+              flexibility.
             </li>
           </ul>
+          <p>
+            Alcohol can lower blood pressure and increase the risk of side effects with both drugs.
+            When choosing between Levitra VS Viagra, consider your lifestyle and eating habits.
+          </p>
         </section>
-        <section id="market-cost" class="tab-content">
-          <h2>Market Trends and Accessibility (Cost)</h2>
-          <p>
-            <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> face shifting dynamics:
-          </p>
+
+        <section id="dosage-availability" class="tab-content">
+          <h2>Dosage and Availability</h2>
           <ul>
             <li>
-              <strong>Cost:</strong> Generics for both are available and affordable.
-              <router-link to="/blog/sildenafil-generic-info">Sildenafil</router-link> (generic
-              Viagra) often costs less than $5 per pill.
-              <router-link to="/blog/vardenafil-generic-info">Vardenafil</router-link> (generic
-              Levitra) is similarly priced. Find tips on
-              <router-link to="/blog/saving-on-ed-meds">saving on ED meds</router-link>.
+              <router-link to="/Viagra">Viagra</router-link> is available in 25 mg, 50 mg, and 100
+              mg tablets.
             </li>
             <li>
-              <strong>Market Share:</strong>
-              <router-link to="/drugs/viagra">Viagra</router-link> historically led, but generics
-              and newer <router-link to="/">Levitra</router-link>
-              formulations (like Staxyn) have impacted the market.
+              <router-link to="/">Levitra</router-link> comes in 5 mg, 10 mg, and 20 mg tablets.
             </li>
           </ul>
+          <p>
+            Doctors often recommend starting with a middle dose and adjusting based on response and
+            tolerance. In the Levitra VS Viagra comparison, both drugs offer dosage flexibility.
+          </p>
         </section>
-        <section id="clinical-preference" class="tab-content">
-          <h2>Clinical Preferences & Conclusion</h2>
+
+        <section id="cost-coverage" class="tab-content">
+          <h2>Cost and Insurance Coverage</h2>
           <p>
-            Physicians weigh <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> based on:
+            In terms of cost, both <router-link to="/">Levitra</router-link> and
+            <router-link to="/Viagra">Viagra</router-link> have generic versions, making them more
+            affordable. Still, prices vary depending on location and insurance coverage. In the
+            Levitra VS Viagra cost comparison, generics help reduce financial concerns for many
+            users. Find tips on
+            <router-link to="/blog/saving-on-ed-meds">saving on ED meds</router-link>.
           </p>
-          <ul>
-            <li>
-              <strong>Lifestyle:</strong> <router-link to="/">Levitra</router-link> for
-              flexibility/spontaneity; <router-link to="/drugs/viagra">Viagra</router-link> for
-              planned intimacy.
-            </li>
-            <li>
-              <strong>Comorbidities:</strong> <router-link to="/">Levitra</router-link>'s noted
-              efficacy in diabetics.
-            </li>
-          </ul>
+        </section>
+
+        <section id="conclusion" class="tab-content">
+          <h2>Final Verdict: Levitra VS Viagra</h2>
           <p>
-            <strong>Conclusion:</strong> The <router-link to="/">Levitra</router-link> VS
-            <router-link to="/drugs/viagra">Viagra</router-link> debate highlights the need for
-            personalized ED treatment. While
-            <router-link to="/drugs/viagra">Viagra</router-link> has a long legacy,
-            <router-link to="/">Levitra</router-link> offers flexibility. With affordable generics,
-            both remain vital options. Always
-            <router-link to="/blog/talking-to-doctor-ed">consult a healthcare provider</router-link
-            >.
+            So, which one is better in the Levitra VS Viagra showdown? The answer depends on
+            individual needs and responses. Here's a quick summary:
+          </p>
+          <div class="comparison-table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Feature</th>
+                  <th><router-link to="/">Levitra</router-link></th>
+                  <th><router-link to="/Viagra">Viagra</router-link></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Active Ingredient</td>
+                  <td>
+                    <router-link to="/blog/vardenafil-generic-info">Vardenafil</router-link>
+                  </td>
+                  <td>
+                    <router-link to="/blog/sildenafil-generic-info">Sildenafil</router-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Onset Time</td>
+                  <td>25-60 minutes</td>
+                  <td>30-60 minutes</td>
+                </tr>
+                <tr>
+                  <td>Duration</td>
+                  <td>Up to 5 hours</td>
+                  <td>Around 4 hours</td>
+                </tr>
+                <tr>
+                  <td>Food Interaction</td>
+                  <td>Minimal</td>
+                  <td>May reduce effectiveness</td>
+                </tr>
+                <tr>
+                  <td>Vision Effects</td>
+                  <td>Less common</td>
+                  <td>More common</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            Ultimately, both are effective ED treatments, and the Levitra VS Viagra decision should
+            be made in consultation with a
+            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link>.
           </p>
         </section>
       </article>
@@ -193,35 +250,36 @@ import { ref } from 'vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue'
 
-// 定义比较页面的导航项数据 (Updated Titles & IDs)
+// 定义比较页面的导航项数据 (Updated Titles & IDs to match new content)
 const comparisonSections = ref([
-  { id: 'overview', title: 'Overview & Intro' },
-  { id: 'mechanism', title: 'Mechanism of Action' },
-  { id: 'efficacy-duration', title: 'Efficacy & Duration' }, // Combined
-  { id: 'side-effects', title: 'Side Effects & Safety' }, // Combined
-  { id: 'suitability', title: 'Patient Suitability' },
-  { id: 'market-cost', title: 'Market & Cost' }, // Combined
-  { id: 'clinical-preference', title: 'Clinical Preference & Conclusion' }, // Combined
+  { id: 'what-is-ed', title: 'What Is ED?' },
+  { id: 'basics', title: 'The Basics' },
+  { id: 'onset-duration', title: 'Onset & Duration' },
+  { id: 'effectiveness', title: 'Effectiveness' },
+  { id: 'side-effects', title: 'Side Effects' },
+  { id: 'interactions', title: 'Food & Alcohol' },
+  { id: 'dosage-availability', title: 'Dosage & Availability' },
+  { id: 'cost-coverage', title: 'Cost & Coverage' },
+  { id: 'conclusion', title: 'Final Verdict' },
 ])
 
-// 定义比较页面的右侧边栏内容数据 (占位符)
+// 定义比较页面的右侧边栏内容数据 (Kept existing, adjust if needed)
 const viagraComparisonSidebarData = ref({
   drugStatus: {
     availability: { text: 'Both Prescription', statusClass: '' },
-    approvalHistory: 'Viagra (1998), Levitra (2003)', // Updated approval year
+    approvalHistory: 'Viagra (1998), Levitra (2003)',
   },
   quickSummary: {
-    formsStrengths: 'Levitra: Tabs (5-20mg), ODT. Viagra: Tabs (25-100mg)',
+    formsStrengths: 'Levitra: Tabs (5-20mg). Viagra: Tabs (25-100mg)', // Simplified
     reminders: [
       'Viagra pioneered ED treatment.',
-      'Compare side effect profiles (vision vs. muscle pain).',
+      'Compare side effect profiles (vision vs. other).', // Adjusted
       'Generic Sildenafil often cheapest.',
     ],
   },
-  // drugImage: { src: '/images/comparison.jpg', alt: 'Comparison image' },
   relatedResources: [
     { text: 'Factors to Consider When Comparing ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Understanding Side Effect Profiles', to: '/blog/side-effect-profiles' },
+    { text: 'Understanding Side Effect Profiles', to: '/blog/managing-side-effects' }, // Updated link
     { text: 'Lifestyle Impacts on ED Treatment Success', to: '/blog/lifestyle-impact' },
     { text: 'When to Talk to Your Doctor About Switching Meds', to: '/blog/switching-meds' },
   ],
@@ -343,5 +401,40 @@ li {
     width: 100%; /* Ensure it takes full width */
     order: 2; /* Place it after main content */
   }
+}
+
+/* --- Table Styles (Copied from IndexView) --- */
+.comparison-table-container {
+  overflow-x: auto; /* Allow horizontal scrolling on small screens */
+  margin: 1.5rem 0;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.comparison-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* Ensure table doesn't collapse too much */
+}
+
+.comparison-table-container th,
+.comparison-table-container td {
+  border: 1px solid #dee2e6;
+  padding: 0.8rem 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.comparison-table-container th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.comparison-table-container tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.comparison-table-container tbody tr:hover {
+  background-color: #e9ecef;
 }
 </style>

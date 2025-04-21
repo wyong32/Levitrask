@@ -77,8 +77,8 @@ const allQuestionData = {
             <a href="/blog/vardenafil-generic-info">vardenafil</a>, a
             prescription medication approved by the FDA in 2003 to treat erectile dysfunction. It
             belongs to the class of PDE5 inhibitors, the same group of drugs that includes
-            <a href="/drugs/viagra">Viagra (sildenafil)</a> and
-            <a href="/drugs/cialis">Cialis (tadalafil)</a>.
+            <a href="/Viagra">Viagra (sildenafil)</a> and
+            <a href="/Cialis">Cialis (tadalafil)</a>.
           </p>
           <p>
             <a href="/">Levitra</a> became well-known for its fast action,
@@ -121,8 +121,8 @@ const allQuestionData = {
           <h3>3. Low Demand Compared to Competitors</h3>
           <p>
             While <a href="/">Levitra</a> was effective,
-            <a href="/drugs/viagra">Viagra</a> and
-            <a href="/drugs/cialis">Cialis</a> dominated the ED market with
+            <a href="/Viagra">Viagra</a> and
+            <a href="/Cialis">Cialis</a> dominated the ED market with
             stronger brand recognition and marketing. Over time, Levitra's market share shrank,
             contributing to its gradual withdrawal.
           </p>
@@ -158,15 +158,15 @@ const allQuestionData = {
           <p>If you're looking for an alternative, you can speak with your doctor about:</p>
           <ul>
             <li>
-              <a href="/drugs/viagra">Viagra (Sildenafil)</a> – Fast-acting and
+              <a href="/Viagra">Viagra (Sildenafil)</a> – Fast-acting and
               widely available
             </li>
             <li>
-              <a href="/drugs/cialis">Cialis (Tadalafil)</a> – Known for its
+              <a href="/Cialis">Cialis (Tadalafil)</a> – Known for its
               long duration (up to 36 hours)
             </li>
             <li>
-              <a href="/drugs/stendra">Stendra (Avanafil)</a> – A newer,
+              <a href="/Stendra">Stendra (Avanafil)</a> – A newer,
               faster-acting ED medication with fewer side effects
             </li>
           </ul>
@@ -207,7 +207,7 @@ const allQuestionData = {
                 </tr>
                 <tr>
                   <td>Low Sales</td>
-                  <td>Lost popularity to <a href="/drugs/viagra">Viagra</a> and <a href="/drugs/cialis">Cialis</a></td>
+                  <td>Lost popularity to <a href="/Viagra">Viagra</a> and <a href="/Cialis">Cialis</a></td>
                 </tr>
                 <tr>
                   <td>Manufacturer's Strategy</td>
@@ -402,7 +402,7 @@ const allQuestionData = {
     sidebarData: {
       relatedResources: [
         { text: 'Levitra (Vardenafil) Overview', to: '/' },
-        { text: 'Viagra (Sildenafil) Overview', to: '/drugs/viagra' },
+        { text: 'Viagra (Sildenafil) Overview', to: '/Viagra' },
         { text: 'Drug Comparison Factors', to: '/blog/comparing-factors' },
       ],
       frequentlyAskedQuestions: [
@@ -423,15 +423,15 @@ const allQuestionData = {
           <p>
             Erectile dysfunction (ED) affects millions of men worldwide, and over the past two
             decades, several medications have become available to help treat this condition. Two of
-            the most well-known options are <a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">vardenafil</a>) and <a href="/drugs/viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>). Both are
+            the most well-known options are <a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">vardenafil</a>) and <a href="/Viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>). Both are
             FDA-approved, both belong to the same class of drugs (PDE5 inhibitors), and both have
             helped many men improve their sexual health. But a common question arises:
           </p>
-          <p><strong>Is <a href="/">Levitra</a> better than <a href="/drugs/viagra">Viagra</a>?</strong></p>
+          <p><strong>Is <a href="/">Levitra</a> better than <a href="/Viagra">Viagra</a>?</strong></p>
           <p>
             The answer depends on various factors, including how your body reacts to each
             medication, your lifestyle, medical history, and personal preferences. In this
-            article, we'll break down the differences and similarities between <a href="/">Levitra</a> and <a href="/drugs/viagra">Viagra</a>
+            article, we'll break down the differences and similarities between <a href="/">Levitra</a> and <a href="/Viagra">Viagra</a>
             to help you make a more informed decision.
           </p>
         </section>
@@ -446,7 +446,7 @@ const allQuestionData = {
           </p>
           <h3>Viagra (sildenafil)</h3>
           <p>
-            <a href="/drugs/viagra">Viagra</a> was the first ED pill approved
+            <a href="/Viagra">Viagra</a> was the first ED pill approved
             in 1998 and remains one of the most popular choices worldwide. Like <a href="/">Levitra</a>, it
             enhances blood flow but may differ in how long it lasts and how it's tolerated by
             different individuals.
@@ -458,7 +458,7 @@ const allQuestionData = {
 
           <h3>1. Onset of Action</h3>
           <ul>
-            <li><strong><a href="/drugs/viagra">Viagra</a>:</strong> Typically works within 30 to 60 minutes after ingestion.</li>
+            <li><strong><a href="/Viagra">Viagra</a>:</strong> Typically works within 30 to 60 minutes after ingestion.</li>
             <li>
               <strong><a href="/">Levitra</a>:</strong> Also starts working within 30 to 60 minutes, but some users
               report feeling its effects slightly faster, especially when taken on an empty stomach.
@@ -468,18 +468,18 @@ const allQuestionData = {
 
           <h3>2. Duration of Effect</h3>
           <ul>
-            <li><strong><a href="/drugs/viagra">Viagra</a>:</strong> Lasts around 4 to 6 hours.</li>
+            <li><strong><a href="/Viagra">Viagra</a>:</strong> Lasts around 4 to 6 hours.</li>
             <li>
               <strong><a href="/">Levitra</a>:</strong> Lasts about 4 to 5 hours, although some men report effects
               for up to 6 hours.
             </li>
           </ul>
-          <p>✅ <strong>Verdict:</strong> Both have similar durations, but <a href="/drugs/viagra">Viagra</a> may last slightly longer in some cases.</p>
+          <p>✅ <strong>Verdict:</strong> Both have similar durations, but <a href="/Viagra">Viagra</a> may last slightly longer in some cases.</p>
 
           <h3>3. Food Interactions</h3>
           <ul>
-            <li><strong><a href="/drugs/viagra">Viagra</a>:</strong> Its absorption can be significantly delayed by high-fat meals.</li>
-            <li><strong><a href="/">Levitra</a>:</strong> Also affected by fatty meals, but often less dramatically than <a href="/drugs/viagra">Viagra</a>.</li>
+            <li><strong><a href="/Viagra">Viagra</a>:</strong> Its absorption can be significantly delayed by high-fat meals.</li>
+            <li><strong><a href="/">Levitra</a>:</strong> Also affected by fatty meals, but often less dramatically than <a href="/Viagra">Viagra</a>.</li>
           </ul>
           <p>✅ <strong>Verdict:</strong> <a href="/">Levitra</a> may be a better option if you've had a meal, though both are best taken on an empty stomach for maximum effectiveness.</p>
 
@@ -492,12 +492,12 @@ const allQuestionData = {
             <li>Upset stomach</li>
             <li>Dizziness</li>
           </ul>
-          <p>However, some users report fewer vision-related side effects (e.g., blue-tinged vision) with <a href="/">Levitra</a> compared to <a href="/drugs/viagra">Viagra</a>.</p>
+          <p>However, some users report fewer vision-related side effects (e.g., blue-tinged vision) with <a href="/">Levitra</a> compared to <a href="/Viagra">Viagra</a>.</p>
           <p>✅ <strong>Verdict:</strong> <a href="/">Levitra</a> may have a slightly more favorable side effect profile, especially for those sensitive to vision changes.</p>
 
           <h3>5. Dosage Options</h3>
           <ul>
-            <li><strong><a href="/drugs/viagra">Viagra</a>:</strong> 25 mg, 50 mg, 100 mg tablets</li>
+            <li><strong><a href="/Viagra">Viagra</a>:</strong> 25 mg, 50 mg, 100 mg tablets</li>
             <li>
               <strong><a href="/">Levitra</a>:</strong> 2.5 mg, 5 mg, 10 mg, and 20 mg tablets (also available as
               orally disintegrating tablets)
@@ -507,7 +507,7 @@ const allQuestionData = {
 
           <h3>6. Success Rates</h3>
           <p>
-            Clinical studies show similar success rates between <a href="/">Levitra</a> and <a href="/drugs/viagra">Viagra</a>. Both medications
+            Clinical studies show similar success rates between <a href="/">Levitra</a> and <a href="/Viagra">Viagra</a>. Both medications
             help around 70–80% of men with ED achieve improved erections.
           </p>
           <p>✅ <strong>Verdict:</strong> A tie — both are effective for most users.</p>
@@ -517,7 +517,7 @@ const allQuestionData = {
           <h2>When Might Levitra Be Better?</h2>
           <p><a href="/">Levitra</a> might be the better choice if:</p>
           <ul>
-            <li>You've experienced visual side effects with <a href="/drugs/viagra">Viagra</a></li>
+            <li>You've experienced visual side effects with <a href="/Viagra">Viagra</a></li>
             <li>You want a slightly faster onset</li>
             <li>You're sensitive to food-related delays</li>
             <li>You need more flexible dosing</li>
@@ -527,7 +527,7 @@ const allQuestionData = {
 
         <section id="when-viagra">
           <h2>When Might Viagra Be Better?</h2>
-          <p><a href="/drugs/viagra">Viagra</a> might be preferable if:</p>
+          <p><a href="/Viagra">Viagra</a> might be preferable if:</p>
           <ul>
             <li>You respond well to it and have no side effects</li>
             <li>You want a medication with a longer track record</li>
@@ -541,14 +541,14 @@ const allQuestionData = {
           <p>With generics now available for both, cost has become less of a deciding factor:</p>
           <ul>
             <li>
-              Generic <a href="/drugs/viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>) tends to be slightly cheaper and more widely available.
+              Generic <a href="/Viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>) tends to be slightly cheaper and more widely available.
             </li>
             <li>
               Generic <a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">vardenafil</a>) is also affordable, but availability might vary
               depending on your location or pharmacy.
             </li>
           </ul>
-          <p>✅ <strong>Verdict:</strong> <a href="/drugs/viagra">Viagra</a> may be more budget-friendly in some regions, but both are cost-effective in generic form.</p>
+          <p>✅ <strong>Verdict:</strong> <a href="/Viagra">Viagra</a> may be more budget-friendly in some regions, but both are cost-effective in generic form.</p>
         </section>
 
         <section id="final-verdict">
@@ -556,7 +556,7 @@ const allQuestionData = {
           <p>
             There's no one-size-fits-all answer. <a href="/">Levitra</a> may be better for some men, especially
             those looking for fewer visual side effects, quicker onset, and a slightly smoother
-            experience after meals. <a href="/drugs/viagra">Viagra</a>, on the other hand, remains a top choice due to its
+            experience after meals. <a href="/Viagra">Viagra</a>, on the other hand, remains a top choice due to its
             strong track record, proven effectiveness, and slightly longer duration.
           </p>
           <p>
@@ -712,19 +712,19 @@ const allQuestionData = {
                   <td>May cause fewer visual side effects</td>
                 </tr>
                 <tr>
-                  <td><a href="/drugs/viagra">Viagra</a> (<a href="/drugs/viagra">Sildenafil</a>)</td>
+                  <td><a href="/Viagra">Viagra</a> (<a href="/Viagra">Sildenafil</a>)</td>
                   <td>30–60 mins</td>
                   <td>4–6 hours</td>
                   <td>Very well-known, affordable generic versions</td>
                 </tr>
                 <tr>
-                  <td><a href="/drugs/cialis">Cialis</a> (<a href="/drugs/cialis">Tadalafil</a>)</td>
+                  <td><a href="/Cialis">Cialis</a> (<a href="/Cialis">Tadalafil</a>)</td>
                   <td>30–45 mins</td>
                   <td><strong>Up to 36 hours</strong></td>
                   <td>Longest duration, can be taken daily</td>
                 </tr>
                 <tr>
-                  <td><a href="/drugs/stendra">Stendra</a> (<a href="/drugs/stendra">Avanafil</a>)</td>
+                  <td><a href="/Stendra">Stendra</a> (<a href="/Stendra">Avanafil</a>)</td>
                   <td>15–30 mins</td>
                   <td>4–6 hours</td>
                   <td>Fastest onset among ED drugs</td>
@@ -808,7 +808,7 @@ const allQuestionData = {
         <section id="what-is">
            <h2>💊 What Is Levitra?</h2>
            <p>
-             <a href="/">Levitra</a> is the brand name for <a href="/blog/vardenafil-generic-info">vardenafil</a>, a prescription medication used primarily to treat erectile dysfunction (ED) in men. It belongs to a class of drugs known as phosphodiesterase type 5 inhibitors (PDE5 inhibitors) — the same class as <a href="/drugs/viagra">Viagra</a> (<a href="/drugs/viagra">sildenafil</a>) and <a href="/drugs/cialis">Cialis</a> (<a href="/drugs/cialis">tadalafil</a>).
+             <a href="/">Levitra</a> is the brand name for <a href="/blog/vardenafil-generic-info">vardenafil</a>, a prescription medication used primarily to treat erectile dysfunction (ED) in men. It belongs to a class of drugs known as phosphodiesterase type 5 inhibitors (PDE5 inhibitors) — the same class as <a href="/Viagra">Viagra</a> (<a href="/Viagra">sildenafil</a>) and <a href="/Cialis">Cialis</a> (<a href="/Cialis">tadalafil</a>).
            </p>
            <p>
              These medications work by increasing blood flow to the penis during sexual stimulation, helping men achieve and maintain an erection.
@@ -865,10 +865,10 @@ const allQuestionData = {
           <ul>
             <li>Have difficulty achieving or maintaining an erection</li>
             <li>Are looking for a reliable ED medication with a moderate duration</li>
-            <li>Want an alternative to <a href="/drugs/viagra">Viagra</a> or <a href="/drugs/cialis">Cialis</a></li>
-            <li>Prefer a drug with fewer visual side effects (which some men experience with <a href="/drugs/viagra">Viagra</a>)</li>
+            <li>Want an alternative to <a href="/Viagra">Viagra</a> or <a href="/Cialis">Cialis</a></li>
+            <li>Prefer a drug with fewer visual side effects (which some men experience with <a href="/Viagra">Viagra</a>)</li>
           </ul>
-          <p>It's especially useful for men who need a balance between fast onset and consistent performance without committing to a 24–36 hour effect like <a href="/drugs/cialis">Cialis</a> offers.</p>
+          <p>It's especially useful for men who need a balance between fast onset and consistent performance without committing to a 24–36 hour effect like <a href="/Cialis">Cialis</a> offers.</p>
         </section>
 
         <section id="who-should-not">
@@ -906,7 +906,7 @@ const allQuestionData = {
            <h2>💬 Final Thoughts</h2>
            <p><strong>So, what is <a href="/">Levitra</a> used for?</strong></p>
            <p>
-             In simple terms, <a href="/">Levitra</a> is used to help men with erectile dysfunction regain confidence and restore sexual function. It provides a dependable, effective, and relatively fast-acting solution for ED — especially for those who may not respond well to other medications or are looking for an alternative to <a href="/drugs/viagra">Viagra</a> or <a href="/drugs/cialis">Cialis</a>.
+             In simple terms, <a href="/">Levitra</a> is used to help men with erectile dysfunction regain confidence and restore sexual function. It provides a dependable, effective, and relatively fast-acting solution for ED — especially for those who may not respond well to other medications or are looking for an alternative to <a href="/Viagra">Viagra</a> or <a href="/Cialis">Cialis</a>.
            </p>
            <p>
              If you think <a href="/">Levitra</a> might be right for you, speak with your doctor. With the right prescription and proper usage, it could be a game-changer for your sexual health and overall well-being.
@@ -942,7 +942,7 @@ const allQuestionData = {
           text: 'Levitra vs. Viagra Comparison',
           to: { name: 'question-details', params: { id: 'questions-03' } },
         },
-        { text: 'Viagra (Sildenafil) Overview', to: '/drugs/viagra' },
+        { text: 'Viagra (Sildenafil) Overview', to: '/Viagra' },
       ],
       frequentlyAskedQuestions: [
         {
@@ -960,12 +960,12 @@ const allQuestionData = {
         <hr />
         <section id="intro">
           <p>
-            When it comes to treating erectile dysfunction (ED), two of the most well-known names are <a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">vardenafil</a>) and <a href="/drugs/viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>). Both belong to a class of drugs called PDE5 inhibitors, and both help men achieve and maintain an erection during sexual activity. But many people ask:
+            When it comes to treating erectile dysfunction (ED), two of the most well-known names are <a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">vardenafil</a>) and <a href="/Viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">sildenafil</a>). Both belong to a class of drugs called PDE5 inhibitors, and both help men achieve and maintain an erection during sexual activity. But many people ask:
           </p>
-          <p><strong>Is <a href="/">Levitra</a> stronger than <a href="/drugs/viagra">Viagra</a>?</strong></p>
+          <p><strong>Is <a href="/">Levitra</a> stronger than <a href="/Viagra">Viagra</a>?</strong></p>
           <p>Or put another way: Which one works better?</p>
           <p>
-            In this post, we'll compare <a href="/">Levitra</a> and <a href="/drugs/viagra">Viagra</a> in terms of strength, effectiveness, onset time, duration, side effects, and more — so you can make the most informed choice for your needs.
+            In this post, we'll compare <a href="/">Levitra</a> and <a href="/Viagra">Viagra</a> in terms of strength, effectiveness, onset time, duration, side effects, and more — so you can make the most informed choice for your needs.
           </p>
         </section>
 
@@ -989,7 +989,7 @@ const allQuestionData = {
                 <tr>
                   <th>Feature</th>
                   <th><a href="/">Levitra</a> (<a href="/blog/vardenafil-generic-info">Vardenafil</a>)</th>
-                  <th><a href="/drugs/viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">Sildenafil</a>)</th>
+                  <th><a href="/Viagra">Viagra</a> (<a href="/blog/sildenafil-generic-info">Sildenafil</a>)</th>
                 </tr>
               </thead>
               <tbody>
@@ -1036,26 +1036,26 @@ const allQuestionData = {
         <section id="effectiveness-potency">
           <h2>✅ Effectiveness: Is One More Potent?</h2>
           <p>
-            Several studies have shown that <a href="/">Levitra</a> may be slightly more potent on a milligram-to-milligram basis than <a href="/drugs/viagra">Viagra</a>. That means a smaller dose of <a href="/">Levitra</a> might produce similar effects as a higher dose of <a href="/drugs/viagra">Viagra</a>. However, this doesn't necessarily make it "stronger" in a meaningful way — both medications are highly effective for most men.
+            Several studies have shown that <a href="/">Levitra</a> may be slightly more potent on a milligram-to-milligram basis than <a href="/Viagra">Viagra</a>. That means a smaller dose of <a href="/">Levitra</a> might produce similar effects as a higher dose of <a href="/Viagra">Viagra</a>. However, this doesn't necessarily make it "stronger" in a meaningful way — both medications are highly effective for most men.
           </p>
           <p>In clinical trials:</p>
           <ul>
             <li>Both drugs helped about 70–80% of men achieve erections firm enough for intercourse.</li>
             <li><a href="/">Levitra</a> may be more effective in men with diabetes or other hard-to-treat cases of ED.</li>
-            <li><a href="/drugs/viagra">Viagra</a> has a longer track record and is more widely used, so more data is available.</li>
+            <li><a href="/Viagra">Viagra</a> has a longer track record and is more widely used, so more data is available.</li>
           </ul>
           <p>👉 <strong>Verdict:</strong> <a href="/">Levitra</a> may be slightly more potent, but the difference is often minor for the average user.</p>
         </section>
 
         <section id="onset-duration">
           <h2>⏱️ Onset and Duration</h2>
-          <p>Both <a href="/">Levitra</a> and <a href="/drugs/viagra">Viagra</a> typically begin working within 30 to 60 minutes. However:</p>
+          <p>Both <a href="/">Levitra</a> and <a href="/Viagra">Viagra</a> typically begin working within 30 to 60 minutes. However:</p>
           <ul>
             <li>Some users report that <a href="/">Levitra</a> kicks in slightly faster, especially when taken on an empty stomach.</li>
-            <li><a href="/drugs/viagra">Viagra</a> may last a bit longer in some men (up to 6 hours), while <a href="/">Levitra</a> typically lasts about 4–5 hours.</li>
+            <li><a href="/Viagra">Viagra</a> may last a bit longer in some men (up to 6 hours), while <a href="/">Levitra</a> typically lasts about 4–5 hours.</li>
           </ul>
           <p>That said, individual response can vary — some men find one lasts longer for them than the other.</p>
-          <p>👉 <strong>Verdict:</strong> Very similar, but <a href="/">Levitra</a> may start working a bit quicker, and <a href="/drugs/viagra">Viagra</a> may last a little longer.</p>
+          <p>👉 <strong>Verdict:</strong> Very similar, but <a href="/">Levitra</a> may start working a bit quicker, and <a href="/Viagra">Viagra</a> may last a little longer.</p>
         </section>
 
         <section id="side-effects">
@@ -1069,15 +1069,15 @@ const allQuestionData = {
             <li>Indigestion</li>
           </ul>
           <p>
-            However, <a href="/drugs/viagra">Viagra</a> is more likely to cause visual disturbances (e.g., a bluish tint to vision), because it affects a related enzyme in the eyes. <a href="/">Levitra</a> is more selective in targeting PDE5, which means it may have fewer off-target effects, particularly on vision.
+            However, <a href="/Viagra">Viagra</a> is more likely to cause visual disturbances (e.g., a bluish tint to vision), because it affects a related enzyme in the eyes. <a href="/">Levitra</a> is more selective in targeting PDE5, which means it may have fewer off-target effects, particularly on vision.
           </p>
-          <p>👉 <strong>Verdict:</strong> <a href="/">Levitra</a> may be gentler, especially if you're prone to side effects from <a href="/drugs/viagra">Viagra</a>.</p>
+          <p>👉 <strong>Verdict:</strong> <a href="/">Levitra</a> may be gentler, especially if you're prone to side effects from <a href="/Viagra">Viagra</a>.</p>
         </section>
 
         <section id="food-alcohol">
           <h2>🍽️ Food and Alcohol</h2>
           <p>
-            Both drugs work best on an empty stomach, but <a href="/">Levitra</a> is slightly less affected by food, especially fatty meals. <a href="/drugs/viagra">Viagra</a>, on the other hand, can take longer to kick in if you've recently eaten a big or greasy meal.
+            Both drugs work best on an empty stomach, but <a href="/">Levitra</a> is slightly less affected by food, especially fatty meals. <a href="/Viagra">Viagra</a>, on the other hand, can take longer to kick in if you've recently eaten a big or greasy meal.
           </p>
           <p>👉 <strong>Verdict:</strong> <a href="/">Levitra</a> offers more flexibility with meals.</p>
         </section>
@@ -1087,29 +1087,29 @@ const allQuestionData = {
            <p>Many men who have tried both say:</p>
            <ul>
              <li><a href="/">Levitra</a> feels more "natural" in its effect — less intense but more controllable</li>
-             <li><a href="/drugs/viagra">Viagra</a> is more powerful in terms of rigidity, but sometimes comes with more side effects</li>
+             <li><a href="/Viagra">Viagra</a> is more powerful in terms of rigidity, but sometimes comes with more side effects</li>
              <li><a href="/">Levitra</a> may be more dependable for older men or those with diabetes</li>
-             <li>Some prefer <a href="/drugs/viagra">Viagra</a> due to its longer availability and more familiarity</li>
+             <li>Some prefer <a href="/Viagra">Viagra</a> due to its longer availability and more familiarity</li>
            </ul>
            <p>Ultimately, user preference depends on personal experience, health conditions, and even psychological comfort.</p>
         </section>
 
         <section id="verdict">
            <h2>👨‍⚕️ So, Is Levitra Stronger Than Viagra?</h2>
-           <p>Here's the short answer:<br /><strong><a href="/">Levitra</a> is not necessarily stronger than <a href="/drugs/viagra">Viagra</a>, but it may be more effective for certain individuals.</strong></p>
+           <p>Here's the short answer:<br /><strong><a href="/">Levitra</a> is not necessarily stronger than <a href="/Viagra">Viagra</a>, but it may be more effective for certain individuals.</strong></p>
            <ul>
              <li>It's slightly more potent per milligram</li>
              <li>May cause fewer side effects, especially visual ones</li>
              <li>Less affected by food</li>
              <li>May work better in difficult-to-treat cases, like men with diabetes</li>
            </ul>
-           <p>But <a href="/drugs/viagra">Viagra</a> has a longer track record, more brand recognition, and may last a little longer in some cases.</p>
+           <p>But <a href="/Viagra">Viagra</a> has a longer track record, more brand recognition, and may last a little longer in some cases.</p>
         </section>
 
         <section id="final-thoughts">
            <h2>📝 Final Thoughts</h2>
            <p>
-             Choosing between <a href="/">Levitra</a> and <a href="/drugs/viagra">Viagra</a> isn't always about which one is "stronger." It's about which one works best for you, with the fewest side effects and the greatest confidence during intimacy.
+             Choosing between <a href="/">Levitra</a> and <a href="/Viagra">Viagra</a> isn't always about which one is "stronger." It's about which one works best for you, with the fewest side effects and the greatest confidence during intimacy.
            </p>
            <p>If you're trying to decide:</p>
            <ul>
@@ -1178,13 +1178,13 @@ const allQuestionData = {
         <section id="what-is">
           <h2>🧠 What Is Levitra?</h2>
           <p>
-            <a href="/">Levitra</a> is a prescription medication used to treat erectile dysfunction (ED) in men. It contains the active ingredient <a href="/blog/vardenafil-generic-info">vardenafil</a>, which belongs to the class of drugs known as PDE5 inhibitors — the same group that includes <a href="/drugs/viagra">Viagra</a> (<a href="/drugs/viagra">sildenafil</a>) and <a href="/drugs/cialis">Cialis</a> (<a href="/drugs/cialis">tadalafil</a>).
+            <a href="/">Levitra</a> is a prescription medication used to treat erectile dysfunction (ED) in men. It contains the active ingredient <a href="/blog/vardenafil-generic-info">vardenafil</a>, which belongs to the class of drugs known as PDE5 inhibitors — the same group that includes <a href="/Viagra">Viagra</a> (<a href="/Viagra">sildenafil</a>) and <a href="/Cialis">Cialis</a> (<a href="/Cialis">tadalafil</a>).
           </p>
           <p><a href="/">Levitra</a> was approved by the FDA in 2003 and became a popular choice for its:</p>
           <ul>
             <li>Fast onset of action (30–60 minutes)</li>
             <li>Moderate duration (4–5 hours)</li>
-            <li>Fewer visual side effects compared to <a href="/drugs/viagra">Viagra</a></li>
+            <li>Fewer visual side effects compared to <a href="/Viagra">Viagra</a></li>
             <li>Good results in men with diabetes or other difficult-to-treat ED cases</li>
           </ul>
         </section>
@@ -1249,7 +1249,7 @@ const allQuestionData = {
           <p>Yes. Generic <a href="/blog/vardenafil-generic-info">vardenafil</a> contains the same active ingredient and works the same way as <a href="/">Levitra</a>. It's held to the same FDA quality and safety standards.</p>
           <p><strong>Why did they stop making <a href="/">Levitra</a>?</strong></p>
           <p>It was a business decision by Bayer and their partners. They chose to focus on other products after <a href="/">Levitra</a>'s patent expired.</p>
-          <p><strong>Can I switch from <a href="/drugs/viagra">Viagra</a> or <a href="/drugs/cialis">Cialis</a> to <a href="/blog/vardenafil-generic-info">vardenafil</a>?</strong></p>
+          <p><strong>Can I switch from <a href="/Viagra">Viagra</a> or <a href="/Cialis">Cialis</a> to <a href="/blog/vardenafil-generic-info">vardenafil</a>?</strong></p>
           <p>Yes — but always consult with your doctor to ensure proper dosing and to assess any drug interactions.</p>
         </section>
 

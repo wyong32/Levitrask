@@ -365,4 +365,9 @@ onUnmounted(() => {
     gap: 1rem;
   }
 }
+
+/* Add scroll margin to section headers targeted by SideNav */
+.post-body :deep(section[id]) {
+  scroll-margin-top: 100px; /* Adjust based on actual header height */
+}
 </style>

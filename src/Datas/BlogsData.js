@@ -31,9 +31,9 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/compare/viagra', text: 'Compare with Viagra (Sildenafil)' },
-        { to: '/compare/cialis', text: 'Compare with Cialis (Tadalafil)' },
-        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/levitra-VS-viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/levitra-VS-cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // No FAQs in the source file
     },
@@ -381,13 +381,13 @@ const blogsData = {
                       <a href="/blog/vardenafil-generic-info">Vardenafil (Levitra)</a>
                     </th>
                     <th>
-                      <a href="/drugs/viagra">Sildenafil (Viagra)</a>
+                      <a href="/Viagra">Sildenafil (Viagra)</a>
                     </th>
                     <th>
-                      <a href="/drugs/cialis">Tadalafil (Cialis)</a>
+                      <a href="/Cialis">Tadalafil (Cialis)</a>
                     </th>
                     <th>
-                      <a href="/drugs/stendra">Avanafil (Stendra)</a>
+                      <a href="/Stendra">Avanafil (Stendra)</a>
                     </th>
                   </tr>
                 </thead>
@@ -431,7 +431,7 @@ const blogsData = {
               </table>
             </div>
             <p>
-              <a href="/blog/vardenafil-generic-info">Vardenafil</a> offers a solid middle ground — faster onset than <a href="/drugs/viagra">sildenafil</a> and a
+              <a href="/blog/vardenafil-generic-info">Vardenafil</a> offers a solid middle ground — faster onset than <a href="/Viagra">sildenafil</a> and a
               convenient orally disintegrating option (<a href="/">Staxyn</a>) for those who have difficulty
               swallowing pills.
             </p>
@@ -577,16 +577,16 @@ const blogsData = {
             <h3>1. Oral Medications (PDE5 inhibitors)</h3>
             <ul>
               <li>
-                <a href="/drugs/viagra">Sildenafil (Viagra)</a>
+                <a href="/Viagra">Sildenafil (Viagra)</a>
               </li>
               <li>
-                <a href="/drugs/cialis">Tadalafil (Cialis)</a>
+                <a href="/Cialis">Tadalafil (Cialis)</a>
               </li>
               <li>
                 <a href="/">Vardenafil (Levitra, Staxyn)</a>
               </li>
               <li>
-                <a href="/drugs/stendra">Avanafil (Stendra)</a>
+                <a href="/Stendra">Avanafil (Stendra)</a>
               </li>
             </ul>
             <p>
@@ -786,10 +786,10 @@ const blogsData = {
               <ul>
                 <li>
                   <strong>PDE5 inhibitors:</strong> Such as
-                  <a href="/drugs/viagra">sildenafil (Viagra)</a>,
-                  <a href="/drugs/cialis">tadalafil (Cialis)</a>,
+                  <a href="/Viagra">sildenafil (Viagra)</a>,
+                  <a href="/Cialis">tadalafil (Cialis)</a>,
                   <a href="/">vardenafil (Levitra)</a>, or
-                  <a href="/drugs/stendra">avanafil (Stendra)</a>
+                  <a href="/Stendra">avanafil (Stendra)</a>
               </li>
                 <li><strong>Hormone therapy:</strong> If low testosterone is a factor</li>
                 <li>
@@ -876,10 +876,10 @@ const blogsData = {
           <p>
             Erectile dysfunction (ED) is more common than many men realize—and thanks to modern
             medicine, it's also highly treatable. With multiple prescription medications available,
-            including <a href="/drugs/viagra">Viagra</a>,
-            <a href="/drugs/cialis">Cialis</a>,
+            including <a href="/Viagra">Viagra</a>,
+            <a href="/Cialis">Cialis</a>,
             <a href="/">Levitra</a>, and
-            <a href="/drugs/stendra">Stendra</a>, men have more choices than ever
+            <a href="/Stendra">Stendra</a>, men have more choices than ever
             before. But how do you know which ED drug is right for you?
           </p>
           <p>
@@ -901,15 +901,15 @@ const blogsData = {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="/drugs/stendra">Stendra (Avanafil)</a></td>
+                    <td><a href="/Stendra">Stendra (Avanafil)</a></td>
                     <td>15–30 minutes (can be as fast as 15 min)</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/viagra">Viagra (Sildenafil)</a></td>
+                    <td><a href="/Viagra">Viagra (Sildenafil)</a></td>
                     <td>30–60 minutes</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/cialis">Cialis (Tadalafil)</a></td>
+                    <td><a href="/Cialis">Cialis (Tadalafil)</a></td>
                     <td>30–45 minutes</td>
                   </tr>
                   <tr>
@@ -921,7 +921,7 @@ const blogsData = {
             </div>
             <p>
               <strong>Quick Tip:</strong><br />If you want something that works fast for spontaneous
-              encounters, <a href="/drugs/stendra">Stendra</a> has the edge in
+              encounters, <a href="/Stendra">Stendra</a> has the edge in
               speed.
             </p>
           </section>
@@ -942,11 +942,11 @@ const blogsData = {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="/drugs/stendra">Stendra</a></td>
+                    <td><a href="/Stendra">Stendra</a></td>
                     <td>Up to 6 hours</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/viagra">Viagra</a></td>
+                    <td><a href="/Viagra">Viagra</a></td>
                     <td>4–6 hours</td>
                   </tr>
                   <tr>
@@ -954,7 +954,7 @@ const blogsData = {
                     <td>4–5 hours</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/cialis">Cialis</a></td>
+                    <td><a href="/Cialis">Cialis</a></td>
                     <td>Up to 36 hours (the "weekend pill")</td>
                   </tr>
                 </tbody>
@@ -962,7 +962,7 @@ const blogsData = {
             </div>
             <p>
               <strong>Quick Tip:</strong><br />For men who prefer longer flexibility without timing
-              intimacy around a pill, <a href="/drugs/cialis">Cialis</a> offers a
+              intimacy around a pill, <a href="/Cialis">Cialis</a> offers a
               long window of action.
             </p>
           </section>
@@ -980,15 +980,15 @@ const blogsData = {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="/drugs/stendra">Stendra</a></td>
+                    <td><a href="/Stendra">Stendra</a></td>
                     <td>Works well with or without food</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/cialis">Cialis</a></td>
+                    <td><a href="/Cialis">Cialis</a></td>
                     <td>No food restrictions</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/viagra">Viagra</a></td>
+                    <td><a href="/Viagra">Viagra</a></td>
                     <td>Best taken on an empty stomach (fatty foods delay effect)</td>
                   </tr>
                   <tr>
@@ -1000,8 +1000,8 @@ const blogsData = {
             </div>
             <p>
               <strong>Quick Tip:</strong><br />If you want to take your medication without worrying
-              about food, <a href="/drugs/stendra">Stendra</a> or
-              <a href="/drugs/cialis">Cialis</a> may be the more convenient
+              about food, <a href="/Stendra">Stendra</a> or
+              <a href="/Cialis">Cialis</a> may be the more convenient
               choices.
             </p>
           </section>
@@ -1019,15 +1019,15 @@ const blogsData = {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="/drugs/stendra">Stendra</a></td>
+                    <td><a href="/Stendra">Stendra</a></td>
                     <td>Headache, flushing, nasal congestion (milder overall)</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/viagra">Viagra</a></td>
+                    <td><a href="/Viagra">Viagra</a></td>
                     <td>Headache, visual changes (blue tint), flushing</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/cialis">Cialis</a></td>
+                    <td><a href="/Cialis">Cialis</a></td>
                     <td>Muscle aches, back pain, headache</td>
                   </tr>
                   <tr>
@@ -1039,8 +1039,8 @@ const blogsData = {
             </div>
             <p>
               <strong>Quick Tip:</strong><br />Men sensitive to visual side effects may prefer
-              <a href="/drugs/stendra">Stendra</a> or
-              <a href="/drugs/cialis">Cialis</a>, which are less likely to cause
+              <a href="/Stendra">Stendra</a> or
+              <a href="/Cialis">Cialis</a>, which are less likely to cause
               them.
             </p>
           </section>
@@ -1059,19 +1059,19 @@ const blogsData = {
                 </thead>
                 <tbody>
                   <tr>
-                    <td><a href="/drugs/stendra">Stendra</a></td>
+                    <td><a href="/Stendra">Stendra</a></td>
                     <td>❌ No (brand only)</td>
                     <td>💲💲💲</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/viagra">Viagra</a></td>
+                    <td><a href="/Viagra">Viagra</a></td>
                     <td>
                       ✅ <a href="/blog/sildenafil-generic-info">Sildenafil</a>
                     </td>
                     <td>💲</td>
                   </tr>
                   <tr>
-                    <td><a href="/drugs/cialis">Cialis</a></td>
+                    <td><a href="/Cialis">Cialis</a></td>
                     <td>
                       ✅ <a href="/blog/tadalafil-generic-faq">Tadalafil</a>
                     </td>
@@ -1092,7 +1092,7 @@ const blogsData = {
               <a href="/blog/sildenafil-generic-info">sildenafil</a>,
               <a href="/blog/tadalafil-generic-faq">tadalafil</a>, and
               <a href="/blog/vardenafil-generic-info">vardenafil</a> offer
-              budget-friendly options, while <a href="/drugs/stendra">Stendra</a>,
+              budget-friendly options, while <a href="/Stendra">Stendra</a>,
               still under patent, is more expensive.
             </p>
           </section>
@@ -1119,12 +1119,12 @@ const blogsData = {
             <h2><span class="emoji">🗓</span> 7. Daily Use vs. On-Demand</h2>
             <p>
               Most ED drugs are taken "on-demand" before sexual activity. However,
-              <a href="/drugs/cialis">Cialis</a> (tadalafil) offers a low-dose daily option for men who
+              <a href="/Cialis">Cialis</a> (tadalafil) offers a low-dose daily option for men who
               want continuous readiness without planning.
             </p>
             <p>
               <strong>Quick Tip:</strong><br />If you prefer not to time doses, daily
-              <a href="/drugs/cialis">Cialis</a> might be a better fit for your lifestyle.
+              <a href="/Cialis">Cialis</a> might be a better fit for your lifestyle.
             </p>
           </section>
 
@@ -1135,11 +1135,11 @@ const blogsData = {
               your priorities:
             </p>
             <ul>
-              <li><strong>Fastest onset:</strong> <a href="/drugs/stendra">Stendra</a></li>
-              <li><strong>Longest duration:</strong> <a href="/drugs/cialis">Cialis</a></li>
-              <li><strong>Fewer food restrictions:</strong> <a href="/drugs/stendra">Stendra</a>, <a href="/drugs/cialis">Cialis</a></li>
+              <li><strong>Fastest onset:</strong> <a href="/Stendra">Stendra</a></li>
+              <li><strong>Longest duration:</strong> <a href="/Cialis">Cialis</a></li>
+              <li><strong>Fewer food restrictions:</strong> <a href="/Stendra">Stendra</a>, <a href="/Cialis">Cialis</a></li>
               <li><strong>Budget-friendly (generic):</strong> <a href="/blog/sildenafil-generic-info">Sildenafil</a>, <a href="/blog/tadalafil-generic-faq">Tadalafil</a>, <a href="/blog/vardenafil-generic-info">Vardenafil</a></li>
-              <li><strong>Lower risk of visual side effects:</strong> <a href="/drugs/stendra">Stendra</a>, <a href="/drugs/cialis">Cialis</a>, <a href="/">Levitra</a></li>
+              <li><strong>Lower risk of visual side effects:</strong> <a href="/Stendra">Stendra</a>, <a href="/Cialis">Cialis</a>, <a href="/">Levitra</a></li>
             </ul>
             <p>
               The best approach is to discuss these factors with your doctor. They can assess your
@@ -1196,10 +1196,10 @@ const blogsData = {
           </p>
           <p>
             In this post, we'll explore the side effect profiles of four leading ED drugs:
-            <a href="/drugs/viagra">Viagra (sildenafil)</a>,
-            <a href="/drugs/cialis">Cialis (tadalafil)</a>,
+            <a href="/Viagra">Viagra (sildenafil)</a>,
+            <a href="/Cialis">Cialis (tadalafil)</a>,
             <a href="/">Levitra (vardenafil)</a>, and
-            <a href="/drugs/stendra">Stendra (avanafil)</a>.
+            <a href="/Stendra">Stendra (avanafil)</a>.
           </p>
 
           <section id="medications-overview">
@@ -1210,11 +1210,11 @@ const blogsData = {
             </p>
             <ul>
               <li>
-                <a href="/drugs/viagra">Viagra (sildenafil)</a> – the most
+                <a href="/Viagra">Viagra (sildenafil)</a> – the most
                 well-known ED drug, often the first choice
               </li>
               <li>
-                <a href="/drugs/cialis">Cialis (tadalafil)</a> – known for its
+                <a href="/Cialis">Cialis (tadalafil)</a> – known for its
                 long duration (up to 36 hours)
               </li>
               <li>
@@ -1222,7 +1222,7 @@ const blogsData = {
                 Viagra but with slightly fewer side effects
               </li>
               <li>
-                <a href="/drugs/stendra">Stendra (avanafil)</a> – the newest ED
+                <a href="/Stendra">Stendra (avanafil)</a> – the newest ED
                 drug, known for rapid action and better tolerability
               </li>
             </ul>
@@ -1239,10 +1239,10 @@ const blogsData = {
                 <thead>
                   <tr>
                     <th>Side Effect</th>
-                    <th><a href="/drugs/viagra">Viagra</a></th>
-                    <th><a href="/drugs/cialis">Cialis</a></th>
+                    <th><a href="/Viagra">Viagra</a></th>
+                    <th><a href="/Cialis">Cialis</a></th>
                     <th><a href="/">Levitra</a></th>
-                    <th><a href="/drugs/stendra">Stendra</a></th>
+                    <th><a href="/Stendra">Stendra</a></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -1310,7 +1310,7 @@ const blogsData = {
             </h2>
             <p>
               One of the more well-known side effects of
-              <a href="/drugs/viagra">Viagra</a> and
+              <a href="/Viagra">Viagra</a> and
               <a href="/">Levitra</a> is visual disturbance, including:
             </p>
             <ul>
@@ -1320,8 +1320,8 @@ const blogsData = {
             </ul>
             <p>
               These effects are temporary but can be disturbing to some users.
-              <a href="/drugs/cialis">Cialis</a> and
-              <a href="/drugs/stendra">Stendra</a> are less likely to cause these
+              <a href="/Cialis">Cialis</a> and
+              <a href="/Stendra">Stendra</a> are less likely to cause these
               visual changes, making them a better option for men sensitive to eye-related side
               effects.
             </p>
@@ -1330,7 +1330,7 @@ const blogsData = {
           <section id="muscle-pain">
             <h2><span class="emoji">💪</span> Muscle and Back Pain: Common with Cialis</h2>
             <p>
-              <a href="/drugs/cialis">Cialis (tadalafil)</a> is known to cause
+              <a href="/Cialis">Cialis (tadalafil)</a> is known to cause
               back pain and muscle aches more frequently than other ED medications. This is believed
               to be related to how the drug affects smooth muscle tissue beyond just the penis.
             </p>
@@ -1375,11 +1375,11 @@ const blogsData = {
             </p>
             <ul>
               <li>
-                <a href="/drugs/stendra">Stendra</a> – Fewest side effects, best
+                <a href="/Stendra">Stendra</a> – Fewest side effects, best
                 tolerated overall
               </li>
               <li>
-                <a href="/drugs/cialis">Cialis</a> – Very well tolerated,
+                <a href="/Cialis">Cialis</a> – Very well tolerated,
                 long-lasting with minimal daily side effects
               </li>
               <li>
@@ -1387,7 +1387,7 @@ const blogsData = {
                 tolerability
               </li>
               <li>
-                <a href="/drugs/viagra">Viagra</a> – Effective, but with a higher
+                <a href="/Viagra">Viagra</a> – Effective, but with a higher
                 chance of vision-related side effects
               </li>
             </ul>
@@ -1412,7 +1412,7 @@ const blogsData = {
               </li>
               <li>
                 Take with water and consider food intake—especially for
-                <a href="/drugs/viagra">Viagra</a> and
+                <a href="/Viagra">Viagra</a> and
                 <a href="/">Levitra</a>.
               </li>
               <li>Communicate openly with your doctor about any side effects you experience.</li>
@@ -1463,8 +1463,8 @@ const blogsData = {
             Erectile dysfunction (ED) is often perceived as a purely medical issue, but in reality,
             lifestyle choices can play a major role in both its development and its management.
             While medications like
-            <a href="/drugs/viagra">sildenafil (Viagra)</a>,
-            <a href="/drugs/cialis">tadalafil (Cialis)</a>, and
+            <a href="/Viagra">sildenafil (Viagra)</a>,
+            <a href="/Cialis">tadalafil (Cialis)</a>, and
             <a href="/">vardenafil (Levitra)</a> offer effective treatment
             options, addressing underlying lifestyle factors can significantly improve outcomes —
             and sometimes even eliminate the need for medication altogether.
@@ -1671,10 +1671,10 @@ const blogsData = {
         <hr />
           <p>
             Erectile dysfunction (ED) medications like
-            <a href="/drugs/viagra">sildenafil (Viagra)</a>,
-            <a href="/drugs/cialis">tadalafil (Cialis)</a>,
+            <a href="/Viagra">sildenafil (Viagra)</a>,
+            <a href="/Cialis">tadalafil (Cialis)</a>,
             <a href="/">vardenafil (Levitra/Staxyn)</a>, and
-            <a href="/drugs/stendra">avanafil (Stendra)</a> offer effective relief
+            <a href="/Stendra">avanafil (Stendra)</a> offer effective relief
             for millions of men. But what if your current medication isn't working quite right for
             you? Whether you're experiencing side effects, inconsistent results, or just curious
             about other options, switching between ED medications is common — and completely valid.
@@ -1717,7 +1717,7 @@ const blogsData = {
                 <tbody>
                   <tr>
                     <td>
-                      <a href="/drugs/viagra">Sildenafil (Viagra)</a>
+                      <a href="/Viagra">Sildenafil (Viagra)</a>
                     </td>
                     <td>30–60 minutes</td>
                     <td>4–6 hours</td>
@@ -1725,7 +1725,7 @@ const blogsData = {
                   </tr>
                   <tr>
                     <td>
-                      <a href="/drugs/cialis">Tadalafil (Cialis)</a>
+                      <a href="/Cialis">Tadalafil (Cialis)</a>
                     </td>
                     <td>30–45 minutes</td>
                     <td>Up to 36 hours</td>
@@ -1741,7 +1741,7 @@ const blogsData = {
                   </tr>
                   <tr>
                     <td>
-                      <a href="/drugs/stendra">Avanafil (Stendra)</a>
+                      <a href="/Stendra">Avanafil (Stendra)</a>
                     </td>
                     <td>15–30 minutes</td>
                     <td>6+ hours</td>
@@ -1802,13 +1802,13 @@ const blogsData = {
             <ul>
               <li>
                 <strong>Prefer spontaneity?</strong> Try
-                <a href="/drugs/cialis">tadalafil (Cialis)</a> for its 36-hour
-                duration or <a href="/drugs/stendra">avanafil (Stendra)</a> for
+                <a href="/Cialis">tadalafil (Cialis)</a> for its 36-hour
+                duration or <a href="/Stendra">avanafil (Stendra)</a> for
                 quick action.
               </li>
               <li>
                 <strong>Sensitive to side effects?</strong>
-                <a href="/drugs/stendra">Avanafil</a> may be gentler for some.
+                <a href="/Stendra">Avanafil</a> may be gentler for some.
               </li>
               <li>
                 <strong>Need lower cost?</strong> Generic
@@ -1817,7 +1817,7 @@ const blogsData = {
               </li>
               <li>
                 <strong>Need flexibility in timing?</strong>
-                <a href="/drugs/cialis">Tadalafil</a> daily offers consistent
+                <a href="/Cialis">Tadalafil</a> daily offers consistent
                 readiness.
               </li>
             </ul>
@@ -1891,10 +1891,10 @@ const blogsData = {
         <hr />
           <p>
             Erectile dysfunction (ED) medications like
-            <a href="/drugs/viagra">sildenafil (Viagra)</a>,
-            <a href="/drugs/cialis">tadalafil (Cialis)</a>,
+            <a href="/Viagra">sildenafil (Viagra)</a>,
+            <a href="/Cialis">tadalafil (Cialis)</a>,
             <a href="/">vardenafil (Levitra)</a>, and
-            <a href="/drugs/stendra">avanafil (Stendra)</a> have transformed the
+            <a href="/Stendra">avanafil (Stendra)</a> have transformed the
             lives of millions of men by helping restore sexual function and confidence. However,
             like all medications, these drugs can cause side effects — ranging from mild and
             temporary to more serious in rare cases.
@@ -1916,16 +1916,16 @@ const blogsData = {
             <p><strong>Most Common PDE5 Inhibitors:</strong></p>
             <ul>
               <li>
-                <a href="/drugs/viagra">Sildenafil (Viagra)</a>
+                <a href="/Viagra">Sildenafil (Viagra)</a>
               </li>
               <li>
-                <a href="/drugs/cialis">Tadalafil (Cialis)</a>
+                <a href="/Cialis">Tadalafil (Cialis)</a>
               </li>
               <li>
                 <a href="/">Vardenafil (Levitra, Staxyn)</a>
               </li>
               <li>
-                <a href="/drugs/stendra">Avanafil (Stendra)</a>
+                <a href="/Stendra">Avanafil (Stendra)</a>
               </li>
             </ul>
           </section>
@@ -1971,7 +1971,7 @@ const blogsData = {
               <li>Avoid heavy or fatty meals before taking ED medication</li>
               <li>Use an antacid if approved by your doctor</li>
               <li>
-                <a href="/drugs/cialis">Tadalafil</a> is known for a higher chance
+                <a href="/Cialis">Tadalafil</a> is known for a higher chance
                 of indigestion — consider switching if this is a problem
               </li>
             </ul>
@@ -1985,7 +1985,7 @@ const blogsData = {
             </ul>
             <h3>6. Back or Muscle Pain</h3>
             <p>
-              More common with <a href="/drugs/cialis">tadalafil (Cialis)</a> due
+              More common with <a href="/Cialis">tadalafil (Cialis)</a> due
               to its longer half-life.
             </p>
             <p><strong>What to do:</strong></p>
@@ -1993,7 +1993,7 @@ const blogsData = {
               <li>Apply a warm compress or take a gentle stretch</li>
               <li>
                 Consider switching to a shorter-acting drug like
-                <a href="/drugs/stendra">avanafil</a> if the pain is bothersome
+                <a href="/Stendra">avanafil</a> if the pain is bothersome
               </li>
             </ul>
           </section>
@@ -2028,7 +2028,7 @@ const blogsData = {
               </li>
               <li>
                 <strong>Switching medications:</strong> For example, some men tolerate
-                <a href="/drugs/stendra">avanafil</a> better due to its faster
+                <a href="/Stendra">avanafil</a> better due to its faster
                 clearance and more targeted action.
               </li>
               <li>
@@ -2044,7 +2044,7 @@ const blogsData = {
             <ul>
               <li>
                 Eat light before taking the medication (especially
-                <a href="/drugs/viagra">sildenafil</a> and
+                <a href="/Viagra">sildenafil</a> and
                 <a href="/">vardenafil</a>)
               </li>
               <li>Limit alcohol — it can intensify side effects and reduce effectiveness</li>
@@ -2120,8 +2120,8 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/compare/viagra', text: 'Compare with Viagra (Sildenafil)' },
-        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/levitra-VS-viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
     },
@@ -2131,7 +2131,7 @@ const blogsData = {
           <hr />
           <p>
             Tadalafil, the active ingredient in
-            <a href="/drugs/cialis">Cialis</a>, is one of the most commonly
+            <a href="/Cialis">Cialis</a>, is one of the most commonly
             prescribed medications for erectile dysfunction (ED). It's also used to treat benign
             prostatic hyperplasia (BPH) — an enlarged prostate — and pulmonary arterial hypertension
             under the brand name Adcirca.
@@ -2276,7 +2276,7 @@ const blogsData = {
             </h2>
             <p>
               Yes. Generic tadalafil contains the same active ingredient, is approved by the FDA,
-              and is just as effective as <a href="/drugs/cialis">Cialis</a>. The
+              and is just as effective as <a href="/Cialis">Cialis</a>. The
               main difference? Lower cost.
             </p>
           </section>
@@ -2340,7 +2340,7 @@ const blogsData = {
           <hr />
           <p>
             Tadalafil, widely known under the brand names
-            <a href="/drugs/cialis">Cialis</a> (for erectile dysfunction and
+            <a href="/Cialis">Cialis</a> (for erectile dysfunction and
             benign prostatic hyperplasia) and Adcirca (for pulmonary arterial hypertension), is a
             prescription medication approved by the U.S. Food and Drug Administration (FDA). As one
             of the most popular phosphodiesterase type 5 (PDE5) inhibitors, tadalafil offers
@@ -2362,11 +2362,11 @@ const blogsData = {
             <ul>
               <li>
                 Erectile dysfunction (ED) –
-                <a href="/drugs/cialis">Cialis</a>
+                <a href="/Cialis">Cialis</a>
               </li>
               <li>
                 Benign prostatic hyperplasia (BPH) –
-                <a href="/drugs/cialis">Cialis</a>
+                <a href="/Cialis">Cialis</a>
               </li>
               <li>Pulmonary arterial hypertension (PAH) – Adcirca</li>
               <!-- Assuming Adcirca page doesn't exist yet -->
@@ -2504,17 +2504,17 @@ const blogsData = {
                   <tr>
                     <th>Feature</th>
                     <th>
-                      <a href="/drugs/cialis">Tadalafil (Cialis)</a>
+                      <a href="/Cialis">Tadalafil (Cialis)</a>
                     </th>
                     <th>
-                      <a href="/drugs/viagra">Sildenafil (Viagra)</a>
+                      <a href="/Viagra">Sildenafil (Viagra)</a>
                     </th>
                     <th>
                       <a href="/">Vardenafil (Levitra)</a>
                       <!-- Assuming Levitra page doesn't exist yet -->
                     </th>
                     <th>
-                      <a href="/drugs/stendra">Avanafil (Stendra)</a>
+                      <a href="/Stendra">Avanafil (Stendra)</a>
                     </th>
                   </tr>
                 </thead>
@@ -2601,8 +2601,8 @@ const blogsData = {
         { to: '/blog/sildenafil-generic-info', text: 'Sildenafil (Generic)' },
         { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil (Generic)' },
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/compare/viagra', text: 'Stendra vs Viagra' },
-        { to: '/compare/cialis', text: 'Stendra vs Cialis' },
+        { to: '/levitra-VS-viagra', text: 'Stendra vs Viagra' },
+        { to: '/levitra-VS-cialis', text: 'Stendra vs Cialis' },
       ],
       frequentlyAskedQuestions: [],
     },
@@ -2613,13 +2613,13 @@ const blogsData = {
             Erectile dysfunction (ED) is a common condition that affects millions of men around the
             world. Thankfully, modern medicine offers several effective treatments. One of the
             newest and most promising options is Avanafil, sold under the brand name
-            <a href="/drugs/stendra">Stendra</a>. Known for its rapid onset and
+            <a href="/Stendra">Stendra</a>. Known for its rapid onset and
             fewer side effects, Avanafil is helping many men regain confidence in their sexual
             health.
           </p>
           <p>
             This patient guide is designed to help you understand how
-            <a href="/drugs/stendra">Stendra</a> works, how to take it safely, and
+            <a href="/Stendra">Stendra</a> works, how to take it safely, and
             what to expect before, during, and after use.
           </p>
 
@@ -2628,8 +2628,8 @@ const blogsData = {
             <p>
               Avanafil is a prescription medication used to treat erectile dysfunction (ED). It
               belongs to a class of drugs called PDE5 inhibitors, which also includes
-              <a href="/drugs/viagra">Viagra (sildenafil)</a>,
-              <a href="/drugs/cialis">Cialis (tadalafil)</a>, and
+              <a href="/Viagra">Viagra (sildenafil)</a>,
+              <a href="/Cialis">Cialis (tadalafil)</a>, and
               <a href="/">Levitra (vardenafil)</a>.
             </p>
             <p>
@@ -2649,7 +2649,7 @@ const blogsData = {
             </p>
             <p>
               <strong>Important:</strong>
-              <a href="/drugs/stendra">Stendra</a> only works when you are
+              <a href="/Stendra">Stendra</a> only works when you are
               sexually aroused. It doesn't cause an automatic erection.
             </p>
           </section>
@@ -2671,7 +2671,7 @@ const blogsData = {
           <section id="precautions">
             <h2><span class="emoji">⚠️</span> Precautions Before Use</h2>
             <p>
-              Before starting <a href="/drugs/stendra">Stendra</a>, talk to your
+              Before starting <a href="/Stendra">Stendra</a>, talk to your
               healthcare provider about your medical history. Do not take Stendra if you:
             </p>
             <ul>
@@ -2690,7 +2690,7 @@ const blogsData = {
           <section id="side-effects">
             <h2><span class="emoji">📋</span> Common Side Effects</h2>
             <p>
-              Most men tolerate <a href="/drugs/stendra">Stendra</a> well, but
+              Most men tolerate <a href="/Stendra">Stendra</a> well, but
               like all medications, it can cause side effects. These are usually mild and temporary:
             </p>
             <ul>
@@ -2720,9 +2720,9 @@ const blogsData = {
                 <thead>
                   <tr>
                     <th>Feature</th>
-                    <th><a href="/drugs/stendra">Stendra (Avanafil)</a></th>
-                    <th><a href="/drugs/viagra">Viagra (Sildenafil)</a></th>
-                    <th><a href="/drugs/cialis">Cialis (Tadalafil)</a></th>
+                    <th><a href="/Stendra">Stendra (Avanafil)</a></th>
+                    <th><a href="/Viagra">Viagra (Sildenafil)</a></th>
+                    <th><a href="/Cialis">Cialis (Tadalafil)</a></th>
                     <th><a href="/">Levitra (Vardenafil)</a></th>
                   </tr>
                 </thead>
@@ -2776,9 +2776,9 @@ const blogsData = {
               </li>
               <li>
                 <strong>Other ED meds:</strong> Never combine
-                <a href="/drugs/stendra">Stendra</a> with
-                <a href="/drugs/viagra">Viagra</a>,
-                <a href="/drugs/cialis">Cialis</a>, or
+                <a href="/Stendra">Stendra</a> with
+                <a href="/Viagra">Viagra</a>,
+                <a href="/Cialis">Cialis</a>, or
                 <a href="/">Levitra</a> unless told by your doctor.
               </li>
             </ul>
@@ -2787,11 +2787,11 @@ const blogsData = {
           <section id="conclusion">
             <h2><span class="emoji">✅</span> Final Thoughts: Is Stendra Right for You?</h2>
             <p>
-              <a href="/drugs/stendra">Stendra</a> offers men a modern,
+              <a href="/Stendra">Stendra</a> offers men a modern,
               fast-acting, and well-tolerated solution to erectile dysfunction. Whether you're new
               to ED medications or looking for an alternative to drugs like
-              <a href="/drugs/viagra">Viagra</a> or
-              <a href="/drugs/cialis">Cialis</a>, Avanafil might be the right
+              <a href="/Viagra">Viagra</a> or
+              <a href="/Cialis">Cialis</a>, Avanafil might be the right
               option—especially if you value spontaneity.
             </p>
             <p>
@@ -2840,7 +2840,7 @@ const blogsData = {
           <hr />
           <p>
             Avanafil, marketed under the brand name
-            <a href="/drugs/stendra">Stendra</a>, is a prescription medication
+            <a href="/Stendra">Stendra</a>, is a prescription medication
             approved by the U.S. Food and Drug Administration (FDA) for the treatment of erectile
             dysfunction (ED) in men. As one of the newest PDE5 inhibitors, avanafil offers a
             fast-acting and convenient option for individuals seeking effective treatment for ED.
@@ -2857,8 +2857,8 @@ const blogsData = {
               Avanafil is an oral medication that improves erectile function by enhancing blood flow
               to the penis during sexual stimulation. It belongs to a class of drugs known as
               phosphodiesterase type 5 (PDE5) inhibitors, the same group that includes
-              <a href="/drugs/viagra">Viagra (sildenafil)</a>,
-              <a href="/drugs/cialis">Cialis (tadalafil)</a>, and
+              <a href="/Viagra">Viagra (sildenafil)</a>,
+              <a href="/Cialis">Cialis (tadalafil)</a>, and
               <a href="/">Levitra (vardenafil)</a>.
             </p>
             <p>
@@ -3014,9 +3014,9 @@ const blogsData = {
                 <thead>
                   <tr>
                     <th>Feature</th>
-                    <th>Avanafil (<a href="/drugs/stendra">Stendra</a>)</th>
-                    <th><a href="/drugs/viagra">Viagra (Sildenafil)</a></th>
-                    <th><a href="/drugs/cialis">Cialis (Tadalafil)</a></th>
+                    <th>Avanafil (<a href="/Stendra">Stendra</a>)</th>
+                    <th><a href="/Viagra">Viagra (Sildenafil)</a></th>
+                    <th><a href="/Cialis">Cialis (Tadalafil)</a></th>
                     <th><a href="/">Levitra (Vardenafil)</a></th>
                   </tr>
                 </thead>
@@ -3099,8 +3099,8 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/compare/cialis', text: 'Compare with Cialis (Tadalafil)' },
-        { to: '/compare/stendra', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/levitra-VS-cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
     },
@@ -3110,7 +3110,7 @@ const blogsData = {
           <hr />
           <p>
             Sildenafil — the generic form of the well-known brand
-            <a href="/drugs/viagra">Viagra</a> — is one of the most commonly
+            <a href="/Viagra">Viagra</a> — is one of the most commonly
             prescribed medications for erectile dysfunction (ED). It's effective, widely available,
             and more affordable than its brand-name counterpart, making it a popular first-line
             treatment for many men experiencing issues with sexual performance.
@@ -3131,7 +3131,7 @@ const blogsData = {
             <p>
               Originally developed for heart conditions, sildenafil was soon found to have a
               powerful effect on erectile performance, leading to its FDA approval for ED in 1998
-              under the brand name <a href="/drugs/viagra">Viagra</a>. The generic
+              under the brand name <a href="/Viagra">Viagra</a>. The generic
               version became widely available after the patent expired in 2017.
             </p>
           </section>
@@ -3248,7 +3248,7 @@ const blogsData = {
     listTitle: 'Levitra Generic Drugs: What You Need to Know About This ED Treatment Option',
     listDescription:
       'Explore everything you need to know about Levitra generic drugs, from how they work and their benefits to potential side effects and where to buy them safely.',
-    listImage: '/images/blog-levitra-generic.webp', // Updated image path
+    listImage: '/images/blog-05.jpg', // Updated image path
     listDate: '2024-07-29', // Updated date
     metaTitle: 'Levitra Generic Drugs: A Guide to Vardenafil Alternatives | Levitrask Blog',
     metaDescription:
@@ -3298,7 +3298,7 @@ const blogsData = {
               ingredient vardenafil. These medications work by increasing blood flow to the penis,
               helping men achieve and maintain an erection during sexual activity. Levitra generic
               drugs are classified as PDE5 inhibitors — the same class of drugs that includes
-              <a href="/drugs/viagra">Viagra (sildenafil)</a> and <a href="/drugs/cialis">Cialis (tadalafil)</a>.
+              <a href="/Viagra">Viagra (sildenafil)</a> and <a href="/Cialis">Cialis (tadalafil)</a>.
             </p>
             <p>
               What makes Levitra generic drugs attractive is that they offer the same therapeutic

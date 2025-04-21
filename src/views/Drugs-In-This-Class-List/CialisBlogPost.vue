@@ -313,7 +313,7 @@ const cialisSidebarData = ref({
   },
   quickSummary: {
     formsStrengths:
-      '<br/>Tablets: <br/>Cialis 2.5mg <br/>Cialis 5mg <br/>Cialis 10mg, <br/>Cialis 20mg',
+      '<br/>Tablets: <br/>Cialis 2.5mg <br/>Cialis 5mg <br/>Cialis 10mg <br/>Cialis 20mg',
     reminders: [
       'Take as directed (daily or as needed).',
       'Do NOT take with nitrates.',
@@ -334,8 +334,8 @@ const cialisSidebarData = ref({
   ],
   similarDrugs: [
     { text: 'Levitra (vardenafil)', to: '/' },
-    { text: 'Stendra (avanafil)', to: '/drugs/stendra' },
-    { text: 'Viagra (sildenafil)', to: '/drugs/viagra' },
+    { text: 'Stendra (avanafil)', to: '/Stendra' },
+    { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
     { text: 'Compare Cialis vs. Levitra', to: '/compare/cialis' }, // Changed href to to and set path

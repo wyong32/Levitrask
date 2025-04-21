@@ -317,13 +317,13 @@ const stendraSidebarData = ref({
     { text: 'FDA Drug Information: Avanafil', to: '/blog/fda-avanafil-info' },
   ],
   similarDrugs: [
-    { text: 'Cialis (tadalafil)', to: '/drugs/cialis' },
+    { text: 'Cialis (tadalafil)', to: '/Cialis' },
     { text: 'Levitra (vardenafil)', to: '/' },
-    { text: 'Viagra (sildenafil)', to: '/drugs/viagra' },
+    { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Compare Stendra vs. Levitra', to: '/compare/stendra' }, // Changed href to to and set path
-    // Add other comparisons
+    { text: 'Compare Stendra vs. Levitra', to: '/levitra-VS-stendra' }, // Changed href to to and set path
+    // Add other comparison links if available, e.g., { text: 'Compare Stendra vs. Viagra', to: '/levitra-VS-viagra' }
   ],
 })
 </script>

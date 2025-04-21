@@ -60,7 +60,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/compare/cialis',
+      path: '/levitra-VS-cialis',
       name: 'compare-cialis',
       component: () => import('../views/Drug-Comparison-List/CialisComparison.vue'),
       // beforeEnter: requireNavigationFromApp, // Consider if this guard is still needed/appropriate
@@ -73,7 +73,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/compare/stendra',
+      path: '/levitra-VS-stendra',
       name: 'compare-stendra',
       component: () => import('../views/Drug-Comparison-List/StendraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
@@ -86,7 +86,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/compare/viagra',
+      path: '/levitra-VS-viagra',
       name: 'compare-viagra',
       component: () => import('../views/Drug-Comparison-List/ViagraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
@@ -99,41 +99,42 @@ const router = createRouter({
       },
     },
     {
-      path: '/drugs/cialis',
+      path: '/Cialis',
       name: 'cialis-blog',
       component: () => import('../views/Drugs-In-This-Class-List/CialisBlogPost.vue'),
       // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Cialis (Tadalafil) Overview | Levitrask Demo',
+        title: 'Cialis Dosage, Side Effects-Cialis online-Levitrask.com',
         description:
-          'Learn about Cialis (tadalafil), a long-lasting ED medication. Covers usage, dosage, side effects, and daily options.',
+          'Cialis,a long-lasting ED medication. Covers Cialis usage, Cialis dosage, Cialis side effects,  Cialis generic, Cialis vs Viagra and more.',
         keywords:
-          'Cialis, tadalafil, ED treatment, daily Cialis, Cialis dosage, Cialis side effects',
+          'Cialis dosage, Cialis side effects,  Cialis vs Viagra, Cialis vs Lavitra,Stendra,Cialis online',
       },
     },
     {
-      path: '/drugs/stendra',
+      path: '/Stendra',
       name: 'stendra-blog',
       component: () => import('../views/Drugs-In-This-Class-List/StendraBlogPost.vue'),
       // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Stendra (Avanafil) Overview | Levitrask Demo',
+        title: 'Stendra Dosage, Side Effects-Stendra online-Levitrask.com',
         description:
-          'Discover Stendra (avanafil), a fast-acting option for ED treatment. Information on dosage, effectiveness, and side effects.',
+          'Stendra,a long-lasting ED medication. Covers Stendra usage, Stendra dosage, Stendra side effects,  Stendr generic, Stendra vs Viagra and more.',
         keywords:
-          'Stendra, avanafil, ED treatment, fast-acting ED medication, Stendra dosage, Stendra side effects',
+          'Stendra dosage, Stendra sidae effects, Stendra vs Viagra, Stendra vs Lavitra,Stendra,Stendra online',
       },
     },
     {
-      path: '/drugs/viagra',
+      path: '/Viagra',
       name: 'viagra-blog',
       component: () => import('../views/Drugs-In-This-Class-List/ViagraBlogPost.vue'),
       // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Viagra (Sildenafil) Overview | Levitrask Demo',
+        title: 'Viagra pill​,generic,side effects​,online buy|Levitrask.com',
         description:
-          'Comprehensive guide to Viagra (sildenafil), the well-known ED medication. Covers how it works, dosage, side effects, and more.',
-        keywords: 'Viagra, sildenafil, ED treatment, blue pill, Viagra dosage, Viagra side effects',
+          'Viagra (sildenafil), is a well-known ED medication. Covers how it works, dosage, side effects, Viagra vs Levitra,Viagra vs Cialis,Viagra vs Stendra and more.',
+        keywords:
+          'Viagra dosage, Viagra side effects,  Viagra vs Levitra, Viagra vs Cialis,Stendra,Viagra online',
       },
     },
     {

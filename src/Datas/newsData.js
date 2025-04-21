@@ -1,6 +1,6 @@
 const allNewsData = {
-  news01: {
-    id: 'news01',
+  'rfk-jr-vaccine-autism': {
+    id: 'rfk-jr-vaccine-autism',
     // Metadata for SEO and page info
     listTitle: 'RFK Jr. Reignites Vaccine-Autism Debate, Drawing Fire',
     listDate: 'April 19, 2025',
@@ -52,8 +52,8 @@ const allNewsData = {
         <p>With misinformation on the rise and public health trust on the line, RFK's continued push of the vaccine-autism narrative is prompting fresh debate about the role of science, truth, and accountability in American politics.</p>
       `,
   },
-  news02: {
-    id: 'news02',
+  'romaine-e-coli-outbreak': {
+    id: 'romaine-e-coli-outbreak',
     // Metadata for SEO and page info
     listTitle: 'Romaine Lettuce E. Coli Outbreak Sickens Dozens Across 15 States',
     listDate: 'April 19, 2025',
@@ -104,8 +104,8 @@ const allNewsData = {
         <p>With foodborne illnesses causing an estimated 3,000 deaths each year in the United States, experts say transparency and fast action are essential. The current E. coli outbreak serves as a stark reminder of the dangers posed by contaminated produce and the need for a more accountable food safety system.</p>
       `,
   },
-  news03: {
-    id: 'news03',
+  'usc-ice-bucket-revived': {
+    id: 'usc-ice-bucket-revived',
     listTitle: 'USC Ice Bucket Challenge Revived with New Purpose',
     listDate: 'April 19, 2025',
     listSource: 'Los Angeles, CA',

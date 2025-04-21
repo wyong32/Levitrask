@@ -18,10 +18,10 @@
             common condition affecting millions of men worldwide, and the pharmaceutical industry
             has responded with a variety of treatment options. Two of the most widely prescribed
             medications for ED are <router-link to="/">Levitra</router-link> and
-            <router-link to="/drugs/cialis">Cialis</router-link>. Both have proven to be effective,
-            but they differ in several important ways. In this article, we'll explore Levitra vs
-            Cialis in depth to help you make an informed decision about which treatment might be
-            right for you.
+            <router-link to="/Cialis">Cialis</router-link>. Both have proven to be effective, but
+            they differ in several important ways. In this article, we'll explore Levitra vs Cialis
+            in depth to help you make an informed decision about which treatment might be right for
+            you.
           </p>
         </header>
 
@@ -48,21 +48,21 @@
         <section id="what-is-cialis" class="tab-content">
           <h2>What Is Cialis?</h2>
           <p>
-            <router-link to="/drugs/cialis">Cialis</router-link> (<router-link
+            <router-link to="/Cialis">Cialis</router-link> (<router-link
               to="/blog/tadalafil-generic-faq"
               >tadalafil</router-link
             >) is another PDE5 inhibitor used to treat ED. Unlike
             <router-link to="/">Levitra</router-link>,
-            <router-link to="/drugs/cialis">Cialis</router-link> is known for its longer duration of
+            <router-link to="/Cialis">Cialis</router-link> is known for its longer duration of
             action — up to 36 hours in some cases. Because of this,
-            <router-link to="/drugs/cialis">Cialis</router-link> is often referred to as the
-            "weekend pill," allowing greater flexibility and spontaneity in sexual activity.
+            <router-link to="/Cialis">Cialis</router-link> is often referred to as the "weekend
+            pill," allowing greater flexibility and spontaneity in sexual activity.
           </p>
           <p>
-            <router-link to="/drugs/cialis">Cialis</router-link> can be taken as needed or as a
-            daily low-dose treatment. This makes
-            <router-link to="/drugs/cialis">Cialis</router-link> a preferred option for men who want
-            to maintain readiness without planning sexual activity around medication timing.
+            <router-link to="/Cialis">Cialis</router-link> can be taken as needed or as a daily
+            low-dose treatment. This makes <router-link to="/Cialis">Cialis</router-link> a
+            preferred option for men who want to maintain readiness without planning sexual activity
+            around medication timing.
           </p>
         </section>
 
@@ -75,7 +75,7 @@
                 <tr>
                   <th>Feature</th>
                   <th><router-link to="/">Levitra</router-link></th>
-                  <th><router-link to="/drugs/cialis">Cialis</router-link></th>
+                  <th><router-link to="/Cialis">Cialis</router-link></th>
                 </tr>
               </thead>
               <tbody>
@@ -123,11 +123,11 @@
           </div>
           <p>
             The <router-link to="/">Levitra</router-link> vs
-            <router-link to="/drugs/cialis">Cialis</router-link> debate often comes down to personal
+            <router-link to="/Cialis">Cialis</router-link> debate often comes down to personal
             preferences and lifestyle. If you're looking for a fast-acting, short-term option,
             <router-link to="/">Levitra</router-link> may be ideal. On the other hand, if you prefer
             long-lasting results and spontaneity,
-            <router-link to="/drugs/cialis">Cialis</router-link> might be the better fit.
+            <router-link to="/Cialis">Cialis</router-link> might be the better fit.
           </p>
         </section>
 
@@ -135,8 +135,7 @@
           <h2>Side Effects and Safety</h2>
           <p>
             Both <router-link to="/">Levitra</router-link> and
-            <router-link to="/drugs/cialis">Cialis</router-link> have similar side effects,
-            including:
+            <router-link to="/Cialis">Cialis</router-link> have similar side effects, including:
           </p>
           <ul>
             <li>Headache</li>
@@ -146,16 +145,16 @@
             <li>Indigestion</li>
           </ul>
           <p>
-            However, <router-link to="/drugs/cialis">Cialis</router-link> may cause muscle aches and
-            back pain due to its longer duration in the body. Meanwhile,
+            However, <router-link to="/Cialis">Cialis</router-link> may cause muscle aches and back
+            pain due to its longer duration in the body. Meanwhile,
             <router-link to="/">Levitra</router-link> may be slightly better tolerated by men with
             diabetes or high blood pressure.
           </p>
           <p>
             It's essential to consult a healthcare provider before starting either
             <router-link to="/">Levitra</router-link> or
-            <router-link to="/drugs/cialis">Cialis</router-link>, especially if you are taking
-            medications for heart conditions, or if you have liver or kidney issues.
+            <router-link to="/Cialis">Cialis</router-link>, especially if you are taking medications
+            for heart conditions, or if you have liver or kidney issues.
           </p>
         </section>
 
@@ -173,7 +172,7 @@
           </ul>
           <p>
             Some men even try both <router-link to="/">Levitra</router-link> and
-            <router-link to="/drugs/cialis">Cialis</router-link> (under medical supervision) before
+            <router-link to="/Cialis">Cialis</router-link> (under medical supervision) before
             deciding which one works best for them.
           </p>
         </section>
@@ -182,12 +181,12 @@
           <h2>Conclusion</h2>
           <p>
             When it comes to <router-link to="/">Levitra</router-link> vs
-            <router-link to="/drugs/cialis">Cialis</router-link>, both are powerful and effective
+            <router-link to="/Cialis">Cialis</router-link>, both are powerful and effective
             treatments for ED, each with its own strengths.
             <router-link to="/">Levitra</router-link> is known for its fast-acting, reliable
-            results, while <router-link to="/drugs/cialis">Cialis</router-link> offers a longer
-            window of effectiveness and flexibility. Whichever you choose, be sure to speak with
-            your doctor to determine the safest and most effective option for your individual needs.
+            results, while <router-link to="/Cialis">Cialis</router-link> offers a longer window of
+            effectiveness and flexibility. Whichever you choose, be sure to speak with your doctor
+            to determine the safest and most effective option for your individual needs.
           </p>
         </section>
         <!-- NEW CONTENT AREA END -->

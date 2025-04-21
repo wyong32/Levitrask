@@ -165,9 +165,9 @@
           <h2>Levitra Compared to Other ED Medications</h2>
           <p>
             There are several other PDE5 inhibitors available to treat ED, including
-            <router-link to="/drugs/viagra">Viagra (sildenafil)</router-link>,
-            <router-link to="/drugs/cialis">Cialis (tadalafil)</router-link>, and
-            <router-link to="/drugs/stendra">Stendra (avanafil)</router-link>. Each has unique
+            <router-link to="/Viagra">Viagra (sildenafil)</router-link>,
+            <router-link to="/Cialis">Cialis (tadalafil)</router-link>, and
+            <router-link to="/Stendra">Stendra (avanafil)</router-link>. Each has unique
             characteristics. Here's a detailed comparison to help understand how Levitra stands
             apart:
           </p>
@@ -178,9 +178,9 @@
                 <tr>
                   <th>Feature</th>
                   <th><router-link to="/">Levitra (vardenafil)</router-link></th>
-                  <th><router-link to="/drugs/viagra">Viagra (sildenafil)</router-link></th>
-                  <th><router-link to="/drugs/cialis">Cialis (tadalafil)</router-link></th>
-                  <th><router-link to="/drugs/stendra">Stendra (avanafil)</router-link></th>
+                  <th><router-link to="/Viagra">Viagra (sildenafil)</router-link></th>
+                  <th><router-link to="/Cialis">Cialis (tadalafil)</router-link></th>
+                  <th><router-link to="/Stendra">Stendra (avanafil)</router-link></th>
                 </tr>
               </thead>
               <tbody>
@@ -270,16 +270,16 @@
           <ul>
             <li>
               How frequently you expect to have sex –
-              <router-link to="/drugs/cialis">Cialis</router-link> is ideal for spontaneous,
-              frequent encounters.
+              <router-link to="/Cialis">Cialis</router-link> is ideal for spontaneous, frequent
+              encounters.
             </li>
             <li>
               How quickly you want it to work –
-              <router-link to="/drugs/stendra">Stendra</router-link> works the fastest.
+              <router-link to="/Stendra">Stendra</router-link> works the fastest.
             </li>
             <li>
               How long you want effects to last –
-              <router-link to="/drugs/cialis">Cialis</router-link> offers the longest duration.
+              <router-link to="/Cialis">Cialis</router-link> offers the longest duration.
             </li>
             <li>
               Tolerance and sensitivity to side effects – Levitra may be better tolerated if you're
@@ -401,7 +401,7 @@ const levitraSidebarData = ref({
   },
   quickSummary: {
     formsStrengths:
-      '<br />Oral Tablet: <br />Levitrask 2.5mg <br>Levitrask 5mg <br />Levitrask 10mg <br />Levitrask 20mg',
+      '<br />Oral Tablet: <br />Levitra 2.5mg <br>Levitra 5mg <br />Levitra 10mg <br />Levitra 20mg',
     reminders: [
       'Take 30-60 mins before activity.',
       'Do NOT take with nitrates.',
@@ -422,14 +422,14 @@ const levitraSidebarData = ref({
     { text: 'Tips for Discussing ED with Your Doctor', to: '/blog/talking-to-doctor-ed' },
   ],
   similarDrugs: [
-    { text: 'Cialis (tadalafil)', to: '/drugs/cialis' },
-    { text: 'Stendra (avanafil)', to: '/drugs/stendra' },
-    { text: 'Viagra (sildenafil)', to: '/drugs/viagra' },
+    { text: 'Cialis (tadalafil)', to: '/Cialis' },
+    { text: 'Stendra (avanafil)', to: '/Stendra' },
+    { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Levitra vs Viagra', to: '/compare/viagra' },
-    { text: 'Levitra vs Cialis', to: '/compare/cialis' },
-    { text: 'Levitra vs Stendra', to: '/compare/stendra' },
+    { text: 'Levitra vs Viagra', to: '/levitra-VS-viagra' },
+    { text: 'Levitra vs Cialis', to: '/levitra-VS-cialis' },
+    { text: 'Levitra vs Stendra', to: '/levitra-VS-stendra' },
   ],
   frequentlyAskedQuestions: [
     {

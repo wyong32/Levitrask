@@ -295,13 +295,13 @@ const viagraSidebarData = ref({
     { text: 'FDA Drug Information: Sildenafil', to: '/blog/fda-sildenafil-info' }, // New blog
   ],
   similarDrugs: [
-    { text: 'Cialis (tadalafil)', to: '/drugs/cialis' }, // Updated path
+    { text: 'Cialis (tadalafil)', to: '/Cialis' }, // Updated path
     { text: 'Levitra (vardenafil)', to: '/' }, // Path to Levitra (Index) remains '/'
-    { text: 'Stendra (avanafil)', to: '/drugs/stendra' }, // Updated path
+    { text: 'Stendra (avanafil)', to: '/Stendra' }, // Updated path
   ],
   drugComparison: [
-    { text: 'Compare Viagra vs. Levitra', to: '/compare/viagra' }, // Changed href to to
-    // Add others
+    { text: 'Compare Viagra vs. Levitra', to: '/levitra-VS-viagra' }, // Changed href to to
+    // Add other comparison links (e.g., Cialis, Stendra)
   ],
 })
 </script>
