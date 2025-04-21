@@ -322,7 +322,9 @@ const stendraSidebarData = ref({
     { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Compare Stendra vs. Levitra', to: '/Levitra-vs-Stendra' }, // Changed href to to and set path
+    { text: 'Stendra vs Levitra', to: '/Levitra-vs-Stendra' },
+    { text: 'Stendra vs Viagra', to: '/Stendra-vs-Viagra' },
+    { text: 'Stendra vs Cialis', to: '/Cialis-vs-Stendra' },
     // Add other comparison links if available, e.g., { text: 'Compare Stendra vs. Viagra', to: '/Levitra-vs-Viagra' }
   ],
 })

@@ -4,7 +4,6 @@
     <main class="news-page">
       <header class="news-header">
         <h1>Latest News & Updates</h1>
-        <p>Stay informed about recent developments in ED treatments and men's health.</p>
       </header>
 
       <div class="news-list">

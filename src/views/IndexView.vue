@@ -479,35 +479,35 @@ const levitraSidebarData = ref({
   frequentlyAskedQuestions: [
     {
       text: 'Why Is Levitra No Longer Available?',
-      to: { name: 'question-details', params: { id: 'questions-01' } },
+      to: { name: 'question-details', params: { id: 'Levitra-No-Longer-Available' } },
     },
     {
       text: 'How To Make Levitra More Effective',
-      to: { name: 'question-details', params: { id: 'questions-02' } },
+      to: { name: 'question-details', params: { id: 'Make-Levitra-More-Effective' } },
     },
     {
       text: 'Is Levitra Better Than Viagra',
-      to: { name: 'question-details', params: { id: 'questions-03' } },
+      to: { name: 'question-details', params: { id: 'Is-Levitra-Better-Than-Viagra' } },
     },
     {
       text: 'How Long Does Levitra Last',
-      to: { name: 'question-details', params: { id: 'questions-04' } },
+      to: { name: 'question-details', params: { id: 'How-Long-Does-Levitra-Last' } },
     },
     {
       text: 'What Is Levitra Used For',
-      to: { name: 'question-details', params: { id: 'questions-05' } },
+      to: { name: 'question-details', params: { id: 'What-Is-Levitra-Used-For' } },
     },
     {
       text: 'Is Levitra Stronger Than Viagra?',
-      to: { name: 'question-details', params: { id: 'questions-06' } },
+      to: { name: 'question-details', params: { id: 'Is-Levitra-Stronger-Than-Viagra' } },
     },
     {
       text: 'Can You Still Buy Levitra?',
-      to: { name: 'question-details', params: { id: 'questions-07' } },
+      to: { name: 'question-details', params: { id: 'Can-You-Still-Buy-Levitra' } },
     },
     {
       text: 'What Does Levitra Do To a Man?',
-      to: { name: 'question-details', params: { id: 'questions-08' } },
+      to: { name: 'question-details', params: { id: 'What-Does-Levitra-Do-To-A-Man' } },
     },
   ],
 })
@@ -715,7 +715,7 @@ tbody tr:hover {
 /* Styles for Related Generics Section (Keep the container styles) */
 .related-generics-swiper-container {
   position: relative;
-  max-width: 800px; /* Adjust max-width */
+  max-width: 700px; /* Adjust max-width */
   margin: 1rem auto 0 auto;
   /* Reduce padding to allow buttons to overlap slightly */
   padding: 0 35px;

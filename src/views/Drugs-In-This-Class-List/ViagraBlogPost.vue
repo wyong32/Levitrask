@@ -301,7 +301,9 @@ const viagraSidebarData = ref({
     { text: 'Stendra (avanafil)', to: '/Stendra' }, // Updated path
   ],
   drugComparison: [
-    { text: 'Compare Viagra vs. Levitra', to: '/Levitra-vs-Viagra' }, // Changed href to to
+    { text: 'Viagra vs Levitra', to: '/Levitra-vs-Viagra' },
+    { text: 'Viagra vs Cialis', to: '/Cialis-vs-Viagra' },
+    { text: 'Viagra vs Stendra', to: '/Stendra-vs-Viagra' },
     // Add other comparison links (e.g., Cialis, Stendra)
   ],
 })

@@ -1,7 +1,7 @@
 const allQuestionData = {
   // --- Question 01: Why Is Levitra No Longer Available? ---
-  'levitra-discontinued': {
-    id: 'levitra-discontinued',
+  'Levitra-No-Longer-Available': {
+    id: 'Levitra-No-Longer-Available',
     // 元数据 (Metadata)
     listTitle: 'Why Is Levitra No Longer Available?',
     metaTitle: 'Why Is Levitra No Longer Available? | ED Treatment Info | Levitrask',
@@ -32,21 +32,21 @@ const allQuestionData = {
         },
         {
           text: 'Can You Still Buy Levitra?',
-          to: { name: 'question-details', params: { id: 'questions-07' } },
+          to: { name: 'question-details', params: { id: 'can-you-still-buy-levitra' } },
         },
       ],
       frequentlyAskedQuestions: [
         {
           text: 'Can You Still Buy Levitra?',
-          to: { name: 'question-details', params: { id: 'questions-07' } },
+          to: { name: 'question-details', params: { id: 'can-you-still-buy-levitra' } },
         },
         {
           text: 'What Is Levitra Used For',
-          to: { name: 'question-details', params: { id: 'questions-05' } },
+          to: { name: 'question-details', params: { id: 'levitra-uses' } },
         },
         {
           text: 'Is Levitra Stronger Than Viagra?',
-          to: { name: 'question-details', params: { id: 'questions-06' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra-strength' } },
         },
       ],
     },
@@ -240,8 +240,8 @@ const allQuestionData = {
       `,
   },
   // --- Question 02: How To Make Levitra More Effective? ---
-  'levitra-effectiveness': {
-    id: 'levitra-effectiveness',
+  'Make-Levitra-More-Effective': {
+    id: 'Make-Levitra-More-Effective',
     listTitle: 'How to Make Levitra More Effective?',
     metaTitle: 'Making Levitra More Effective: Tips & Advice | Levitrask',
     metaDescription:
@@ -269,11 +269,11 @@ const allQuestionData = {
       frequentlyAskedQuestions: [
         {
           text: 'How Long Does Levitra Last?',
-          to: { name: 'question-details', params: { id: 'questions-04' } },
+          to: { name: 'question-details', params: { id: 'levitra-duration' } },
         },
         {
           text: 'What Is Levitra Used For?',
-          to: { name: 'question-details', params: { id: 'questions-05' } },
+          to: { name: 'question-details', params: { id: 'levitra-uses' } },
         },
       ],
     },
@@ -381,8 +381,8 @@ const allQuestionData = {
   },
 
   // --- Question 03: Is Levitra Better Than Viagra? ---
-  'Levitra-vs-Viagra': {
-    id: 'Levitra-vs-Viagra',
+  'Is-Levitra-Better-Than-Viagra': {
+    id: 'Is-Levitra-Better-Than-Viagra',
     listTitle: 'Is Levitra Better Than Viagra?',
     metaTitle: 'Levitra vs. Viagra: A Comprehensive Comparison | Levitrask',
     metaDescription:
@@ -408,11 +408,11 @@ const allQuestionData = {
       frequentlyAskedQuestions: [
         {
           text: 'Is Levitra Stronger Than Viagra?',
-          to: { name: 'question-details', params: { id: 'questions-06' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra-strength' } },
         },
         {
           text: 'How Long Does Levitra Last?',
-          to: { name: 'question-details', params: { id: 'questions-04' } },
+          to: { name: 'question-details', params: { id: 'levitra-duration' } },
         },
       ],
     },
@@ -584,8 +584,8 @@ const allQuestionData = {
   },
 
   // --- Question 04: How Long Does Levitra Last? ---
-  'levitra-duration': {
-    id: 'levitra-duration',
+  'How-Long-Does-Levitra-Last': {
+    id: 'How-Long-Does-Levitra-Last',
     listTitle: 'How Long Does Levitra Last?',
     metaTitle: 'How Long Does Levitra Last? Duration & Factors | Levitrask',
     metaDescription:
@@ -607,17 +607,17 @@ const allQuestionData = {
         { text: 'Levitra (Vardenafil) Overview', to: '/' },
         {
           text: 'How to Make Levitra More Effective?',
-          to: { name: 'question-details', params: { id: 'questions-02' } },
+          to: { name: 'question-details', params: { id: 'levitra-effectiveness' } },
         },
       ],
       frequentlyAskedQuestions: [
         {
           text: 'Is Levitra Better Than Viagra?',
-          to: { name: 'question-details', params: { id: 'questions-03' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra' } },
         },
         {
           text: 'What Is Levitra Used For?',
-          to: { name: 'question-details', params: { id: 'questions-05' } },
+          to: { name: 'question-details', params: { id: 'levitra-uses' } },
         },
       ],
     },
@@ -758,8 +758,8 @@ const allQuestionData = {
   },
 
   // --- Question 05: What Is Levitra Used For? ---
-  'levitra-uses': {
-    id: 'levitra-uses',
+  'What-Is-Levitra-Used-For': {
+    id: 'What-Is-Levitra-Used-For',
     listTitle: 'What Is Levitra Used For?',
     metaTitle: 'What Is Levitra Used For? | ED Treatment & Uses | Levitrask',
     metaDescription:
@@ -785,11 +785,11 @@ const allQuestionData = {
       frequentlyAskedQuestions: [
         {
           text: 'How Long Does Levitra Last?',
-          to: { name: 'question-details', params: { id: 'questions-04' } },
+          to: { name: 'question-details', params: { id: 'levitra-duration' } },
         },
         {
           text: 'Can You Still Buy Levitra?',
-          to: { name: 'question-details', params: { id: 'questions-07' } },
+          to: { name: 'question-details', params: { id: 'can-you-still-buy-levitra' } },
         },
       ],
     },
@@ -916,8 +916,8 @@ const allQuestionData = {
   },
 
   // --- Question 06: Is Levitra Stronger Than Viagra? ---
-  'Levitra-vs-Viagra-strength': {
-    id: 'Levitra-vs-Viagra-strength',
+  'Is-Levitra-Stronger-Than-Viagra': {
+    id: 'Is-Levitra-Stronger-Than-Viagra',
     listTitle: 'Is Levitra Stronger Than Viagra?',
     metaTitle: 'Is Levitra Stronger Than Viagra? | Potency & Effectiveness Compared | Levitrask',
     metaDescription:
@@ -940,18 +940,18 @@ const allQuestionData = {
       relatedResources: [
         {
           text: 'Levitra vs. Viagra Comparison',
-          to: { name: 'question-details', params: { id: 'questions-03' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra' } },
         },
         { text: 'Viagra (Sildenafil) Overview', to: '/Viagra' },
       ],
       frequentlyAskedQuestions: [
         {
           text: 'Is Levitra Better Than Viagra?',
-          to: { name: 'question-details', params: { id: 'questions-03' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra' } },
         },
         {
           text: 'Why Is Levitra No Longer Available?',
-          to: { name: 'question-details', params: { id: 'questions-01' } },
+          to: { name: 'question-details', params: { id: 'levitra-discontinued' } },
         },
       ],
     },
@@ -1124,8 +1124,8 @@ const allQuestionData = {
   },
 
   // --- Question 07: Can You Still Buy Levitra? ---
-  'can-you-still-buy-levitra': {
-    id: 'can-you-still-buy-levitra',
+  'Can-You-Still-Buy-Levitra': {
+    id: 'Can-You-Still-Buy-Levitra',
     listTitle: 'Can You Still Buy Levitra?',
     metaTitle: 'Can You Still Buy Levitra? | Availability Explained | Levitrask',
     metaDescription:
@@ -1146,18 +1146,18 @@ const allQuestionData = {
       relatedResources: [
         {
           text: 'Why Is Levitra No Longer Available?',
-          to: { name: 'question-details', params: { id: 'questions-01' } },
+          to: { name: 'question-details', params: { id: 'levitra-discontinued' } },
         },
         { text: 'Vardenafil (Generic) Info', to: '/blog/vardenafil-generic-info' },
       ],
       frequentlyAskedQuestions: [
         {
           text: 'What Is Levitra Used For?',
-          to: { name: 'question-details', params: { id: 'questions-05' } },
+          to: { name: 'question-details', params: { id: 'levitra-uses' } },
         },
         {
           text: 'Why Is Levitra No Longer Available?',
-          to: { name: 'question-details', params: { id: 'questions-01' } },
+          to: { name: 'question-details', params: { id: 'levitra-discontinued' } },
         },
       ],
     },
@@ -1267,8 +1267,8 @@ const allQuestionData = {
   },
 
   // --- Question 08: What Does Levitra Do To A Man? ---
-  'levitra-effects-on-men': {
-    id: 'levitra-effects-on-men',
+  'What-Does-Levitra-Do-To-A-Man': {
+    id: 'What-Does-Levitra-Do-To-A-Man',
     listTitle: 'What Does Levitra Do To A Man?',
     metaTitle: 'What Does Levitra Do To A Man? | Effects Explained | Levitrask',
     metaDescription:
@@ -1289,21 +1289,21 @@ const allQuestionData = {
       relatedResources: [
         {
           text: 'What Is Levitra Used For?',
-          to: { name: 'question-details', params: { id: 'questions-05' } },
+          to: { name: 'question-details', params: { id: 'levitra-uses' } },
         },
         {
           text: 'How to Make Levitra More Effective',
-          to: { name: 'question-details', params: { id: 'questions-02' } },
+          to: { name: 'question-details', params: { id: 'levitra-effectiveness' } },
         },
       ],
       frequentlyAskedQuestions: [
         {
           text: 'How Long Does Levitra Last?',
-          to: { name: 'question-details', params: { id: 'questions-04' } },
+          to: { name: 'question-details', params: { id: 'levitra-duration' } },
         },
         {
           text: 'Is Levitra Stronger Than Viagra?',
-          to: { name: 'question-details', params: { id: 'questions-06' } },
+          to: { name: 'question-details', params: { id: 'Levitra-vs-Viagra-strength' } },
         },
       ],
     },

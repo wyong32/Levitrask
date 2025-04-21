@@ -61,41 +61,72 @@ const router = createRouter({
     },
     {
       path: '/Levitra-vs-Cialis',
-      name: 'compare-cialis',
+      name: 'compare-levitra-cialis',
       component: () => import('../views/Drug-Comparison-List/CialisComparison.vue'),
-      // beforeEnter: requireNavigationFromApp, // Consider if this guard is still needed/appropriate
       meta: {
-        title: 'Cialis Dosage, Side Effects-Cialis online-Levitrask.com',
+        title: 'Levitra vs Cialis Comparison | Levitrask Demo',
         description:
-          'Cialis,a long-lasting ED medication. Covers Cialis usage, Cialis dosage, Cialis side effects,  Cialis generic, Cialis vs Viagra and more.',
-        keywords:
-          'Cialis dosage, Cialis side effects,  Cialis vs Viagra, Cialis vs Lavitra,Stendra,Cialis online',
+          'Compare Levitra (Vardenafil) and Cialis (Tadalafil): onset, duration, side effects, and more.',
+        keywords: 'Levitra vs Cialis, Vardenafil vs Tadalafil, ED drug comparison',
       },
     },
     {
       path: '/Levitra-vs-Stendra',
-      name: 'compare-stendra',
+      name: 'compare-levitra-stendra',
       component: () => import('../views/Drug-Comparison-List/StendraComparison.vue'),
-      // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Stendra Dosage, Side Effects-Stendra online-Levitrask.com',
+        title: 'Levitra vs Stendra Comparison | Levitrask Demo',
         description:
-          'Stendra,a long-lasting ED medication. Covers Stendra usage, Stendra dosage, Stendra side effects,  Stendr generic, Stendra vs Viagra and more.',
+          'Compare Levitra (Vardenafil) and Stendra (Avanafil): speed, duration, side effects.',
         keywords:
-          'Stendra dosage, Stendra sidae effects, Stendra vs Viagra, Stendra vs Lavitra,Stendra,Stendra online',
+          'Levitra vs Stendra, Vardenafil vs Avanafil, ED drug comparison, fast acting ED pill',
       },
     },
     {
       path: '/Levitra-vs-Viagra',
-      name: 'compare-viagra',
+      name: 'compare-levitra-viagra',
       component: () => import('../views/Drug-Comparison-List/ViagraComparison.vue'),
-      // beforeEnter: requireNavigationFromApp,
       meta: {
-        title: 'Viagra pill​,generic,side effects​,online buy|Levitrask.com',
+        title: 'Levitra vs Viagra Comparison | Levitrask Demo',
         description:
-          'Viagra (sildenafil), is a well-known ED medication. Covers how it works, dosage, side effects, Viagra vs Levitra,Viagra vs Cialis,Viagra vs Stendra and more.',
+          'Compare Levitra (Vardenafil) and Viagra (Sildenafil): potency, duration, side effects.',
+        keywords: 'Levitra vs Viagra, Vardenafil vs Sildenafil, ED drug comparison',
+      },
+    },
+    {
+      path: '/Cialis-vs-Stendra',
+      name: 'compare-cialis-stendra',
+      component: () => import('../views/Drug-Comparison-List/CialisStendraComparison.vue'),
+      meta: {
+        title: 'Cialis vs Stendra Comparison | Levitrask Demo',
+        description:
+          'Compare Cialis (Tadalafil) and Stendra (Avanafil): long duration vs fast speed, side effects.',
         keywords:
-          'Viagra dosage, Viagra side effects,  Viagra vs Levitra, Viagra vs Cialis,Stendra,Viagra online',
+          'Cialis vs Stendra, Tadalafil vs Avanafil, ED drug comparison, weekend pill vs fast acting',
+      },
+    },
+    {
+      path: '/Cialis-vs-Viagra',
+      name: 'compare-cialis-viagra',
+      component: () => import('../views/Drug-Comparison-List/CialisViagraComparison.vue'),
+      meta: {
+        title: 'Cialis vs Viagra Comparison | Levitrask Demo',
+        description:
+          'The ultimate comparison: Cialis (Tadalafil) vs Viagra (Sildenafil). Duration, daily use, food interaction.',
+        keywords:
+          'Cialis vs Viagra, Tadalafil vs Sildenafil, ED drug comparison, weekend pill vs classic pill',
+      },
+    },
+    {
+      path: '/Stendra-vs-Viagra',
+      name: 'compare-stendra-viagra',
+      component: () => import('../views/Drug-Comparison-List/StendraViagraComparison.vue'),
+      meta: {
+        title: 'Stendra vs Viagra Comparison | Levitrask Demo',
+        description:
+          'Compare Stendra (Avanafil) vs Viagra (Sildenafil): speed, side effects, food interactions.',
+        keywords:
+          'Stendra vs Viagra, Avanafil vs Sildenafil, ED drug comparison, fast acting ED pill vs classic',
       },
     },
     {
@@ -192,6 +223,46 @@ const router = createRouter({
         title: 'News Detail | Levitrask Demo',
         description: 'Read the full news article.',
         keywords: 'news article, health news',
+      },
+    },
+    {
+      path: '/Buy-Levitra-Online',
+      name: 'buy-levitra-online',
+      component: () => import('../views/Buy-Online-List/LevitraOnline.vue'),
+      meta: {
+        title: 'Buy Levitra (Vardenafil) Online | Levitrask Demo',
+        description: 'Find information on how to safely purchase Levitra online.',
+        keywords: 'buy levitra online, purchase vardenafil, online pharmacy ED',
+      },
+    },
+    {
+      path: '/Buy-Viagra-Online',
+      name: 'buy-viagra-online',
+      component: () => import('../views/Buy-Online-List/ViagraOnline.vue'),
+      meta: {
+        title: 'Buy Viagra (Sildenafil) Online | Levitrask Demo',
+        description: 'Find information on how to safely purchase Viagra online.',
+        keywords: 'buy viagra online, purchase sildenafil, online pharmacy ED',
+      },
+    },
+    {
+      path: '/Buy-Cialis-Online',
+      name: 'buy-cialis-online',
+      component: () => import('../views/Buy-Online-List/CialisOnline.vue'),
+      meta: {
+        title: 'Buy Cialis (Tadalafil) Online | Levitrask Demo',
+        description: 'Find information on how to safely purchase Cialis online.',
+        keywords: 'buy cialis online, purchase tadalafil, online pharmacy ED',
+      },
+    },
+    {
+      path: '/Buy-Stendra-Online',
+      name: 'buy-stendra-online',
+      component: () => import('../views/Buy-Online-List/StendraOnline.vue'),
+      meta: {
+        title: 'Buy Stendra (Avanafil) Online | Levitrask Demo',
+        description: 'Find information on how to safely purchase Stendra online.',
+        keywords: 'buy stendra online, purchase avanafil, online pharmacy ED',
       },
     },
     // --- Terms of Service Route ---

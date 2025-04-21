@@ -339,7 +339,9 @@ const cialisSidebarData = ref({
     { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Compare Cialis vs. Levitra', to: '/compare/cialis' }, // Changed href to to and set path
+    { text: 'Cialis vs Levitra', to: '/Levitra-vs-Cialis' },
+    { text: 'Cialis vs Viagra', to: '/cialis-vs-viagra' },
+    { text: 'Cialis vs Stendra', to: '/cialis-vs-stendra' },
     // Add other comparison links
   ],
 })
