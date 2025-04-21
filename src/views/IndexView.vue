@@ -328,49 +328,48 @@
                 <!-- Slide 1: Original Item A, Restyled -->
                 <div class="swiper-slide">
                   <div class="related-generic-item">
-                    <h3>A buy Levitra Generic drugs online</h3>
-                    <p>Explore the differences between generic and brand-name medications.</p>
-                    <router-link to="/blog/generic-vs-brand-deep-dive" class="view-more-button">
+                    <h3>Viagra Professional buy online</h3>
+                    <p>
+                      Brand Levitra is a modern pharmaceutical product created to cure male
+                      impotence.
+                    </p>
+                    <router-link to="/Buy-Levitra-Online" class="view-more-button">
                       View more
                     </router-link>
                   </div>
                 </div>
-                <!-- Slide 2: Original Item B, Restyled -->
                 <div class="swiper-slide">
                   <div class="related-generic-item">
-                    <h3>B buy Levitra Generic drugs online</h3>
-                    <p>Discover tips and strategies for saving money on ED medications.</p>
-                    <router-link to="/blog/saving-on-ed-meds" class="view-more-button">
+                    <h3>Levitra Soft buy online</h3>
+                    <p>
+                      Levitra Soft is a generic manufactured by well-known Indian medicine concern
+                      Sunrise Remedies.
+                    </p>
+                    <router-link to="/Buy-Levitra-Online" class="view-more-button">
                       View more
                     </router-link>
                   </div>
                 </div>
-                <!-- Slide 3: Original Item C, Restyled -->
                 <div class="swiper-slide">
                   <div class="related-generic-item">
-                    <h3>C buy Levitra Generic drugs online</h3>
-                    <p>Learn about Sildenafil, the active ingredient in Viagra.</p>
-                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
+                    <h3>Levitra Professional buy online</h3>
+                    <p>
+                      Levitra Professional is an excellent choice for those who like Levitra, but do
+                      not like its characteristic slightly bitter taste.
+                    </p>
+                    <router-link to="/Buy-Levitra-Online" class="view-more-button">
                       View more
                     </router-link>
                   </div>
                 </div>
-                <!-- Slide 4: Original Item D, Restyled (Assuming it was added before) -->
                 <div class="swiper-slide">
                   <div class="related-generic-item">
-                    <h3>D buy Levitra Generic drugs online</h3>
-                    <p>Placeholder description for item D.</p>
-                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
-                      View more
-                    </router-link>
-                  </div>
-                </div>
-                <!-- Slide 5: Original Item E, Restyled (Assuming it was added before) -->
-                <div class="swiper-slide">
-                  <div class="related-generic-item">
-                    <h3>E buy Levitra Generic drugs online</h3>
-                    <p>Placeholder description for item E.</p>
-                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
+                    <h3>Super Vilitra buy online</h3>
+                    <p>
+                      Levitra with Dapoxetine is a newly developed, highly effective pharmaceutical
+                      product
+                    </p>
+                    <router-link to="/Buy-Levitra-Online" class="view-more-button">
                       View more
                     </router-link>
                   </div>
@@ -381,6 +380,19 @@
             <div class="swiper-button-prev related-generics-prev"></div>
             <div class="swiper-button-next related-generics-next"></div>
           </div>
+
+          <!-- Added Important Note and Disclaimer -->
+          <p style="margin-top: 1.5rem; font-size: 0.9em; color: #555">
+            <strong>Important:</strong> Non-FDA-approved generics like Vilitra or Zhewitra may not
+            adhere to the same quality control standards. Prioritize FDA-approved generic vardenafil
+            from verified pharmacies when possible.
+          </p>
+          <p style="font-size: 0.9em; color: #555">
+            <strong>Disclaimer:</strong> Mentioning product names is for informational purposes
+            only. We are not responsible for transactions or products from third-party websites.
+            Purchase online with caution.
+          </p>
+          <!-- End Added Note and Disclaimer -->
         </section>
 
         <section id="conclusion" class="tab-content">
@@ -730,7 +742,6 @@ tbody tr:hover {
   display: flex;
   justify-content: center;
   align-items: stretch; /* Allow cards to stretch vertically */
-  padding: 10px;
   box-sizing: border-box;
   min-height: auto; /* Reset min-height */
 }
@@ -766,7 +777,7 @@ tbody tr:hover {
 
 /* Style for the title */
 .related-generic-item h3 {
-  font-size: 1.1rem; /* Made title slightly smaller */
+  font-size: 1rem; /* Made title slightly smaller */
   color: #0d6efd; /* Blue color like in the image */
   margin: 0 0 0.5rem 0; /* Adjust margin */
   font-weight: 600;
@@ -896,4 +907,38 @@ tbody tr:hover {
     /* Consider reducing internal margins/paddings within DrugSidebar itself for mobile if needed */
   }
 }
+
+/* --- Swiper Height Consistency --- */
+.related-generics-swiper-container .swiper-wrapper {
+  display: flex; /* Use flexbox for the wrapper */
+  align-items: stretch; /* Stretch items to fill height */
+}
+
+.related-generics-swiper-container .swiper-slide {
+  height: auto; /* Allow slides to determine their height based on content */
+  display: flex; /* Make slides flex containers */
+  flex-direction: column; /* Stack content vertically */
+}
+
+.related-generics-swiper-container .related-generic-item {
+  flex-grow: 1; /* Allow the item content to grow and fill space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push button to bottom */
+  padding: 1rem; /* Add padding */
+  border: 1px solid #eee; /* Optional: add border for visual separation */
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  height: 100%; /* Ensure item takes full height of slide */
+}
+
+.related-generics-swiper-container .related-generic-item h3 {
+  margin-top: 0;
+}
+
+.related-generics-swiper-container .view-more-button {
+  margin-top: auto; /* Push button to the bottom */
+  align-self: flex-start; /* Align button to the left */
+}
+/* --- End Swiper Height Consistency --- */
 </style>
