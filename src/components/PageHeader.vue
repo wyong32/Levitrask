@@ -81,7 +81,7 @@
           @mouseleave="isOnlineDropdownOpen = false"
         >
           <a class="dropdown-trigger" :class="{ 'active-dropdown': isOnlineActive }"
-            >Online <span class="arrow" :class="{ rotated: isOnlineDropdownOpen }">▼</span></a
+            >Buy Online <span class="arrow" :class="{ rotated: isOnlineDropdownOpen }">▼</span></a
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isOnlineDropdownOpen">
@@ -154,7 +154,7 @@
           <!-- NEW Mobile Online Submenu -->
           <div class="mobile-nav-section">
             <button @click="toggleMobileSubmenu('online')" class="mobile-submenu-trigger">
-              Online
+              Buy Online
               <span class="arrow" :class="{ rotated: mobileSubmenuOpen === 'online' }">▼</span>
             </button>
             <div v-if="mobileSubmenuOpen === 'online'" class="mobile-submenu">
