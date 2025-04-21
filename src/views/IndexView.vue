@@ -530,7 +530,7 @@ onMounted(() => {
     const swiper = new Swiper('.related-generics-swiper', {
       // Optional parameters
       modules: [Navigation],
-      loop: true,
+      loop: false,
       slidesPerView: 3,
       spaceBetween: 20,
       navigation: {
