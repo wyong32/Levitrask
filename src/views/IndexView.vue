@@ -320,27 +320,66 @@
             >.
           </p>
 
-          <!-- Updated Related Links Section -->
-          <h3>Related Generic Drug Information:</h3>
-          <div class="related-generics-grid">
-            <router-link to="/blog/generic-vs-brand-deep-dive" class="related-generic-item-link">
-              <div class="related-generic-item">
-                <img src="/images/blog-08.jpg" alt="Compare" class="related-generic-icon" />
-                <span>A buy Levitra Generic drugs online</span>
+          <!-- Swiper replaces the old grid here -->
+          <div class="swiper-container-wrapper related-generics-swiper-container">
+            <!-- Swiper -->
+            <div class="swiper related-generics-swiper">
+              <div class="swiper-wrapper">
+                <!-- Slide 1: Original Item A, Restyled -->
+                <div class="swiper-slide">
+                  <div class="related-generic-item">
+                    <h3>A buy Levitra Generic drugs online</h3>
+                    <p>Explore the differences between generic and brand-name medications.</p>
+                    <router-link to="/blog/generic-vs-brand-deep-dive" class="view-more-button">
+                      View more
+                    </router-link>
+                  </div>
+                </div>
+                <!-- Slide 2: Original Item B, Restyled -->
+                <div class="swiper-slide">
+                  <div class="related-generic-item">
+                    <h3>B buy Levitra Generic drugs online</h3>
+                    <p>Discover tips and strategies for saving money on ED medications.</p>
+                    <router-link to="/blog/saving-on-ed-meds" class="view-more-button">
+                      View more
+                    </router-link>
+                  </div>
+                </div>
+                <!-- Slide 3: Original Item C, Restyled -->
+                <div class="swiper-slide">
+                  <div class="related-generic-item">
+                    <h3>C buy Levitra Generic drugs online</h3>
+                    <p>Learn about Sildenafil, the active ingredient in Viagra.</p>
+                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
+                      View more
+                    </router-link>
+                  </div>
+                </div>
+                <!-- Slide 4: Original Item D, Restyled (Assuming it was added before) -->
+                <div class="swiper-slide">
+                  <div class="related-generic-item">
+                    <h3>D buy Levitra Generic drugs online</h3>
+                    <p>Placeholder description for item D.</p>
+                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
+                      View more
+                    </router-link>
+                  </div>
+                </div>
+                <!-- Slide 5: Original Item E, Restyled (Assuming it was added before) -->
+                <div class="swiper-slide">
+                  <div class="related-generic-item">
+                    <h3>E buy Levitra Generic drugs online</h3>
+                    <p>Placeholder description for item E.</p>
+                    <router-link to="/blog/sildenafil-generic-info" class="view-more-button">
+                      View more
+                    </router-link>
+                  </div>
+                </div>
               </div>
-            </router-link>
-            <router-link to="/blog/saving-on-ed-meds" class="related-generic-item-link">
-              <div class="related-generic-item">
-                <img src="/images/blog-08.jpg" alt="Savings" class="related-generic-icon" />
-                <span>B buy Levitra Generic drugs online</span>
-              </div>
-            </router-link>
-            <router-link to="/blog/sildenafil-generic-info" class="related-generic-item-link">
-              <div class="related-generic-item">
-                <img src="/images/blog-08.jpg" alt="Viagra" class="related-generic-icon" />
-                <span>C buy Levitra Generic drugs online</span>
-              </div>
-            </router-link>
+            </div>
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-prev related-generics-prev"></div>
+            <div class="swiper-button-next related-generics-next"></div>
           </div>
         </section>
 
@@ -372,11 +411,17 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, nextTick } from 'vue'
 import PageHeader from '../components/PageHeader.vue'
 import PageFooter from '../components/PageFooter.vue'
 import SideNav from '../components/SideNav.vue'
 import DrugSidebar from '../components/DrugSidebar.vue'
+
+// Import Swiper Vue.js components and styles
+import Swiper from 'swiper'
+import { Navigation } from 'swiper/modules' // Import Navigation module
+import 'swiper/css'
+import 'swiper/css/navigation' // Import navigation styles
 
 // Updated nav sections based on the new content
 const navSections = ref([
@@ -465,6 +510,23 @@ const levitraSidebarData = ref({
       to: { name: 'question-details', params: { id: 'questions-08' } },
     },
   ],
+})
+
+// Initialize Swiper when component is mounted
+onMounted(() => {
+  nextTick(() => {
+    const swiper = new Swiper('.related-generics-swiper', {
+      // Optional parameters
+      modules: [Navigation],
+      loop: true,
+      slidesPerView: 3,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: '.related-generics-next',
+        prevEl: '.related-generics-prev',
+      },
+    })
+  })
 })
 </script>
 
@@ -642,7 +704,7 @@ tbody tr:hover {
 
 /* Optional: Add styles for inline links if needed */
 .main-content a {
-  color: #007bff; /* Match sidebar link color */
+  /* color: #007bff; Match sidebar link color */
   text-decoration: none;
 }
 
@@ -650,51 +712,144 @@ tbody tr:hover {
   text-decoration: underline;
 }
 
-/* Styles for Related Generics Section */
-.related-generics-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
-  gap: 1rem;
-  margin-top: 1rem;
+/* Styles for Related Generics Section (Keep the container styles) */
+.related-generics-swiper-container {
+  position: relative;
+  max-width: 800px; /* Adjust max-width */
+  margin: 1rem auto 0 auto;
+  /* Reduce padding to allow buttons to overlap slightly */
+  padding: 0 35px;
 }
 
-/* New style for the router-link wrapper */
+.related-generics-swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Allow cards to stretch vertically */
+  padding: 10px;
+  box-sizing: border-box;
+  min-height: auto; /* Reset min-height */
+}
+
+/* Remove link styling from the wrapper */
 .related-generic-item-link {
-  text-decoration: none; /* Remove underline from the link wrapper */
-  color: inherit; /* Inherit color from parent */
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
 }
 
+/* Styles for the card inspired by the image */
 .related-generic-item {
   display: flex;
-  flex-direction: column; /* Stack image and text vertically */
-  align-items: center; /* Center items horizontally */
-  text-align: center; /* Center the text below the image */
+  flex-direction: column; /* Stack content vertically */
   gap: 0.5rem; /* Reduced gap */
-  padding: 1rem;
-  border: 1px solid #e9ecef;
-  border-radius: 8px;
-  background-color: #f8f9fa;
-  transition: box-shadow 0.2s ease-in-out;
+  padding: 1rem; /* Increased padding */
+  border: 1px solid #e0e0e0; /* Slightly softer border */
+  border-radius: 12px; /* More rounded corners */
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Subtle shadow */
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.related-generic-item-link:hover .related-generic-item {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhance shadow on hover */
-  cursor: pointer; /* Add pointer cursor on hover */
+/* Remove hover effect on the item itself */
+/* .related-generic-item-link:hover .related-generic-item { ... } */
+
+/* Remove old icon style */
+/* .related-generic-icon { ... } */
+
+/* Style for the title */
+.related-generic-item h3 {
+  font-size: 1.1rem; /* Made title slightly smaller */
+  color: #0d6efd; /* Blue color like in the image */
+  margin: 0 0 0.5rem 0; /* Adjust margin */
+  font-weight: 600;
+  line-height: 1.3;
 }
 
-.related-generic-icon {
-  width: 100px; /* Increased width */
-  height: 100px; /* Increased height */
-  object-fit: cover; /* Change to cover to fill the area, or keep contain */
-  flex-shrink: 0;
-  font-size: 0.9rem; /* Smaller font size */
+/* Style for the description */
+.related-generic-item p {
+  font-size: 0.9rem;
+  color: #555; /* Darker grey text */
+  margin: 0 0 1rem 0; /* Adjust margin */
+  line-height: 1.5;
+  flex-grow: 1; /* Allow description to take available space */
 }
 
-.related-generic-item a {
-  color: #007bff;
+/* Style for the 'View more' button */
+.view-more-button {
+  display: inline-block; /* Align like a button */
+  background-color: #4a6fbd; /* Blue background like image */
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.9rem; /* Smaller font size */
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: auto; /* Pushes button to the bottom */
+  align-self: stretch; /* Make button full width of card padding */
+}
+
+.view-more-button:hover {
+  background-color: #3b5998; /* Darker blue on hover */
+  text-decoration: none;
+}
+
+/* Swiper Navigation Buttons (Updated Styles) */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px; /* Slightly smaller */
+  height: 36px; /* Slightly smaller */
+  background-color: #6c757d; /* Dark grey background */
+  border-radius: 50%;
+  color: #ffffff; /* White arrow color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  box-shadow: none; /* Remove shadow */
+  z-index: 10;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #5a6268; /* Slightly darker grey on hover */
+}
+
+.swiper-button-prev {
+  left: 0px; /* Position near left edge */
+}
+
+.swiper-button-next {
+  right: 0px; /* Position near right edge */
+}
+
+/* Override default Swiper arrow styles */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 16px; /* Slightly smaller arrow */
+  font-weight: bold;
+}
+
+/* Hide buttons if they are disabled */
+.swiper-button-disabled {
+  opacity: 0.25; /* Make disabled buttons more transparent */
+  cursor: auto;
+  pointer-events: none;
 }
 
 /* --- Responsive Styles --- */
