@@ -472,9 +472,9 @@ const levitraSidebarData = ref({
     { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Levitra vs Viagra', to: '/levitra-VS-viagra' },
-    { text: 'Levitra vs Cialis', to: '/levitra-VS-cialis' },
-    { text: 'Levitra vs Stendra', to: '/levitra-VS-stendra' },
+    { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
+    { text: 'Levitra vs Cialis', to: '/Levitra-vs-Cialis' },
+    { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' },
   ],
   frequentlyAskedQuestions: [
     {

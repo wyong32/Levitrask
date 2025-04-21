@@ -48,13 +48,13 @@
           >
           <transition name="fade">
             <div class="dropdown-menu" v-show="isComparisonDropdownOpen">
-              <router-link to="/levitra-VS-viagra" class="dropdown-item"
+              <router-link to="/Levitra-vs-Viagra" class="dropdown-item"
                 >levitra vs viagra</router-link
               >
-              <router-link to="/levitra-VS-cialis" class="dropdown-item"
+              <router-link to="/Levitra-vs-Cialis" class="dropdown-item"
                 >levitra vs Cialis</router-link
               >
-              <router-link to="/levitra-VS-stendra" class="dropdown-item"
+              <router-link to="/Levitra-vs-Stendra" class="dropdown-item"
                 >levitra vs Stendra</router-link
               >
             </div>
@@ -64,6 +64,25 @@
         <!-- 其他常规链接 -->
         <router-link to="/news">News</router-link>
         <router-link to="/blog">Blog</router-link>
+
+        <!-- NEW Online Dropdown -->
+        <!-- <div
+          class="nav-item dropdown-container"
+          @mouseenter="isOnlineDropdownOpen = true"
+          @mouseleave="isOnlineDropdownOpen = false"
+        >
+          <a class="dropdown-trigger" :class="{ 'active-dropdown': isOnlineActive }"
+            >Online <span class="arrow" :class="{ rotated: isOnlineDropdownOpen }">▼</span></a
+          >
+          <transition name="fade">
+            <div class="dropdown-menu" v-show="isOnlineDropdownOpen">
+              <router-link to="/" class="dropdown-item">Levitra (vardenafil)</router-link>
+              <router-link to="/Viagra" class="dropdown-item">Viagra (sildenafil)</router-link>
+              <router-link to="/Cialis" class="dropdown-item">Cialis (tadalafil)</router-link>
+              <router-link to="/Stendra" class="dropdown-item">Stendra (avanafil)</router-link>
+            </div>
+          </transition>
+        </div> -->
       </nav>
 
       <!-- 移动端导航菜单 (点击汉堡按钮展开) -->
@@ -91,14 +110,28 @@
               <span class="arrow" :class="{ rotated: mobileSubmenuOpen === 'compare' }">▼</span>
             </button>
             <div v-if="mobileSubmenuOpen === 'compare'" class="mobile-submenu">
-              <router-link to="/levitra-VS-cialis" @click="closeMobileMenu">Cialis</router-link>
-              <router-link to="/levitra-VS-stendra" @click="closeMobileMenu">Stendra</router-link>
-              <router-link to="/levitra-VS-viagra" @click="closeMobileMenu">Viagra</router-link>
+              <router-link to="/Levitra-vs-Cialis" @click="closeMobileMenu">Cialis</router-link>
+              <router-link to="/Levitra-vs-Stendra" @click="closeMobileMenu">Stendra</router-link>
+              <router-link to="/Levitra-vs-Viagra" @click="closeMobileMenu">Viagra</router-link>
             </div>
           </div>
 
           <router-link to="/news" @click="closeMobileMenu">News</router-link>
           <router-link to="/blog" @click="closeMobileMenu">Blog</router-link>
+
+          <!-- NEW Mobile Online Submenu -->
+          <!-- <div class="mobile-nav-section">
+            <button @click="toggleMobileSubmenu('online')" class="mobile-submenu-trigger">
+              Online
+              <span class="arrow" :class="{ rotated: mobileSubmenuOpen === 'online' }">▼</span>
+            </button>
+            <div v-if="mobileSubmenuOpen === 'online'" class="mobile-submenu">
+              <router-link to="/" @click="closeMobileMenu">Levitra (vardenafil)</router-link>
+              <router-link to="/Viagra" @click="closeMobileMenu">Viagra (sildenafil)</router-link>
+              <router-link to="/Cialis" @click="closeMobileMenu">Cialis (tadalafil)</router-link>
+              <router-link to="/Stendra" @click="closeMobileMenu">Stendra (avanafil)</router-link>
+            </div>
+          </div> -->
         </nav>
       </transition>
     </div>
@@ -112,6 +145,7 @@ import { useRoute } from 'vue-router'
 // 控制桌面下拉菜单显示状态
 const isComparisonDropdownOpen = ref(false)
 const isBlogDropdownOpen = ref(false)
+const isOnlineDropdownOpen = ref(false)
 
 // 控制移动菜单显示状态
 const isMobileMenuOpen = ref(false)
@@ -128,6 +162,11 @@ const isComparisonActive = computed(() => {
 // 计算属性：判断博客下拉菜单是否应处于活动状态
 const isBlogActive = computed(() => {
   return route.name?.endsWith('-blog') || route.path.startsWith('/drugs/')
+})
+
+// 计算属性：判断在线下拉菜单是否应处于活动状态
+const isOnlineActive = computed(() => {
+  return route.path.startsWith('/online/')
 })
 
 // 切换移动菜单显示/隐藏

@@ -381,8 +381,8 @@ const allQuestionData = {
   },
 
   // --- Question 03: Is Levitra Better Than Viagra? ---
-  'levitra-vs-viagra': {
-    id: 'levitra-vs-viagra',
+  'Levitra-vs-Viagra': {
+    id: 'Levitra-vs-Viagra',
     listTitle: 'Is Levitra Better Than Viagra?',
     metaTitle: 'Levitra vs. Viagra: A Comprehensive Comparison | Levitrask',
     metaDescription:
@@ -916,8 +916,8 @@ const allQuestionData = {
   },
 
   // --- Question 06: Is Levitra Stronger Than Viagra? ---
-  'levitra-vs-viagra-strength': {
-    id: 'levitra-vs-viagra-strength',
+  'Levitra-vs-Viagra-strength': {
+    id: 'Levitra-vs-Viagra-strength',
     listTitle: 'Is Levitra Stronger Than Viagra?',
     metaTitle: 'Is Levitra Stronger Than Viagra? | Potency & Effectiveness Compared | Levitrask',
     metaDescription:

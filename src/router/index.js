@@ -25,11 +25,11 @@ const setCanonicalUrl = (url) => {
 }
 
 // --- Default Meta Values ---
-const DEFAULT_TITLE = 'Levitrask Demo - Your Source for ED Information'
+const DEFAULT_TITLE = 'Levitra:Dosage, Side Effects-levitra online-Levitrask.com'
 const DEFAULT_DESCRIPTION =
-  'Explore information about ED treatments like Levitra, Cialis, Viagra, and Stendra on Levitrask Demo.'
+  'Levitra is an effective ED treatment. Find information on how to use Levitra, side effects, interactions, and comparisons with Viagra, Cialis, and Stendra.'
 const DEFAULT_KEYWORDS =
-  'ED, erectile dysfunction, Levitra, Cialis, Viagra, Stendra, treatment, information'
+  'Levitra online,Levitra dosage, Levitra side effects, Levitra vs Viagra, Levitra vs Cialis,Stendra'
 const DEFAULT_OG_IMAGE = '/images/logo.png' // Default Open Graph image - PLEASE REPLACE
 
 // --- Navigation Guard (Example - commented out, adjust if needed) ---
@@ -60,7 +60,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/levitra-VS-cialis',
+      path: '/Levitra-vs-Cialis',
       name: 'compare-cialis',
       component: () => import('../views/Drug-Comparison-List/CialisComparison.vue'),
       // beforeEnter: requireNavigationFromApp, // Consider if this guard is still needed/appropriate
@@ -73,7 +73,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/levitra-VS-stendra',
+      path: '/Levitra-vs-Stendra',
       name: 'compare-stendra',
       component: () => import('../views/Drug-Comparison-List/StendraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
@@ -86,7 +86,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/levitra-VS-viagra',
+      path: '/Levitra-vs-Viagra',
       name: 'compare-viagra',
       component: () => import('../views/Drug-Comparison-List/ViagraComparison.vue'),
       // beforeEnter: requireNavigationFromApp,
@@ -216,10 +216,15 @@ const router = createRouter({
         keywords: '隐私, 政策, 数据保护, 用户隐私, 法律',
       },
     },
-    // Catch-all route: Redirect unmatched paths to home (Keep this last)
+    // Catch-all route: Display NotFoundView for unmatched paths (Keep this last)
     {
       path: '/:pathMatch(.*)*',
-      redirect: '/', // Redirect to the homepage
+      name: 'NotFound',
+      component: () => import('../views/NotFoundView.vue'), // Lazy load NotFoundView
+      meta: {
+        title: 'Page Not Found | Levitrask Demo',
+        description: 'The page you requested could not be found.',
+      },
     },
   ],
   scrollBehavior(to, from, savedPosition) {

@@ -31,9 +31,9 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/levitra-VS-viagra', text: 'Compare with Viagra (Sildenafil)' },
-        { to: '/levitra-VS-cialis', text: 'Compare with Cialis (Tadalafil)' },
-        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/Levitra-vs-Viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/Levitra-vs-Cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/Levitra-vs-Cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // No FAQs in the source file
     },
@@ -2120,8 +2120,8 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/levitra-VS-viagra', text: 'Compare with Viagra (Sildenafil)' },
-        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/Levitra-vs-Viagra', text: 'Compare with Viagra (Sildenafil)' },
+        { to: '/Levitra-vs-Cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
     },
@@ -2601,8 +2601,8 @@ const blogsData = {
         { to: '/blog/sildenafil-generic-info', text: 'Sildenafil (Generic)' },
         { to: '/blog/tadalafil-generic-faq', text: 'Tadalafil (Generic)' },
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/levitra-VS-viagra', text: 'Stendra vs Viagra' },
-        { to: '/levitra-VS-cialis', text: 'Stendra vs Cialis' },
+        { to: '/Levitra-vs-Viagra', text: 'Stendra vs Viagra' },
+        { to: '/Levitra-vs-Cialis', text: 'Stendra vs Cialis' },
       ],
       frequentlyAskedQuestions: [],
     },
@@ -3099,8 +3099,8 @@ const blogsData = {
         { to: '/blog/avanafil-patient-guide', text: 'Avanafil (Stendra)' },
         // Merged from drugComparison
         { to: '/blog/comparing-factors', text: 'All ED Drugs Compared' },
-        { to: '/levitra-VS-cialis', text: 'Compare with Cialis (Tadalafil)' },
-        { to: '/levitra-VS-cialis', text: 'Compare with Stendra (Avanafil)' },
+        { to: '/Levitra-vs-Cialis', text: 'Compare with Cialis (Tadalafil)' },
+        { to: '/Levitra-vs-Cialis', text: 'Compare with Stendra (Avanafil)' },
       ],
       frequentlyAskedQuestions: [], // Add empty FAQ array as per structure
     },

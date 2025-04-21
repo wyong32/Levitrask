@@ -195,26 +195,6 @@
           </ul>
         </section>
 
-        <section id="conclusion" class="tab-content">
-          <h2>Conclusion</h2>
-          <p>
-            Stendra (<router-link to="/blog/avanafil-patient-guide">avanafil</router-link>) is an
-            effective and fast-acting medication used to treat erectile dysfunction in men. It works
-            by increasing blood flow to the penis, helping men achieve and sustain an erection
-            during sexual activity. It is important to follow the prescribed dosage and consult with
-            a healthcare provider before starting treatment, especially if you have any pre-existing
-            conditions.
-          </p>
-          <p>
-            As with any medication, it is crucial to be aware of potential side effects and
-            interactions with other drugs. If you have concerns about Stendra or ED,
-            <router-link to="/blog/talking-to-doctor-ed"
-              >talk to your healthcare provider</router-link
-            >
-            to determine the best treatment options for you.
-          </p>
-        </section>
-
         <section id="generic-drugs" class="tab-content">
           <h2>Generic Drugs (Avanafil)</h2>
           <p>
@@ -258,6 +238,26 @@
             </li>
           </ul>
         </section>
+
+        <section id="conclusion" class="tab-content">
+          <h2>Conclusion</h2>
+          <p>
+            Stendra (<router-link to="/blog/avanafil-patient-guide">avanafil</router-link>) is an
+            effective and fast-acting medication used to treat erectile dysfunction in men. It works
+            by increasing blood flow to the penis, helping men achieve and sustain an erection
+            during sexual activity. It is important to follow the prescribed dosage and consult with
+            a healthcare provider before starting treatment, especially if you have any pre-existing
+            conditions.
+          </p>
+          <p>
+            As with any medication, it is crucial to be aware of potential side effects and
+            interactions with other drugs. If you have concerns about Stendra or ED,
+            <router-link to="/blog/talking-to-doctor-ed"
+              >talk to your healthcare provider</router-link
+            >
+            to determine the best treatment options for you.
+          </p>
+        </section>
       </article>
 
       <DrugSidebar class="drug-sidebar-component" :sidebarData="stendraSidebarData" />
@@ -283,8 +283,8 @@ const navSections = ref([
   { id: 'side-effects', title: 'Side Effects' },
   { id: 'warnings', title: 'Warnings & Precautions' },
   { id: 'who-should-not-use', title: 'Who Should Not Use' },
-  { id: 'conclusion', title: 'Conclusion' },
   { id: 'generic-drugs', title: 'Generic Drugs' },
+  { id: 'conclusion', title: 'Conclusion' },
 ])
 
 // Updated sidebar data based on provided content
@@ -322,8 +322,8 @@ const stendraSidebarData = ref({
     { text: 'Viagra (sildenafil)', to: '/Viagra' },
   ],
   drugComparison: [
-    { text: 'Compare Stendra vs. Levitra', to: '/levitra-VS-stendra' }, // Changed href to to and set path
-    // Add other comparison links if available, e.g., { text: 'Compare Stendra vs. Viagra', to: '/levitra-VS-viagra' }
+    { text: 'Compare Stendra vs. Levitra', to: '/Levitra-vs-Stendra' }, // Changed href to to and set path
+    // Add other comparison links if available, e.g., { text: 'Compare Stendra vs. Viagra', to: '/Levitra-vs-Viagra' }
   ],
 })
 </script>

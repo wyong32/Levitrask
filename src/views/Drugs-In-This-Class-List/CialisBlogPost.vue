@@ -219,23 +219,6 @@
             Cialis.
           </p>
         </section>
-        <section id="conclusion" class="tab-content">
-          <h2>Conclusion</h2>
-          <p>
-            Cialis is a powerful medication that offers a safe and effective way to treat erectile
-            dysfunction and the symptoms of benign prostatic hyperplasia. With its long-lasting
-            effects and the flexibility of daily or as-needed dosing, it provides a convenient
-            solution for men looking to improve their sexual health or ease urinary problems
-            associated with BPH. As with any medication, it is essential to consult with a
-            healthcare provider before using Cialis to ensure it is the right choice for your health
-            needs.
-          </p>
-          <p>
-            If you experience any side effects or have concerns about the medication, be sure to
-            speak with your doctor. Cialis is a well-tolerated drug for many, but personalized
-            medical advice is always the best course of action.
-          </p>
-        </section>
 
         <section id="generic-drugs" class="tab-content">
           <h2>Generic Drugs (Tadalafil)</h2>
@@ -273,6 +256,24 @@
             </li>
           </ul>
         </section>
+
+        <section id="conclusion" class="tab-content">
+          <h2>Conclusion</h2>
+          <p>
+            Cialis is a powerful medication that offers a safe and effective way to treat erectile
+            dysfunction and the symptoms of benign prostatic hyperplasia. With its long-lasting
+            effects and the flexibility of daily or as-needed dosing, it provides a convenient
+            solution for men looking to improve their sexual health or ease urinary problems
+            associated with BPH. As with any medication, it is essential to consult with a
+            healthcare provider before using Cialis to ensure it is the right choice for your health
+            needs.
+          </p>
+          <p>
+            If you experience any side effects or have concerns about the medication, be sure to
+            speak with your doctor. Cialis is a well-tolerated drug for many, but personalized
+            medical advice is always the best course of action.
+          </p>
+        </section>
       </article>
 
       <DrugSidebar class="drug-sidebar-component" :sidebarData="cialisSidebarData" />
@@ -298,8 +299,8 @@ const navSections = ref([
   { id: 'dosage-information', title: 'Dosage Information' },
   { id: 'side-effects', title: 'Side Effects' },
   { id: 'who-should-not-take', title: 'Who Should Not Take' },
-  { id: 'conclusion', title: 'Conclusion' },
   { id: 'generic-drugs', title: 'Generic Drugs' },
+  { id: 'conclusion', title: 'Conclusion' },
   // Add or remove sections as needed
 ])
 

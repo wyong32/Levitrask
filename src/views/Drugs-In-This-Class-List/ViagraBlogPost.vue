@@ -175,24 +175,6 @@
             improve self-confidence and alleviate some of these concerns.
           </p>
         </section>
-        <section id="conclusion" class="tab-content">
-          <h2>Conclusion</h2>
-          <p>
-            Viagra is a powerful and effective medication that has helped millions of men improve
-            their sexual health. However, like any medication, it's important to use it responsibly
-            and under the supervision of a healthcare provider. Be sure to follow your doctor's
-            instructions regarding dosage and frequency, and always report any unusual side effects
-            or reactions.
-          </p>
-          <p>
-            If you're struggling with
-            <router-link to="/blog/understanding-ed">erectile dysfunction</router-link>, don't
-            hesitate to
-            <router-link to="/blog/talking-to-doctor-ed">speak with your doctor</router-link>.
-            Viagra could be the solution that helps you regain your confidence and improve your
-            quality of life.
-          </p>
-        </section>
 
         <section id="generic-drugs" class="tab-content">
           <h2>Generic Drugs (Sildenafil)</h2>
@@ -236,6 +218,25 @@
             </li>
           </ul>
         </section>
+
+        <section id="conclusion" class="tab-content">
+          <h2>Conclusion</h2>
+          <p>
+            Viagra is a powerful and effective medication that has helped millions of men improve
+            their sexual health. However, like any medication, it's important to use it responsibly
+            and under the supervision of a healthcare provider. Be sure to follow your doctor's
+            instructions regarding dosage and frequency, and always report any unusual side effects
+            or reactions.
+          </p>
+          <p>
+            If you're struggling with
+            <router-link to="/blog/understanding-ed">erectile dysfunction</router-link>, don't
+            hesitate to
+            <router-link to="/blog/talking-to-doctor-ed">speak with your doctor</router-link>.
+            Viagra could be the solution that helps you regain your confidence and improve your
+            quality of life.
+          </p>
+        </section>
       </article>
 
       <DrugSidebar class="drug-sidebar-component" :sidebarData="viagraSidebarData" />
@@ -260,8 +261,8 @@ const navSections = ref([
   { id: 'side-effects', title: 'Side Effects' },
   { id: 'warnings', title: 'Warnings & Precautions' },
   { id: 'other-considerations', title: 'Other Considerations' },
-  { id: 'conclusion', title: 'Conclusion' },
   { id: 'generic-drugs', title: 'Generic Drugs' }, // Added Generic Drugs section
+  { id: 'conclusion', title: 'Conclusion' },
 ])
 
 // Updated sidebar data based on provided content
@@ -300,7 +301,7 @@ const viagraSidebarData = ref({
     { text: 'Stendra (avanafil)', to: '/Stendra' }, // Updated path
   ],
   drugComparison: [
-    { text: 'Compare Viagra vs. Levitra', to: '/levitra-VS-viagra' }, // Changed href to to
+    { text: 'Compare Viagra vs. Levitra', to: '/Levitra-vs-Viagra' }, // Changed href to to
     // Add other comparison links (e.g., Cialis, Stendra)
   ],
 })
