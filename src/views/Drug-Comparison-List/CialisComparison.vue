@@ -12,63 +12,143 @@
       <!-- 主要比较内容 -->
       <article class="comparison-main-content main-content">
         <header class="drug-header">
-          <h1>Levitra VS Cialis: A Detailed Analysis of Two Leading ED Medications</h1>
+          <h1>Levitra VS Cialis: Which ED Medication is Right for You?</h1>
           <p>
-            <router-link to="/blog/understanding-ed">Erectile dysfunction (ED)</router-link> is a
-            common condition affecting millions of men worldwide, and the pharmaceutical industry
-            has responded with a variety of treatment options. Two of the most widely prescribed
-            medications for ED are <router-link to="/">Levitra</router-link> and
-            <router-link to="/Cialis">Cialis</router-link>. Both have proven to be effective, but
-            they differ in several important ways. In this article, we'll explore Levitra vs Cialis
-            in depth to help you make an informed decision about which treatment might be right for
-            you.
+            In this in-depth comparison of Levitra VS Cialis, we'll explore everything you need to
+            know to help you choose the best option for your needs.
+          </p>
+          <p>
+            From how they work, to their duration, side effects, and more—this Levitra VS Cialis
+            guide will help you make an informed decision when discussing ED treatment with your
+            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link>.
           </p>
         </header>
 
-        <!-- NEW CONTENT AREA START -->
-        <section id="what-is-levitra" class="tab-content">
-          <h2>What Is Levitra?</h2>
+        <section id="onset-duration" class="tab-content">
+          <h2>Levitra VS Cialis: Onset Time and Duration</h2>
           <p>
-            <router-link to="/">Levitra</router-link> (<router-link
-              to="/blog/vardenafil-generic-info"
-              >vardenafil</router-link
-            >) is a phosphodiesterase type 5 (PDE5) inhibitor. It works by increasing blood flow to
-            the penis, helping men with ED achieve and maintain an erection during sexual activity.
-            <router-link to="/">Levitra</router-link> is typically taken 30 to 60 minutes before
-            intercourse and its effects last for about 4 to 6 hours.
+            A major point in the Levitra VS Cialis comparison is how long each drug takes to work
+            and how long its effects last.
           </p>
+          <ul>
+            <li>
+              <router-link to="/">Levitra</router-link> typically takes 25 to 60 minutes to begin
+              working and lasts for about 4 to 6 hours.
+            </li>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> takes about 30 to 45 minutes to kick in
+              but can last up to 36 hours, earning it the nickname "the weekend pill."
+            </li>
+          </ul>
           <p>
-            One of <router-link to="/">Levitra</router-link>'s key advantages is its potency. Many
-            users report strong, consistent results, even with lower dosages. Additionally,
-            <router-link to="/">Levitra</router-link> tends to have fewer side effects in men with
-            diabetes and may be more suitable for men who are sensitive to other ED medications.
-          </p>
-        </section>
-
-        <section id="what-is-cialis" class="tab-content">
-          <h2>What Is Cialis?</h2>
-          <p>
-            <router-link to="/Cialis">Cialis</router-link> (<router-link
-              to="/blog/tadalafil-generic-faq"
-              >tadalafil</router-link
-            >) is another PDE5 inhibitor used to treat ED. Unlike
-            <router-link to="/">Levitra</router-link>,
-            <router-link to="/Cialis">Cialis</router-link> is known for its longer duration of
-            action — up to 36 hours in some cases. Because of this,
-            <router-link to="/Cialis">Cialis</router-link> is often referred to as the "weekend
-            pill," allowing greater flexibility and spontaneity in sexual activity.
-          </p>
-          <p>
-            <router-link to="/Cialis">Cialis</router-link> can be taken as needed or as a daily
-            low-dose treatment. This makes <router-link to="/Cialis">Cialis</router-link> a
-            preferred option for men who want to maintain readiness without planning sexual activity
-            around medication timing.
+            So in the Levitra VS Cialis debate,
+            <router-link to="/Cialis">Cialis</router-link> may be preferable for those who want more
+            spontaneity, while <router-link to="/">Levitra</router-link> could be a better option
+            for shorter, more predictable timeframes.
           </p>
         </section>
 
-        <section id="key-differences" class="tab-content">
-          <h2>Levitra vs Cialis: Key Differences</h2>
-          <p>Let's break down the major differences between Levitra and Cialis:</p>
+        <section id="dosing-flexibility" class="tab-content">
+          <h2>Levitra VS Cialis: Dosing Flexibility</h2>
+          <p>Another key factor in Levitra VS Cialis is how each drug is dosed.</p>
+          <ul>
+            <li>
+              <router-link to="/">Levitra</router-link> is usually taken on demand, before sexual
+              activity.
+            </li>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> can be taken on demand or daily at a
+              lower dose, allowing for regular sexual activity without needing to plan in advance.
+            </li>
+          </ul>
+          <p>
+            If you prefer a medication you don't have to think about every time,
+            <router-link to="/Cialis">Cialis</router-link> has the advantage in the Levitra VS
+            Cialis matchup.
+          </p>
+        </section>
+
+        <section id="side-effects-comparison" class="tab-content">
+          <h2>Levitra VS Cialis: Side Effects</h2>
+          <p>
+            Like all medications, both drugs can cause side effects. In the Levitra VS Cialis
+            comparison, side effects are usually mild and short-lived, but some users may respond
+            differently.
+          </p>
+          <h3>Common side effects include:</h3>
+          <ul>
+            <li>
+              <strong><router-link to="/">Levitra</router-link>:</strong> Headache, flushing, stuffy
+              nose, dizziness, indigestion
+            </li>
+            <li>
+              <strong><router-link to="/Cialis">Cialis</router-link>:</strong> Back pain, muscle
+              aches, headache, flushing, nasal congestion
+            </li>
+          </ul>
+          <p>
+            One point worth noting in the Levitra VS Cialis debate is that
+            <router-link to="/Cialis">Cialis</router-link> users are more likely to report back and
+            muscle pain, likely due to its longer duration in the body.
+          </p>
+        </section>
+
+        <section id="food-alcohol" class="tab-content">
+          <h2>Levitra VS Cialis: Food and Alcohol Interactions</h2>
+          <p>
+            When it comes to Levitra VS Cialis, it's important to consider lifestyle factors like
+            food and alcohol.
+          </p>
+          <ul>
+            <li>
+              <router-link to="/">Levitra</router-link> may be slightly affected by high-fat meals,
+              which can slow its absorption.
+            </li>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> is not significantly affected by food.
+            </li>
+          </ul>
+          <p>
+            Both can be used with moderate alcohol consumption, but excess alcohol may increase the
+            risk of side effects like low blood pressure or dizziness.
+          </p>
+        </section>
+
+        <section id="effectiveness-satisfaction" class="tab-content">
+          <h2>Levitra VS Cialis: Effectiveness and Patient Satisfaction</h2>
+          <p>
+            In head-to-head studies and user reviews, both medications are considered highly
+            effective. However, individual responses vary, which makes the Levitra VS Cialis
+            comparison more personal than clinical.
+          </p>
+          <p>
+            Some men prefer <router-link to="/">Levitra</router-link> for its strong, focused
+            effect, especially those with conditions like diabetes. Others choose
+            <router-link to="/Cialis">Cialis</router-link> for its extended duration and
+            flexibility. In the end, the winner of Levitra VS Cialis may depend on your own
+            experience and goals.
+          </p>
+        </section>
+
+        <section id="cost-availability" class="tab-content">
+          <h2>Levitra VS Cialis: Cost and Availability</h2>
+          <p>
+            Cost is another factor that plays into the Levitra VS Cialis decision. Both have generic
+            versions available— Levitra VS Cialis —which can significantly reduce the price.
+          </p>
+          <p>
+            Generally, <router-link to="/Cialis">Cialis</router-link> generics are more commonly
+            prescribed and slightly cheaper than <router-link to="/">Levitra</router-link> generics,
+            but prices may vary depending on your location and insurance coverage.
+          </p>
+        </section>
+
+        <section id="final-verdict" class="tab-content">
+          <h2>Final Verdict: Levitra VS Cialis</h2>
+          <p>
+            So, who wins in the battle of Levitra VS Cialis? There's no one-size-fits-all answer.
+            Here's a quick summary to help you decide:
+          </p>
           <div class="comparison-table-container">
             <table>
               <thead>
@@ -90,7 +170,7 @@
                 </tr>
                 <tr>
                   <td>Onset Time</td>
-                  <td>30–60 minutes</td>
+                  <td>25–60 minutes</td>
                   <td>30–45 minutes</td>
                 </tr>
                 <tr>
@@ -99,97 +179,35 @@
                   <td>Up to 36 hours</td>
                 </tr>
                 <tr>
-                  <td>Daily Use Option</td>
-                  <td>No</td>
-                  <td>Yes</td>
+                  <td>Dosing Options</td>
+                  <td>On-demand only</td>
+                  <td>On-demand or daily</td>
+                </tr>
+                <tr>
+                  <td>Common Side Effects</td>
+                  <td>Headache, flushing</td>
+                  <td>Back pain, muscle aches</td>
                 </tr>
                 <tr>
                   <td>Food Interaction</td>
-                  <td>Less effective with high-fat meals</td>
-                  <td>Minimal effect from food</td>
-                </tr>
-                <tr>
-                  <td>Suitable for Daily Use</td>
-                  <td>No</td>
-                  <td>Yes</td>
-                </tr>
-                <tr>
-                  <td>Ideal For</td>
-                  <td>Short-term results</td>
-                  <td>Long-lasting flexibility</td>
+                  <td>Slight with high-fat meals</td>
+                  <td>Minimal</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p>
-            The <router-link to="/">Levitra</router-link> vs
-            <router-link to="/Cialis">Cialis</router-link> debate often comes down to personal
-            preferences and lifestyle. If you're looking for a fast-acting, short-term option,
-            <router-link to="/">Levitra</router-link> may be ideal. On the other hand, if you prefer
-            long-lasting results and spontaneity,
-            <router-link to="/Cialis">Cialis</router-link> might be the better fit.
+            When weighing Levitra VS Cialis, talk to your
+            <router-link to="/blog/talking-to-doctor-ed">doctor</router-link> about your lifestyle,
+            health conditions, and what you're looking for in an ED treatment. Both are proven,
+            effective, and safe when used correctly.
+          </p>
+          <p>
+            In summary, the Levitra VS Cialis comparison is all about personal needs. Whether you're
+            after a quick-acting solution or long-lasting spontaneity, either option could be the
+            right fit with the right guidance.
           </p>
         </section>
-
-        <section id="side-effects" class="tab-content">
-          <h2>Side Effects and Safety</h2>
-          <p>
-            Both <router-link to="/">Levitra</router-link> and
-            <router-link to="/Cialis">Cialis</router-link> have similar side effects, including:
-          </p>
-          <ul>
-            <li>Headache</li>
-            <li>Flushing</li>
-            <li>Nasal congestion</li>
-            <li>Dizziness</li>
-            <li>Indigestion</li>
-          </ul>
-          <p>
-            However, <router-link to="/Cialis">Cialis</router-link> may cause muscle aches and back
-            pain due to its longer duration in the body. Meanwhile,
-            <router-link to="/">Levitra</router-link> may be slightly better tolerated by men with
-            diabetes or high blood pressure.
-          </p>
-          <p>
-            It's essential to consult a healthcare provider before starting either
-            <router-link to="/">Levitra</router-link> or
-            <router-link to="/Cialis">Cialis</router-link>, especially if you are taking medications
-            for heart conditions, or if you have liver or kidney issues.
-          </p>
-        </section>
-
-        <section id="which-is-better" class="tab-content">
-          <h2>Levitra vs Cialis: Which One Is Better?</h2>
-          <p>
-            There is no universal answer in the Levitra vs Cialis debate. Your choice should depend
-            on:
-          </p>
-          <ul>
-            <li>How quickly you need the medication to work</li>
-            <li>How long you want the effects to last</li>
-            <li>Your medical history</li>
-            <li>Your tolerance to side effects</li>
-          </ul>
-          <p>
-            Some men even try both <router-link to="/">Levitra</router-link> and
-            <router-link to="/Cialis">Cialis</router-link> (under medical supervision) before
-            deciding which one works best for them.
-          </p>
-        </section>
-
-        <section id="conclusion" class="tab-content">
-          <h2>Conclusion</h2>
-          <p>
-            When it comes to <router-link to="/">Levitra</router-link> vs
-            <router-link to="/Cialis">Cialis</router-link>, both are powerful and effective
-            treatments for ED, each with its own strengths.
-            <router-link to="/">Levitra</router-link> is known for its fast-acting, reliable
-            results, while <router-link to="/Cialis">Cialis</router-link> offers a longer window of
-            effectiveness and flexibility. Whichever you choose, be sure to speak with your doctor
-            to determine the safest and most effective option for your individual needs.
-          </p>
-        </section>
-        <!-- NEW CONTENT AREA END -->
       </article>
 
       <!-- 右侧边栏 -->
@@ -208,33 +226,21 @@ import DrugSidebar from '../../components/DrugSidebar.vue' // 引入 DrugSidebar
 
 // 定义比较页面的导航项数据 (Updated to match new content)
 const comparisonSections = ref([
-  { id: 'what-is-levitra', title: 'What Is Levitra?' },
-  { id: 'what-is-cialis', title: 'What Is Cialis?' },
-  { id: 'key-differences', title: 'Key Differences' },
-  { id: 'side-effects', title: 'Side Effects & Safety' },
-  { id: 'which-is-better', title: 'Which Is Better?' },
-  { id: 'conclusion', title: 'Conclusion' },
+  { id: 'onset-duration', title: 'Onset & Duration' },
+  { id: 'dosing-flexibility', title: 'Dosing Flexibility' },
+  { id: 'side-effects-comparison', title: 'Side Effects' },
+  { id: 'food-alcohol', title: 'Food & Alcohol' },
+  { id: 'effectiveness-satisfaction', title: 'Effectiveness' },
+  { id: 'cost-availability', title: 'Cost & Availability' },
+  { id: 'final-verdict', title: 'Final Verdict' },
 ])
 
 // 定义比较页面的右侧边栏内容数据 (保持不变，或按需调整)
 const cialisComparisonSidebarData = ref({
-  drugStatus: {
-    availability: { text: 'Both Prescription', statusClass: '' },
-    approvalHistory: 'Levitra (2003), Cialis (2003)',
-  },
-  quickSummary: {
-    formsStrengths: 'Levitra: Tablets (5-20mg), ODT. Cialis: Tablets (2.5-20mg)',
-    reminders: [
-      'Compare onset/duration carefully.',
-      'Discuss side effect profiles with doctor.',
-      'Consider daily vs. on-demand use.',
-    ],
-  },
   relatedResources: [
-    { text: 'Factors to Consider When Comparing ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Understanding Side Effect Profiles', to: '/blog/side-effect-profiles' },
-    { text: 'Lifestyle Impacts on ED Treatment Success', to: '/blog/lifestyle-impact' },
-    { text: 'When to Talk to Your Doctor About Switching Meds', to: '/blog/switching-meds' },
+    { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
+    { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' },
+    { text: 'Cialis vs Viagra', to: '/Cialis-vs-Viagra' },
   ],
 })
 </script>

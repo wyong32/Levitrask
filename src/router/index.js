@@ -64,10 +64,11 @@ const router = createRouter({
       name: 'compare-levitra-cialis',
       component: () => import('../views/Drug-Comparison-List/CialisComparison.vue'),
       meta: {
-        title: 'Levitra vs Cialis Comparison | Levitrask Demo',
+        title: 'Levitra vs Cialis Comparison | Levitrask.com',
         description:
-          'Compare Levitra (Vardenafil) and Cialis (Tadalafil): onset, duration, side effects, and more.',
-        keywords: 'Levitra vs Cialis, Vardenafil vs Tadalafil, ED drug comparison',
+          'Compare Levitra vs Cialis: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
+        keywords:
+          'Levitra vs Cialis,Levitra,Cialis,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {
@@ -75,11 +76,11 @@ const router = createRouter({
       name: 'compare-levitra-stendra',
       component: () => import('../views/Drug-Comparison-List/StendraComparison.vue'),
       meta: {
-        title: 'Levitra vs Stendra Comparison | Levitrask Demo',
+        title: 'Levitra vs Stendra Comparison | Levitrask.com',
         description:
-          'Compare Levitra (Vardenafil) and Stendra (Avanafil): speed, duration, side effects.',
+          'Compare Levitra vs Stendra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
-          'Levitra vs Stendra, Vardenafil vs Avanafil, ED drug comparison, fast acting ED pill',
+          'Levitra vs Stendra,Levitra,Stendra,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {
@@ -87,10 +88,11 @@ const router = createRouter({
       name: 'compare-levitra-viagra',
       component: () => import('../views/Drug-Comparison-List/ViagraComparison.vue'),
       meta: {
-        title: 'Levitra vs Viagra Comparison | Levitrask Demo',
+        title: 'Levitra vs Viagra Comparison | Levitrask.com',
         description:
-          'Compare Levitra (Vardenafil) and Viagra (Sildenafil): potency, duration, side effects.',
-        keywords: 'Levitra vs Viagra, Vardenafil vs Sildenafil, ED drug comparison',
+          'Compare Levitra vs Viagra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
+        keywords:
+          'Levitra vs Viagra,Levitra,Viagra,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {
@@ -100,9 +102,9 @@ const router = createRouter({
       meta: {
         title: 'Cialis vs Stendra Comparison | Levitrask Demo',
         description:
-          'Compare Cialis (Tadalafil) and Stendra (Avanafil): long duration vs fast speed, side effects.',
+          'Compare Cialis vs Stendra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
-          'Cialis vs Stendra, Tadalafil vs Avanafil, ED drug comparison, weekend pill vs fast acting',
+          'Cialis vs Stendra,Cialis,Stendra,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {
@@ -110,11 +112,11 @@ const router = createRouter({
       name: 'compare-cialis-viagra',
       component: () => import('../views/Drug-Comparison-List/CialisViagraComparison.vue'),
       meta: {
-        title: 'Cialis vs Viagra Comparison | Levitrask Demo',
+        title: 'Cialis vs Viagra Comparison | Levitrask.com',
         description:
-          'The ultimate comparison: Cialis (Tadalafil) vs Viagra (Sildenafil). Duration, daily use, food interaction.',
+          'Compare Cialis vs Viagra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
-          'Cialis vs Viagra, Tadalafil vs Sildenafil, ED drug comparison, weekend pill vs classic pill',
+          'Cialis vs Viagra,Cialis,Viagra,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {
@@ -124,9 +126,9 @@ const router = createRouter({
       meta: {
         title: 'Stendra vs Viagra Comparison | Levitrask Demo',
         description:
-          'Compare Stendra (Avanafil) vs Viagra (Sildenafil): speed, side effects, food interactions.',
+          'Compare Stendra vs Viagra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
-          'Stendra vs Viagra, Avanafil vs Sildenafil, ED drug comparison, fast acting ED pill vs classic',
+          'Stendra vs Viagra,Stendra,Viagra,Side Effects,Onset Time and Duration,ED drug comparison',
       },
     },
     {

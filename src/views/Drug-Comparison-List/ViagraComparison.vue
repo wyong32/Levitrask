@@ -24,18 +24,6 @@
           </p>
         </header>
 
-        <!-- 比较内容区域 -->
-        <section id="what-is-ed" class="tab-content">
-          <h2>What Is Erectile Dysfunction?</h2>
-          <p>
-            Before we get into Levitra VS Viagra, it's important to understand ED.
-            <router-link to="/blog/understanding-ed">Erectile dysfunction</router-link> is the
-            inability to get or keep an erection firm enough for sexual intercourse. It can be
-            caused by physical conditions like diabetes, high blood pressure, and heart disease, or
-            by psychological factors such as stress, anxiety, or depression.
-          </p>
-        </section>
-
         <section id="basics" class="tab-content">
           <h2>Levitra VS Viagra: The Basics</h2>
           <p>
@@ -61,7 +49,7 @@
         </section>
 
         <section id="onset-duration" class="tab-content">
-          <h2>Onset and Duration</h2>
+          <h2>Levitra VS Viagra: Onset and Duration</h2>
           <p>
             When comparing Levitra VS Viagra, one key factor is how quickly each medication works
             and how long the effects last.
@@ -83,7 +71,7 @@
         </section>
 
         <section id="effectiveness" class="tab-content">
-          <h2>Effectiveness</h2>
+          <h2>Levitra VS Viagra: Effectiveness</h2>
           <p>
             Both drugs are highly effective, but some studies suggest that
             <router-link to="/">Levitra</router-link> may work better in men with diabetes. That
@@ -93,7 +81,7 @@
         </section>
 
         <section id="side-effects" class="tab-content">
-          <h2>Side Effects</h2>
+          <h2>Levitra VS Viagra: Side Effects</h2>
           <p>
             As with any medication, Levitra VS Viagra comes with potential
             <router-link to="/blog/managing-side-effects">side effects</router-link>. Here's a
@@ -130,7 +118,7 @@
         </section>
 
         <section id="interactions" class="tab-content">
-          <h2>Food and Alcohol Interactions</h2>
+          <h2>Levitra VS Viagra: Food and Alcohol Interactions</h2>
           <p>
             Another important element in Levitra VS Viagra is how food and alcohol affect the
             medications.
@@ -152,7 +140,7 @@
         </section>
 
         <section id="dosage-availability" class="tab-content">
-          <h2>Dosage and Availability</h2>
+          <h2>Levitra VS Viagra: Dosage and Availability</h2>
           <ul>
             <li>
               <router-link to="/Viagra">Viagra</router-link> is available in 25 mg, 50 mg, and 100
@@ -169,7 +157,7 @@
         </section>
 
         <section id="cost-coverage" class="tab-content">
-          <h2>Cost and Insurance Coverage</h2>
+          <h2>Levitra VS Viagra: Cost and Insurance Coverage</h2>
           <p>
             In terms of cost, both <router-link to="/">Levitra</router-link> and
             <router-link to="/Viagra">Viagra</router-link> have generic versions, making them more
@@ -252,7 +240,6 @@ import DrugSidebar from '../../components/DrugSidebar.vue'
 
 // 定义比较页面的导航项数据 (Updated Titles & IDs to match new content)
 const comparisonSections = ref([
-  { id: 'what-is-ed', title: 'What Is ED?' },
   { id: 'basics', title: 'The Basics' },
   { id: 'onset-duration', title: 'Onset & Duration' },
   { id: 'effectiveness', title: 'Effectiveness' },
@@ -265,23 +252,10 @@ const comparisonSections = ref([
 
 // 定义比较页面的右侧边栏内容数据 (Kept existing, adjust if needed)
 const viagraComparisonSidebarData = ref({
-  drugStatus: {
-    availability: { text: 'Both Prescription', statusClass: '' },
-    approvalHistory: 'Viagra (1998), Levitra (2003)',
-  },
-  quickSummary: {
-    formsStrengths: 'Levitra: Tabs (5-20mg). Viagra: Tabs (25-100mg)', // Simplified
-    reminders: [
-      'Viagra pioneered ED treatment.',
-      'Compare side effect profiles (vision vs. other).', // Adjusted
-      'Generic Sildenafil often cheapest.',
-    ],
-  },
   relatedResources: [
-    { text: 'Factors to Consider When Comparing ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Understanding Side Effect Profiles', to: '/blog/managing-side-effects' }, // Updated link
-    { text: 'Lifestyle Impacts on ED Treatment Success', to: '/blog/lifestyle-impact' },
-    { text: 'When to Talk to Your Doctor About Switching Meds', to: '/blog/switching-meds' },
+    { text: 'Levitra vs Cialis', to: '/Levitra-vs-Cialis' },
+    { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' }, // Updated link
+    { text: 'Stendra vs Viagra', to: '/Stendra-vs-Viagra' },
   ],
 })
 </script>

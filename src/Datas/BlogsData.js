@@ -219,7 +219,6 @@ const blogsData = {
       'Summary of key FDA information regarding Vardenafil (Levitra, Staxyn), including uses, dosage, safety, and patient guidance.',
     metaKeywords:
       'Summary of FDA-approved information for Vardenafil (Levitra and generics), covering safety, usage, and patient guidance.',
-    metaKeywords: 'fda vardenafil, levitra fda info, ed drug safety, vardenafil usage',
     navSections: [
       { id: 'introduction-uses', title: 'Intro & Uses' },
       { id: 'how-it-works-dosage', title: 'How It Works & Dosage' },
