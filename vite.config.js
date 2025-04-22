@@ -68,6 +68,7 @@ export default defineConfig({
       hostname: 'https://levitrask.com/',
       dynamicRoutes: allRoutes,
       // exclude: ['/admin/**'],
+      robots: false, // Disable automatic robots.txt generation by this plugin
     }),
   ],
   resolve: {
