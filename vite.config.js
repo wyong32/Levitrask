@@ -67,8 +67,15 @@ export default defineConfig({
     sitemap({
       hostname: 'https://levitrask.com/',
       dynamicRoutes: allRoutes,
-      // exclude: ['/admin/**'],
-      robots: [], // Use empty array to disable robots.txt generation by the plugin
+      // Configure robots rules for generation
+      robots: [
+        {
+          userAgent: '*',
+          allow: '/',
+          disallow: ['/.git/', '/node_modules/', '/author-*.html', '/post/', '/tags-*.html'],
+        },
+      ],
+      // Sitemap directive is automatically added based on hostname
     }),
   ],
   resolve: {
