@@ -12,61 +12,191 @@
       <!-- Main Comparison Content -->
       <article class="comparison-main-content main-content">
         <header class="drug-header">
-          <h1>Cialis VS Viagra: The Ultimate Showdown of ED Pills</h1>
+          <h1>Cialis VS Viagra: Which ED Medication Is Right for You?</h1>
           <p>
-            When discussing treatments for
+            When it comes to treating
             <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>, two
-            names invariably dominate the conversation:
-            <router-link to="/Cialis">Cialis</router-link> (tadalafil) and
-            <router-link to="/Viagra">Viagra</router-link> (sildenafil). As the original ED pill,
-            Viagra set the standard, while Cialis later emerged offering a significantly longer
-            duration. This comparison explores Cialis vs Viagra, examining their distinct
-            characteristics to help you understand which might be the better choice for your
-            situation.
+            names stand out: <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>. These two medications are among the most
+            prescribed ED treatments worldwide, and they both help improve blood flow to the penis
+            to support an erection. But how do you choose between them?
+          </p>
+          <p>
+            In this blog, we'll compare <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> across key areas like onset time,
+            duration, side effects, cost, and user lifestyle compatibility. By the end, you'll have
+            a better understanding of which one might work better for you.
           </p>
         </header>
 
         <!-- Content Sections -->
-        <section id="what-is-cialis" class="tab-content">
-          <h2>What Is Cialis?</h2>
+        <section id="what-are-drugs" class="tab-content">
+          <h2>1. What Are Cialis and Viagra?</h2>
           <p>
-            <router-link to="/Cialis">Cialis</router-link> (<router-link
-              to="/blog/tadalafil-generic-faq"
-              >tadalafil</router-link
-            >) is a PDE5 inhibitor known primarily for its extended duration of effectiveness,
-            lasting up to 36 hours. This unique feature provides users with a prolonged window for
-            sexual activity, earning it the nickname "the weekend pill."
+            Before diving into the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> comparison, let's clarify what these
+            drugs are:
           </p>
+          <ul>
+            <li>
+              <strong
+                ><router-link to="/Cialis">Cialis</router-link> (<router-link
+                  to="/blog/tadalafil-generic-faq"
+                  >tadalafil</router-link
+                >)</strong
+              >
+              is a long-acting PDE5 inhibitor approved by the FDA for both ED and benign prostatic
+              hyperplasia (BPH).
+            </li>
+            <li>
+              <strong
+                ><router-link to="/Viagra">Viagra</router-link> (<router-link
+                  to="/blog/sildenafil-generic-info"
+                  >sildenafil</router-link
+                >)</strong
+              >
+              is a short-acting PDE5 inhibitor known as the "little blue pill," originally approved
+              in 1998.
+            </li>
+          </ul>
           <p>
-            Beyond its long-lasting effects for on-demand use,
-            <router-link to="/Cialis">Cialis</router-link> is the only ED medication also available
-            as a low-dose daily tablet, ensuring constant readiness. Furthermore, it's approved to
-            treat benign prostatic hyperplasia (BPH), offering a dual benefit for men with both
-            conditions. Food intake generally does not significantly affect its absorption.
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> debate starts with their chemical
+            composition and how they affect the body.
           </p>
         </section>
 
-        <section id="what-is-viagra" class="tab-content">
-          <h2>What Is Viagra?</h2>
+        <section id="onset-duration" class="tab-content">
+          <h2>2. Cialis VS Viagra: Onset Time and Duration</h2>
           <p>
-            <router-link to="/Viagra">Viagra</router-link> (<router-link
-              to="/blog/sildenafil-generic-info"
-              >sildenafil citrate</router-link
-            >) was the first oral medication approved for ED, revolutionizing treatment for the
-            condition. As a PDE5 inhibitor, it works by increasing blood flow to the penis upon
-            sexual stimulation.
+            One of the biggest differences in the
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> discussion is how long each drug takes to
+            work and how long it lasts:
           </p>
+          <ul>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> begins working in 30–60 minutes and can
+              last up to 36 hours, earning it the nickname "the weekend pill."
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> starts working in about 30–60 minutes
+              and lasts 4 to 6 hours.
+            </li>
+          </ul>
           <p>
-            <router-link to="/Viagra">Viagra</router-link> is taken on demand, typically 30-60
-            minutes before sexual activity, and its effects last for about 4 to 6 hours. It is
-            highly effective but works best when taken on an empty stomach, as high-fat meals can
-            delay its absorption and reduce its peak effectiveness.
+            So if you're comparing <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> for spontaneity and longer duration,
+            <router-link to="/Cialis">Cialis</router-link> clearly stands out.
           </p>
         </section>
 
-        <section id="key-differences" class="tab-content">
-          <h2>Cialis vs Viagra: Key Differences</h2>
-          <p>Let's compare the core features of these two leading ED treatments:</p>
+        <section id="daily-vs-needed" class="tab-content">
+          <h2>3. Cialis VS Viagra: Daily and. As-Needed Use</h2>
+          <p>
+            Another major point in the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> comparison is dosing flexibility:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> can be taken daily at a low dose or as
+              needed at a higher dose.
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> is taken only as needed, typically
+              30–60 minutes before sexual activity.
+            </li>
+          </ul>
+          <p>
+            When considering <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>, men who prefer consistent readiness
+            often favor <router-link to="/Cialis">Cialis</router-link>, while those who need an
+            occasional boost may go with <router-link to="/Viagra">Viagra</router-link>.
+          </p>
+        </section>
+
+        <section id="food-alcohol" class="tab-content">
+          <h2>4. Cialis VS Viagra: Food and Alcohol Interactions</h2>
+          <p>
+            In the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> battle, lifestyle compatibility is key:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> may be less effective if taken after a
+              high-fat meal.
+            </li>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> is less affected by food, making it
+              easier to use without meal timing concerns.
+            </li>
+          </ul>
+          <p>
+            Both can be used with moderate alcohol, but excessive drinking can reduce effectiveness
+            or increase side effects.
+          </p>
+        </section>
+
+        <section id="side-effects-comparison" class="tab-content">
+          <h2>5. Cialis VS Viagra: Side Effects</h2>
+          <p>
+            When it comes to side effects in <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>, both medications share similar risks:
+          </p>
+          <ul>
+            <li>
+              <strong>Common side effects:</strong> headache, flushing, nasal congestion, back pain.
+            </li>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> may cause muscle aches or back pain
+              more frequently.
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> may have more reports of vision changes
+              like blue tinting.
+            </li>
+          </ul>
+          <p>
+            Neither <router-link to="/Cialis">Cialis</router-link> nor
+            <router-link to="/Viagra">Viagra</router-link> should be used with nitrates or by men
+            with serious heart conditions. Always talk to a
+            <router-link to="/blog/talking-to-doctor-ed">doctor</router-link> when comparing
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> for safety.
+          </p>
+        </section>
+
+        <section id="cost-insurance" class="tab-content">
+          <h2>6. Cialis VS Viagra: Cost and Insurance Coverage</h2>
+          <p>
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> price difference depends on whether
+            you're using a brand-name or generic version:
+          </p>
+          <ul>
+            <li>
+              Generic <router-link to="/Cialis">Cialis</router-link> (<router-link
+                to="/blog/tadalafil-generic-faq"
+                >tadalafil</router-link
+              >) is often cheaper than brand-name Cialis.
+            </li>
+            <li>
+              Generic <router-link to="/Viagra">Viagra</router-link> (<router-link
+                to="/blog/sildenafil-generic-info"
+                >sildenafil</router-link
+              >) is widely available and generally affordable.
+            </li>
+          </ul>
+          <p>
+            Depending on your insurance and pharmacy, the
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> price comparison may lean either way.
+            Discounts and coupons can also help.
+          </p>
+        </section>
+
+        <section id="summary-table" class="tab-content">
+          <h2>7. Cialis VS Viagra: Summary Table</h2>
           <div class="comparison-table-container">
             <table>
               <thead>
@@ -78,127 +208,69 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Active Ingredient</td>
-                  <td><router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link></td>
-                  <td><router-link to="/blog/sildenafil-generic-info">Sildenafil</router-link></td>
-                </tr>
-                <tr>
                   <td>Onset Time</td>
-                  <td>30–45 minutes</td>
+                  <td>30–60 minutes</td>
                   <td>30–60 minutes</td>
                 </tr>
                 <tr>
                   <td>Duration</td>
-                  <td><strong>Up to 36 hours</strong> (Longest)</td>
-                  <td>4–6 hours (Standard)</td>
+                  <td><strong>Up to 36 hours</strong></td>
+                  <td>4–6 hours</td>
                 </tr>
                 <tr>
                   <td>Daily Use Option</td>
-                  <td><strong>Yes</strong> (Low dose)</td>
+                  <td><strong>Yes</strong></td>
                   <td>No</td>
                 </tr>
                 <tr>
                   <td>Food Interaction</td>
                   <td>Minimal</td>
-                  <td><strong>Yes</strong> (High-fat meals delay effect)</td>
+                  <td><strong>Affected by high-fat meals</strong></td>
                 </tr>
                 <tr>
-                  <td>Also Treats BPH</td>
-                  <td><strong>Yes</strong></td>
-                  <td>No</td>
+                  <td>Common Side Effects</td>
+                  <td>Back pain, muscle aches</td>
+                  <td>Headache, vision changes</td>
                 </tr>
                 <tr>
-                  <td>Common Distinct Side Effects</td>
-                  <td>Muscle aches, back pain</td>
-                  <td>Visual changes (e.g., blue tint)</td>
-                </tr>
-                <tr>
-                  <td>Ideal For</td>
-                  <td>Long duration, spontaneity, daily use, BPH</td>
-                  <td>Proven efficacy, standard duration, often lower generic cost</td>
+                  <td>Cost (Generic)</td>
+                  <td>Affordable</td>
+                  <td>Affordable</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p>
-            The primary differentiator in the Cialis vs Viagra matchup is the duration of action.
-            Cialis provides a much longer window of opportunity, while Viagra offers a standard,
-            reliable timeframe. Food interaction and the option for daily use are also significant
-            deciding factors.
-          </p>
         </section>
 
-        <section id="side-effects" class="tab-content">
-          <h2>Side Effects and Safety Profile</h2>
+        <section id="final-thoughts" class="tab-content">
+          <h2>8. Final Thoughts: Cialis VS Viagra – Which Should You Choose?</h2>
           <p>
-            Both Cialis and Viagra share common side effects typical of PDE5 inhibitors, such as
-            headache, facial flushing, nasal congestion, and indigestion. However, some side effects
-            are more associated with one than the other:
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> choice depends on your lifestyle, health
+            needs, and sexual activity patterns. If you want spontaneity and long-lasting effects,
+            <router-link to="/Cialis">Cialis</router-link> may be the better choice. If you prefer
+            an on-demand option with a shorter window,
+            <router-link to="/Viagra">Viagra</router-link> might be perfect.
           </p>
-          <ul>
-            <li>
-              <strong><router-link to="/Cialis">Cialis</router-link>:</strong> Due to its long
-              half-life, side effects like muscle aches or back pain may occur and potentially last
-              longer. Vision issues are rare.
-            </li>
-            <li>
-              <strong><router-link to="/Viagra">Viagra</router-link>:</strong> More commonly
-              associated with temporary visual disturbances, such as blurred vision or a blue tinge
-              (cyanopsia). Muscle/back pain is less common than with Cialis.
-            </li>
-          </ul>
           <p>
-            Both medications are contraindicated with nitrates (used for chest pain) and require
-            caution when used with alpha-blockers or in patients with certain heart conditions. A
-            thorough discussion with a healthcare provider about your medical history is crucial
-            before starting either medication. For more details, see
-            <router-link to="/blog/side-effect-profiles"
-              >Side Effect Profiles of ED Medications</router-link
-            >.
-          </p>
-        </section>
-
-        <section id="which-is-better" class="tab-content">
-          <h2>Cialis vs Viagra: Which is Better for You?</h2>
-          <p>
-            The "better" drug is subjective and depends entirely on your individual needs,
-            lifestyle, and how your body responds:
-          </p>
-          <ul>
-            <li>
-              Consider <strong><router-link to="/Cialis">Cialis</router-link></strong> if: You value
-              spontaneity and a long duration (up to 36 hours), are interested in a daily dosing
-              option, or need treatment for BPH symptoms as well.
-            </li>
-            <li>
-              Consider <strong><router-link to="/Viagra">Viagra</router-link></strong> if: You
-              prefer a medication with a shorter, predictable duration (4-6 hours), don't mind
-              timing doses around meals (taking it on an empty stomach), or find its specific side
-              effect profile more tolerable. Generic sildenafil is also often the most affordable
-              option.
-            </li>
-          </ul>
-          <p>
-            Many men find both drugs effective. Sometimes, trying both (at different times and under
-            medical guidance) is the best way to determine personal preference. Consult your
-            <router-link to="/blog/talking-to-doctor-ed">doctor</router-link> to weigh the pros and
-            cons for your specific health situation.
+            Always consult a
+            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link> before
+            starting any ED medication. With proper guidance, the
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> question becomes easier to answer based
+            on your unique situation.
           </p>
         </section>
 
         <section id="conclusion" class="tab-content">
-          <h2>Conclusion: The Classic vs. The Long-Lasting</h2>
+          <h2>Cialis VS Viagra: Conclusion</h2>
           <p>
-            In the Cialis vs Viagra debate, there's no single winner.
-            <router-link to="/Viagra">Viagra</router-link>, the pioneer, offers reliable,
-            time-tested performance within a standard duration.
-            <router-link to="/Cialis">Cialis</router-link> provides remarkable longevity and the
-            flexibility of daily dosing.
-          </p>
-          <p>
-            Understanding their key differences in duration, dosing, food interactions, and side
-            effect profiles allows you, in consultation with your healthcare provider, to choose the
-            ED treatment that best aligns with your life and health needs.
+            In the end, the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> debate isn't about which drug is "better"
+            — it's about which one fits you best. Both are effective, well-studied, and widely used.
+            Whether you go with <router-link to="/Cialis">Cialis</router-link> or
+            <router-link to="/Viagra">Viagra</router-link>, the key is to make an informed,
+            medically-supported choice.
           </p>
         </section>
       </article>
@@ -207,6 +279,7 @@
       <DrugSidebar
         class="drug-sidebar-component"
         :sidebarData="cialisViagraComparisonSidebarData"
+        :customTitles="customSidebarTitles"
       />
     </main>
     <PageFooter />
@@ -220,17 +293,20 @@ import PageFooter from '../../components/PageFooter.vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue'
 
-// Navigation sections for SideNav
+// Navigation sections for SideNav (Updated)
 const comparisonSections = ref([
-  { id: 'what-is-cialis', title: 'What Is Cialis?' },
-  { id: 'what-is-viagra', title: 'What Is Viagra?' },
-  { id: 'key-differences', title: 'Key Differences' },
-  { id: 'side-effects', title: 'Side Effects & Safety' },
-  { id: 'which-is-better', title: 'Which Is Better?' },
+  { id: 'what-are-drugs', title: '1. What Are Cialis & Viagra?' },
+  { id: 'onset-duration', title: '2. Onset & Duration' },
+  { id: 'daily-vs-needed', title: '3. Daily vs. As-Needed' },
+  { id: 'food-alcohol', title: '4. Food & Alcohol' },
+  { id: 'side-effects-comparison', title: '5. Side Effects' },
+  { id: 'cost-insurance', title: '6. Cost & Insurance' },
+  { id: 'summary-table', title: '7. Summary Table' },
+  { id: 'final-thoughts', title: '8. Final Thoughts' },
   { id: 'conclusion', title: 'Conclusion' },
 ])
 
-// Sidebar data specific to Cialis vs Viagra
+// Sidebar data specific to Cialis vs Viagra (Keep existing or update as needed)
 const cialisViagraComparisonSidebarData = ref({
   drugStatus: {
     availability: { text: 'Both Prescription', statusClass: '' },
@@ -247,12 +323,17 @@ const cialisViagraComparisonSidebarData = ref({
     ],
   },
   relatedResources: [
-    { text: 'Comparing All Major ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Sildenafil (Viagra) Generic Info', to: '/blog/sildenafil-generic-info' },
-    { text: 'Tadalafil (Cialis) Generic FAQs', to: '/blog/tadalafil-generic-faq' },
-    { text: 'Managing ED Medication Side Effects', to: '/blog/managing-side-effects' },
-    { text: 'Saving Money on ED Meds', to: '/blog/saving-on-ed-meds' },
+    { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
+    { text: 'Stendra vs Viagra', to: '/Stendra-vs-Viagra' },
+    { text: 'Cialis vs Stendra', to: '/Cialis-vs-Stendra' },
   ],
+})
+
+// Define custom titles for the sidebar (Optional - Add if needed)
+const customSidebarTitles = ref({
+  drugStatus: 'Cialis VS Viagra: Drug Status',
+  quickSummary: 'Cialis vs Viagra: Key Points',
+  relatedResources: 'More Information',
 })
 </script>
 

@@ -225,7 +225,11 @@
       </article>
 
       <!-- 右侧边栏 -->
-      <DrugSidebar class="drug-sidebar-component" :sidebarData="viagraComparisonSidebarData" />
+      <DrugSidebar
+        class="drug-sidebar-component"
+        :sidebarData="viagraComparisonSidebarData"
+        :customTitles="customSidebarTitles"
+      />
     </main>
     <PageFooter />
   </div>
@@ -250,13 +254,37 @@ const comparisonSections = ref([
   { id: 'conclusion', title: 'Final Verdict' },
 ])
 
-// 定义比较页面的右侧边栏内容数据 (Kept existing, adjust if needed)
+// 定义比较页面的右侧边栏内容数据 (Updated to add more sections)
 const viagraComparisonSidebarData = ref({
+  drugStatus: {
+    availability: { text: 'Both Prescription', statusClass: '' },
+    approvalHistory: 'Viagra (1998), Levitra (2003)',
+  },
+  quickSummary: {
+    formsStrengths: 'Viagra: Tabs (25-100mg). Levitra: Tabs (5-20mg), ODT.',
+    reminders: [
+      'Onset times are similar (30-60 min).',
+      'Levitra may last slightly longer (up to 5h vs 4h).',
+      'Viagra affected by high-fat meals; Levitra less so.',
+      'Viagra more likely to cause visual side effects.',
+      'Discuss which is better for you with your doctor.',
+    ],
+  },
   relatedResources: [
     { text: 'Levitra vs Cialis', to: '/Levitra-vs-Cialis' },
     { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' }, // Updated link
     { text: 'Stendra vs Viagra', to: '/Stendra-vs-Viagra' },
+    { text: 'Cialis vs Viagra', to: '/Cialis-vs-Viagra' }, // Added missing comparison
   ],
+})
+
+// Define custom titles for the sidebar (Optional - Add if needed)
+const customSidebarTitles = ref({
+  // Example:
+  // quickSummary: 'Levitra vs Viagra: Key Points',
+  drugStatus: 'Levitra VS Viagra: Drug Status',
+  quickSummary: 'Levitra vs Viagra: Key Points',
+  relatedResources: 'More Information',
 })
 </script>
 

@@ -2,7 +2,7 @@
   <aside class="sidebar">
     <!-- Drug Status Section -->
     <div v-if="sidebarData.drugStatus" class="sidebar-section drug-status">
-      <h3>Drug Status</h3>
+      <h3>{{ customTitles.drugStatus || 'Drug Status' }}</h3>
       <p v-if="sidebarData.drugStatus.availability">
         Availability:
         <span :class="sidebarData.drugStatus.availability.statusClass || ''">
@@ -20,7 +20,7 @@
 
     <!-- Quick Summary Section -->
     <div v-if="sidebarData.quickSummary" class="sidebar-section quick-summary">
-      <h3>Quick Summary</h3>
+      <h3>{{ customTitles.quickSummary || 'Quick Summary' }}</h3>
       <p v-if="sidebarData.quickSummary.formsStrengths" class="forms-strengths-text">
         <strong>Forms/Strengths:</strong>
         <span v-html="sidebarData.quickSummary.formsStrengths"></span>
@@ -40,7 +40,7 @@
 
     <!-- Drug Image Section -->
     <div v-if="sidebarData.drugImage" class="sidebar-section drug-image">
-      <h3>Drug Image</h3>
+      <h3>{{ customTitles.drugImage || 'Drug Image' }}</h3>
       <img :src="sidebarData.drugImage.src" :alt="sidebarData.drugImage.alt || 'Drug image'" />
       <p v-if="sidebarData.drugImage.caption" class="drug-image-caption">
         {{ sidebarData.drugImage.caption }}
@@ -52,7 +52,7 @@
       v-if="sidebarData.relatedResources && sidebarData.relatedResources.length"
       class="sidebar-section related-resources"
     >
-      <h3>Related Resources</h3>
+      <h3>{{ customTitles.relatedResources || 'Related Resources' }}</h3>
       <ul>
         <li v-for="(link, index) in sidebarData.relatedResources" :key="`resource-${index}`">
           <router-link :to="link.to">{{ link.text }}</router-link>
@@ -65,7 +65,7 @@
       v-if="sidebarData.similarDrugs && sidebarData.similarDrugs.length"
       class="sidebar-section similar-drugs"
     >
-      <h3>Drugs in this Class (PDE5 Inhibitors)</h3>
+      <h3>{{ customTitles.similarDrugs || 'Drugs in this Class (PDE5 Inhibitors)' }}</h3>
       <ul>
         <li v-for="(link, index) in sidebarData.similarDrugs" :key="`similar-${index}`">
           <router-link :to="link.to">{{ link.text }}</router-link>
@@ -78,7 +78,7 @@
       v-if="sidebarData.drugComparison && sidebarData.drugComparison.length"
       class="sidebar-section drug-comparison"
     >
-      <h3>Drug Comparison</h3>
+      <h3>{{ customTitles.drugComparison || 'Drug Comparison' }}</h3>
       <ul>
         <li v-for="(link, index) in sidebarData.drugComparison" :key="`compare-${index}`">
           <router-link :to="link.to">{{ link.text }}</router-link>
@@ -91,7 +91,7 @@
       v-if="sidebarData.frequentlyAskedQuestions && sidebarData.frequentlyAskedQuestions.length"
       class="sidebar-section faq-section"
     >
-      <h3>Frequently Asked Questions</h3>
+      <h3>{{ customTitles.frequentlyAskedQuestions || 'Frequently Asked Questions' }}</h3>
       <ul>
         <li v-for="(link, index) in sidebarData.frequentlyAskedQuestions" :key="`faq-${index}`">
           <router-link :to="link.to">{{ link.text }}</router-link>
@@ -118,6 +118,11 @@ defineProps({
       drugComparison: [],
       frequentlyAskedQuestions: [],
     }),
+  },
+  // Add the new optional prop for custom titles
+  customTitles: {
+    type: Object,
+    default: () => ({}), // Default to an empty object
   },
 })
 </script>

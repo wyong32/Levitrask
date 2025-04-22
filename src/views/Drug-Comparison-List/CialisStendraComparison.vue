@@ -12,187 +12,279 @@
       <!-- Main Comparison Content -->
       <article class="comparison-main-content main-content">
         <header class="drug-header">
-          <h1>Cialis VS Stendra: Analyzing ED Medications for Speed and Duration</h1>
+          <h1>Cialis VS Stendra: Which ED Medication Suits You Best?</h1>
           <p>
-            Choosing the right medication for
+            When it comes to
             <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>
-            involves weighing factors like how quickly a drug works and how long its effects last.
-            Two prominent options offering distinct profiles are
-            <router-link to="/Cialis">Cialis</router-link> (known for duration) and
-            <router-link to="/Stendra">Stendra</router-link> (known for speed). This comparison
-            dives into Cialis vs Stendra to help you understand their differences and decide which
-            might better suit your needs.
+            treatments, patients are often faced with multiple choices. One of the most common
+            comparisons is <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link>. While both medications are
+            FDA-approved and effective, they differ in onset, duration, dosing, and lifestyle
+            compatibility.
+          </p>
+          <p>
+            In this blog post, we'll break down the key differences between
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link>, helping you make a confident and
+            informed decision.
           </p>
         </header>
 
         <!-- Content Sections -->
-        <section id="what-is-cialis" class="tab-content">
-          <h2>What Is Cialis?</h2>
+        <section id="what-are-drugs" class="tab-content">
+          <h2>1. What Are Cialis and Stendra?</h2>
           <p>
-            <router-link to="/Cialis">Cialis</router-link>, with the active ingredient
-            <router-link to="/blog/tadalafil-generic-faq">tadalafil</router-link>, is a PDE5
-            inhibitor celebrated for its remarkably long duration of action, effective for up to 36
-            hours. This extended window has earned it the nickname "the weekend pill," offering
-            significant flexibility and spontaneity.
+            Let's start the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> discussion by understanding what each
+            drug is:
           </p>
+          <ul>
+            <li>
+              <strong
+                ><router-link to="/Cialis">Cialis</router-link> (<router-link
+                  to="/blog/tadalafil-generic-faq"
+                  >tadalafil</router-link
+                >)</strong
+              >
+              is a long-acting PDE5 inhibitor, known for offering a longer window of sexual
+              readiness — up to 36 hours.
+            </li>
+            <li>
+              <strong
+                ><router-link to="/Stendra">Stendra</router-link> (<router-link
+                  to="/blog/avanafil-patient-guide"
+                  >avanafil</router-link
+                >)</strong
+              >
+              is a newer-generation PDE5 inhibitor designed to act more quickly, sometimes in as
+              little as 15 minutes.
+            </li>
+          </ul>
           <p>
-            <router-link to="/Cialis">Cialis</router-link> is unique in offering both an 'as-needed'
-            dosing option and a low-dose daily regimen. The daily option provides continuous
-            readiness for sexual activity and is also approved for treating symptoms of benign
-            prostatic hyperplasia (BPH). Its effectiveness is minimally impacted by food.
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> comparison highlights two different
+            approaches to treating ED — one focused on lasting power, and the other on fast action.
           </p>
         </section>
 
-        <section id="what-is-stendra" class="tab-content">
-          <h2>What Is Stendra?</h2>
+        <section id="onset-duration" class="tab-content">
+          <h2>2. Cialis VS Stendra: Onset of Action and Duration</h2>
           <p>
-            <router-link to="/Stendra">Stendra</router-link>, containing the active ingredient
-            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link>, is one of the
-            newest PDE5 inhibitors on the market. Its primary advantage is its rapid onset of action
-            – it can start working in as little as 15-30 minutes for many men.
+            In any <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> debate, timing matters:
           </p>
+          <ul>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> usually takes effect in 30–60 minutes
+              and can last up to 36 hours.
+            </li>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> works faster, with an onset as quick
+              as 15–30 minutes, but typically lasts around 6 hours.
+            </li>
+          </ul>
           <p>
-            While its duration is shorter than Cialis (up to 6 hours),
-            <router-link to="/Stendra">Stendra</router-link> is designed for on-demand use and is
-            often noted for having a potentially milder side effect profile compared to older ED
-            medications, particularly regarding visual disturbances. It can generally be taken with
-            or without food.
+            So, in the case of <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link>, if you value spontaneity over time,
+            <router-link to="/Stendra">Stendra</router-link> may be more convenient. However, for
+            extended effectiveness, <router-link to="/Cialis">Cialis</router-link> has the edge.
           </p>
         </section>
 
-        <section id="key-differences" class="tab-content">
-          <h2>Cialis vs Stendra: Key Differences</h2>
-          <p>Here's a head-to-head comparison highlighting the main distinctions:</p>
+        <section id="dosing-options" class="tab-content">
+          <h2>3. Cialis VS Stendra: Dosing Options: Flexibility and Routine</h2>
+          <p>
+            Another key factor in the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> conversation is how the medications are
+            taken:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> can be taken daily at a low dose or as
+              needed at a higher dose. This flexibility supports ongoing intimacy without the need
+              for strict timing.
+            </li>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> is only used as needed, and is best
+              taken shortly before sexual activity.
+            </li>
+          </ul>
+          <p>
+            When choosing between <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link>, daily users might lean toward
+            <router-link to="/Cialis">Cialis</router-link>, while occasional users may prefer
+            <router-link to="/Stendra">Stendra</router-link>'s on-demand simplicity.
+          </p>
+        </section>
+
+        <section id="food-alcohol" class="tab-content">
+          <h2>4. Cialis VS Stendra: Food and Alcohol Interaction</h2>
+          <p>
+            Dietary flexibility is also part of the
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> decision:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Cialis">Cialis</router-link> is not significantly affected by food,
+              making it easier to take with meals.
+            </li>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> is also food-friendly, and its
+              absorption is rarely delayed by eating.
+            </li>
+          </ul>
+          <p>
+            In the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> comparison, both medications are
+            convenient regarding food, but <router-link to="/Stendra">Stendra</router-link> also
+            allows for faster post-meal effectiveness.
+          </p>
+        </section>
+
+        <section id="side-effects-safety" class="tab-content">
+          <h2>5. Cialis VS Stendra: Side Effects and Safety Profile</h2>
+          <p>
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> comparison wouldn't be complete without
+            looking at side effects:
+          </p>
+          <ul>
+            <li>
+              <strong><router-link to="/Cialis">Cialis</router-link> common side effects:</strong>
+              include headache, muscle aches, back pain, and nasal congestion.
+            </li>
+            <li>
+              <strong><router-link to="/Stendra">Stendra</router-link> may cause:</strong>
+              flushing, headache, nasal stuffiness, and in some cases, dizziness. It's considered to
+              have a slightly lower risk of visual disturbances compared to older ED drugs.
+            </li>
+          </ul>
+          <p>
+            Patients sensitive to muscle or back pain may find
+            <router-link to="/Stendra">Stendra</router-link> more tolerable in the
+            <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> comparison.
+          </p>
+        </section>
+
+        <section id="cost-availability" class="tab-content">
+          <h2>6. Cialis VS Stendra: Cost and Availability</h2>
+          <p>
+            When it comes to price, the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> decision can also be influenced by your
+            budget:
+          </p>
+          <ul>
+            <li>
+              Generic <router-link to="/Cialis">Cialis</router-link> (<router-link
+                to="/blog/tadalafil-generic-faq"
+                >tadalafil</router-link
+              >) is widely available and typically affordable.
+            </li>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> is newer and less likely to be
+              available in a generic form, making it more expensive.
+            </li>
+          </ul>
+          <p>
+            If cost is a major factor, <router-link to="/Cialis">Cialis</router-link> may be the
+            winner in the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> discussion.
+          </p>
+        </section>
+
+        <section id="summary-table" class="tab-content">
+          <h2>7. Cialis VS Stendra: Summary Table</h2>
           <div class="comparison-table-container">
             <table>
               <thead>
                 <tr>
                   <th>Feature</th>
-                  <th><router-link to="/Cialis">Cialis</router-link></th>
-                  <th><router-link to="/Stendra">Stendra</router-link></th>
+                  <th>
+                    <router-link to="/Cialis">Cialis</router-link> (<router-link
+                      to="/blog/tadalafil-generic-faq"
+                      >Tadalafil</router-link
+                    >)
+                  </th>
+                  <th>
+                    <router-link to="/Stendra">Stendra</router-link> (<router-link
+                      to="/blog/avanafil-patient-guide"
+                      >Avanafil</router-link
+                    >)
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Active Ingredient</td>
-                  <td><router-link to="/blog/tadalafil-generic-faq">Tadalafil</router-link></td>
-                  <td><router-link to="/blog/avanafil-patient-guide">Avanafil</router-link></td>
-                </tr>
-                <tr>
-                  <td>Onset Time</td>
-                  <td>30–45 minutes</td>
-                  <td><strong>15–30 minutes</strong> (Fastest)</td>
+                  <td>Onset of Action</td>
+                  <td>30–60 minutes</td>
+                  <td><strong>As fast as 15 minutes</strong></td>
                 </tr>
                 <tr>
                   <td>Duration</td>
-                  <td><strong>Up to 36 hours</strong> (Longest)</td>
-                  <td>Up to 6 hours</td>
+                  <td><strong>Up to 36 hours</strong></td>
+                  <td>Around 6 hours</td>
                 </tr>
                 <tr>
-                  <td>Daily Use Option</td>
-                  <td><strong>Yes</strong> (Low dose)</td>
-                  <td>No</td>
+                  <td>Dosing Options</td>
+                  <td><strong>Daily or as needed</strong></td>
+                  <td>As needed only</td>
                 </tr>
                 <tr>
                   <td>Food Interaction</td>
                   <td>Minimal</td>
-                  <td>Minimal (High-fat meal may slightly delay)</td>
+                  <td>Minimal</td>
                 </tr>
                 <tr>
-                  <td>Also Treats BPH</td>
-                  <td><strong>Yes</strong></td>
-                  <td>No</td>
+                  <td>Side Effects</td>
+                  <td>Muscle aches, back pain</td>
+                  <td>Flushing, headache</td>
                 </tr>
                 <tr>
-                  <td>Side Effect Profile</td>
-                  <td>Potential for muscle/back pain (due to long duration)</td>
-                  <td>Often considered milder, less likely visual effects</td>
-                </tr>
-                <tr>
-                  <td>Ideal For</td>
-                  <td>Weekend flexibility, daily readiness, BPH symptoms</td>
-                  <td>Fast action, potentially fewer side effects</td>
+                  <td>Cost (Generic)</td>
+                  <td>Widely available</td>
+                  <td>Brand-name only (in most cases)</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p>
-            The Cialis vs Stendra choice often hinges on whether you prioritize a very long duration
-            and the option for daily use (Cialis) or the fastest possible onset with potentially
-            milder side effects (Stendra).
-          </p>
         </section>
 
-        <section id="side-effects" class="tab-content">
-          <h2>Side Effects and Safety Considerations</h2>
+        <section id="final-thoughts" class="tab-content">
+          <h2>8. Final Thoughts: Cialis VS Stendra</h2>
           <p>
-            Both medications share common PDE5 inhibitor side effects like headache, flushing, and
-            nasal congestion. However, there are differences:
+            So, who wins in the <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> debate? The answer depends on your
+            preferences and lifestyle:
           </p>
           <ul>
             <li>
-              <strong><router-link to="/Cialis">Cialis</router-link>:</strong> More likely to cause
-              muscle aches or back pain, which can sometimes last longer due to the drug's extended
-              presence in the body. Visual side effects are rare.
+              Choose <router-link to="/Cialis">Cialis</router-link> if you want long-lasting
+              effects, daily dosing, and flexible timing.
             </li>
             <li>
-              <strong><router-link to="/Stendra">Stendra</router-link>:</strong> Generally
-              associated with a lower incidence of side effects overall compared to older drugs like
-              Viagra/Levitra. Visual disturbances are very rare.
+              Choose <router-link to="/Stendra">Stendra</router-link> if you prefer fast action,
+              fewer muscle-related side effects, and occasional use.
             </li>
           </ul>
           <p>
-            Both drugs are contraindicated with nitrates and should be used cautiously with
-            alpha-blockers or in men with significant cardiovascular disease. Always discuss your
-            health history and current medications with your doctor before starting either
-            treatment. See our guide on
-            <router-link to="/blog/managing-side-effects">managing side effects</router-link>.
-          </p>
-        </section>
-
-        <section id="which-is-better" class="tab-content">
-          <h2>Cialis vs Stendra: Which is Better for You?</h2>
-          <p>
-            Neither drug is universally "better." The best choice depends on individual needs and
-            priorities:
-          </p>
-          <ul>
-            <li>
-              Choose <strong><router-link to="/Cialis">Cialis</router-link></strong> if: You want
-              maximum flexibility over a long period (up to 36 hours), prefer a daily dosing option,
-              or also need treatment for BPH.
-            </li>
-            <li>
-              Choose <strong><router-link to="/Stendra">Stendra</router-link></strong> if: Speed is
-              your top priority (works in as little as 15 mins), you prefer on-demand use, or you
-              are particularly sensitive to side effects experienced with other ED drugs.
-            </li>
-          </ul>
-          <p>
-            Cost can also be a factor. Generic
-            <router-link to="/blog/tadalafil-generic-faq">tadalafil</router-link> (Cialis) is widely
-            available and often very affordable. <router-link to="/Stendra">Stendra</router-link> is
-            newer, and while generic
-            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link> exists, it might
-            be less common or slightly more expensive than generic tadalafil. Discussing these
-            points with your <router-link to="/blog/talking-to-doctor-ed">doctor</router-link> is
-            key.
+            When evaluating <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link>, always consult your
+            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link> to make
+            the safest and most effective choice.
           </p>
         </section>
 
         <section id="conclusion" class="tab-content">
-          <h2>Conclusion: Speed vs. Marathon</h2>
+          <h2>Cialis VS Stendra: Conclusion</h2>
           <p>
-            The Cialis vs Stendra comparison highlights two excellent but different approaches to ED
-            treatment. <router-link to="/Cialis">Cialis</router-link> offers unparalleled duration
-            and the versatility of daily use, making it a "marathon" drug.
-            <router-link to="/Stendra">Stendra</router-link> provides the quickest start, acting
-            like a "sprinter," potentially with a gentler side effect profile.
-          </p>
-          <p>
-            Understanding these key differences, alongside a conversation with your healthcare
-            provider about your specific health profile and lifestyle, will guide you to the most
-            suitable ED medication.
+            The <router-link to="/Cialis">Cialis</router-link> VS
+            <router-link to="/Stendra">Stendra</router-link> comparison shows that both medications
+            are highly effective but cater to different lifestyles. Whether you value endurance or
+            speed, you now have the facts to discuss with your
+            <router-link to="/blog/talking-to-doctor-ed">doctor</router-link>. Always choose what
+            aligns best with your health and relationship needs.
           </p>
         </section>
       </article>
@@ -201,6 +293,7 @@
       <DrugSidebar
         class="drug-sidebar-component"
         :sidebarData="cialisStendraComparisonSidebarData"
+        :customTitles="customSidebarTitles"
       />
     </main>
     <PageFooter />
@@ -214,17 +307,20 @@ import PageFooter from '../../components/PageFooter.vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue'
 
-// Navigation sections for SideNav
+// Navigation sections for SideNav (Updated)
 const comparisonSections = ref([
-  { id: 'what-is-cialis', title: 'What Is Cialis?' },
-  { id: 'what-is-stendra', title: 'What Is Stendra?' },
-  { id: 'key-differences', title: 'Key Differences' },
-  { id: 'side-effects', title: 'Side Effects & Safety' },
-  { id: 'which-is-better', title: 'Which Is Better?' },
+  { id: 'what-are-drugs', title: '1. What Are Cialis & Stendra?' },
+  { id: 'onset-duration', title: '2. Onset & Duration' },
+  { id: 'dosing-options', title: '3. Dosing Options' },
+  { id: 'food-alcohol', title: '4. Food & Alcohol' },
+  { id: 'side-effects-safety', title: '5. Side Effects & Safety' },
+  { id: 'cost-availability', title: '6. Cost & Availability' },
+  { id: 'summary-table', title: '7. Summary Table' },
+  { id: 'final-thoughts', title: '8. Final Thoughts' },
   { id: 'conclusion', title: 'Conclusion' },
 ])
 
-// Sidebar data specific to Cialis vs Stendra
+// Sidebar data specific to Cialis vs Stendra (Keep existing or update as needed)
 const cialisStendraComparisonSidebarData = ref({
   drugStatus: {
     availability: { text: 'Both Prescription', statusClass: '' },
@@ -240,12 +336,17 @@ const cialisStendraComparisonSidebarData = ref({
     ],
   },
   relatedResources: [
-    { text: 'Comparing All Major ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Avanafil (Stendra) Patient Guide', to: '/blog/avanafil-patient-guide' },
-    { text: 'Tadalafil (Cialis) Generic FAQs', to: '/blog/tadalafil-generic-faq' },
-    { text: 'Managing ED Medication Side Effects', to: '/blog/managing-side-effects' },
-    { text: 'Switching Between ED Meds Safely', to: '/blog/switching-ed-meds' },
+    { text: 'Levitra vs Cialis', to: '/Levitra-vs-Cialis' },
+    { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' },
+    { text: 'Cialis vs Viagra', to: '/Cialis-vs-Viagra' },
   ],
+})
+
+// Define custom titles for the sidebar in this specific context
+const customSidebarTitles = ref({
+  drugStatus: 'Cialis VS Stendra: Drug Status',
+  quickSummary: 'Cialis vs Stendra: At a Glance', // Example customization
+  relatedResources: 'Further Reading', // Example customization
 })
 </script>
 

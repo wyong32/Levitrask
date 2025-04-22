@@ -211,7 +211,11 @@
       </article>
 
       <!-- 右侧边栏 -->
-      <DrugSidebar class="drug-sidebar-component" :sidebarData="cialisComparisonSidebarData" />
+      <DrugSidebar
+        class="drug-sidebar-component"
+        :sidebarData="cialisComparisonSidebarData"
+        :customTitles="customSidebarTitles"
+      />
     </main>
     <PageFooter />
   </div>
@@ -235,13 +239,37 @@ const comparisonSections = ref([
   { id: 'final-verdict', title: 'Final Verdict' },
 ])
 
-// 定义比较页面的右侧边栏内容数据 (保持不变，或按需调整)
+// 定义比较页面的右侧边栏内容数据 (Updated to add more sections)
 const cialisComparisonSidebarData = ref({
+  drugStatus: {
+    availability: { text: 'Both Prescription', statusClass: '' },
+    approvalHistory: 'Levitra (2003), Cialis (2003)',
+  },
+  quickSummary: {
+    formsStrengths: 'Levitra: Tabs (5-20mg), ODT. Cialis: Tabs (2.5-20mg)',
+    reminders: [
+      'Cialis lasts significantly longer (up to 36h).',
+      'Levitra has a shorter duration (4-6h).',
+      'Cialis offers a daily dosing option.',
+      'Food has minimal impact on Cialis.',
+      'High-fat meals may delay Levitra.',
+    ],
+  },
   relatedResources: [
     { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
     { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' },
     { text: 'Cialis vs Viagra', to: '/Cialis-vs-Viagra' },
+    { text: 'Cialis vs Stendra', to: '/Cialis-vs-Stendra' }, // Added missing comparison
   ],
+})
+
+// Define custom titles for the sidebar (Optional - Add if needed)
+const customSidebarTitles = ref({
+  // Example:
+  // quickSummary: 'Levitra vs Cialis: At a Glance'
+  drugStatus: 'Levitra VS Cialis: Drug Status',
+  quickSummary: 'Levitra vs Cialis: Key Points',
+  relatedResources: 'More Information',
 })
 </script>
 

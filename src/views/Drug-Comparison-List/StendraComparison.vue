@@ -264,7 +264,11 @@
       </article>
 
       <!-- 右侧边栏 -->
-      <DrugSidebar class="drug-sidebar-component" :sidebarData="stendraComparisonSidebarData" />
+      <DrugSidebar
+        class="drug-sidebar-component"
+        :sidebarData="stendraComparisonSidebarData"
+        :customTitles="customSidebarTitles"
+      />
     </main>
     <PageFooter />
   </div>
@@ -289,13 +293,37 @@ const comparisonSections = ref([
   { id: 'conclusion', title: 'Conclusion' },
 ])
 
-// 定义比较页面的右侧边栏内容数据 (保持不变，或按需调整)
+// 定义比较页面的右侧边栏内容数据 (Updated to add more sections)
 const stendraComparisonSidebarData = ref({
+  drugStatus: {
+    availability: { text: 'Both Prescription', statusClass: '' },
+    approvalHistory: 'Levitra (2003), Stendra (2012)',
+  },
+  quickSummary: {
+    formsStrengths: 'Levitra: Tabs (5-20mg), ODT. Stendra: Tabs (50-200mg)',
+    reminders: [
+      'Stendra acts faster (as quick as 15min).',
+      'Levitra may be delayed by high-fat meals.',
+      'Stendra may have fewer visual side effects.',
+      'Generic Levitra (vardenafil) is cheaper.',
+      'Both are for on-demand use only.',
+    ],
+  },
   relatedResources: [
     { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
     { text: 'Levitra vs Cialis', to: '/Levitra-vs-Cialis' },
     { text: 'Stendra vs Viagra', to: '/Stendra-vs-Viagra' },
+    { text: 'Cialis vs Stendra', to: '/Cialis-vs-Stendra' }, // Added missing comparison
   ],
+})
+
+// Define custom titles for the sidebar (Optional - Add if needed)
+const customSidebarTitles = ref({
+  // Example:
+  // quickSummary: 'Levitra vs Stendra: Key Points',
+  drugStatus: 'Levitra VS Stendra: Drug Status',
+  quickSummary: 'Levitra vs Stendra: Key Points',
+  relatedResources: 'More Information',
 })
 </script>
 

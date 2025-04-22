@@ -100,7 +100,7 @@ const router = createRouter({
       name: 'compare-cialis-stendra',
       component: () => import('../views/Drug-Comparison-List/CialisStendraComparison.vue'),
       meta: {
-        title: 'Cialis vs Stendra Comparison | Levitrask Demo',
+        title: 'Cialis vs Stendra Comparison | Levitrask.com',
         description:
           'Compare Cialis vs Stendra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
@@ -124,7 +124,7 @@ const router = createRouter({
       name: 'compare-stendra-viagra',
       component: () => import('../views/Drug-Comparison-List/StendraViagraComparison.vue'),
       meta: {
-        title: 'Stendra vs Viagra Comparison | Levitrask Demo',
+        title: 'Stendra vs Viagra Comparison | Levitrask.com',
         description:
           'Compare Stendra vs Viagra: Which ED Medication is Right for You? Dosing Flexibility, Side Effects , Food and Alcohol Interactions, duration, and more.',
         keywords:
@@ -139,7 +139,7 @@ const router = createRouter({
       meta: {
         title: 'Cialis Dosage, Side Effects-Cialis online-Levitrask.com',
         description:
-          'Cialis,a long-lasting ED medication. Covers Cialis usage, Cialis dosage, Cialis side effects,  Cialis generic, Cialis vs Viagra and more.',
+          'Cialis,a long-lasting ED medication. Covers Cialis usage, Cialis dosage, Cialis side effects, What is Cialis, Cialis generic, Cialis vs Viagra and more.',
         keywords:
           'Cialis dosage, Cialis side effects,  Cialis vs Viagra, Cialis vs Lavitra,Stendra,Cialis online',
       },
@@ -232,9 +232,11 @@ const router = createRouter({
       name: 'buy-levitra-online',
       component: () => import('../views/Buy-Online-List/LevitraOnline.vue'),
       meta: {
-        title: 'Buy Levitra (Vardenafil) Online | Levitrask Demo',
-        description: 'Find information on how to safely purchase Levitra online.',
-        keywords: 'buy levitra online, purchase vardenafil, online pharmacy ED',
+        title: 'Buy Levitra Online | Levitrask.com',
+        description:
+          'buy Levitra online,Why Choose to Buy Levitra Online,Steps to Buy Levitra Online,Where to Buy Levitra Online,Is It Safe and Legal to Buy Levitra Online?',
+        keywords:
+          'buy levitra online,online,vardenafil,online pharmacy ED,Where to Buy Levitra Online',
       },
     },
     {
@@ -242,9 +244,11 @@ const router = createRouter({
       name: 'buy-viagra-online',
       component: () => import('../views/Buy-Online-List/ViagraOnline.vue'),
       meta: {
-        title: 'Buy Viagra (Sildenafil) Online | Levitrask Demo',
-        description: 'Find information on how to safely purchase Viagra online.',
-        keywords: 'buy viagra online, purchase sildenafil, online pharmacy ED',
+        title: 'Buy Viagra Online | Levitrask.com',
+        description:
+          'buy Viagra online,Why Choose to Buy Viagra Online,Steps to Buy Viagra Online,Where to Buy Viagra Online,Is It Safe and Legal to Buy Viagra Online?',
+        keywords:
+          'buy Viagra online,online,vardenafil,online pharmacy ED,Where to Buy Viagra Online',
       },
     },
     {
@@ -252,9 +256,11 @@ const router = createRouter({
       name: 'buy-cialis-online',
       component: () => import('../views/Buy-Online-List/CialisOnline.vue'),
       meta: {
-        title: 'Buy Cialis (Tadalafil) Online | Levitrask Demo',
-        description: 'Find information on how to safely purchase Cialis online.',
-        keywords: 'buy cialis online, purchase tadalafil, online pharmacy ED',
+        title: 'Buy Cialis Online | Levitrask.com',
+        description:
+          'buy Cialis online,Why Choose to Buy Cialis Online,Steps to Buy Cialis Online,Where to Buy Cialis Online,Is It Safe and Legal to Buy Cialis Online?',
+        keywords:
+          'buy Cialis online,online,vardenafil,online pharmacy ED,Where to Buy Cialis Online',
       },
     },
     {
@@ -262,9 +268,11 @@ const router = createRouter({
       name: 'buy-stendra-online',
       component: () => import('../views/Buy-Online-List/StendraOnline.vue'),
       meta: {
-        title: 'Buy Stendra (Avanafil) Online | Levitrask Demo',
-        description: 'Find information on how to safely purchase Stendra online.',
-        keywords: 'buy stendra online, purchase avanafil, online pharmacy ED',
+        title: 'Buy Stendra Online | Levitrask.com',
+        description:
+          'buy Stendra online,Why Choose to Buy Stendra Online,Steps to Buy Stendra Online,Where to Buy Stendra Online,Is It Safe and Legal to Buy Stendra Online?',
+        keywords:
+          'buy Stendra online,online,vardenafil,online pharmacy ED,Where to Buy Stendra Online',
       },
     },
     // --- Terms of Service Route ---

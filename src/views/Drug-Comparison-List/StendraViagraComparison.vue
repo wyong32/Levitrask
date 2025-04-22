@@ -12,60 +12,162 @@
       <!-- Main Comparison Content -->
       <article class="comparison-main-content main-content">
         <header class="drug-header">
-          <h1>Stendra VS Viagra: Speed vs. The Original ED Pill</h1>
+          <h1>Stendra VS Viagra: Which Erectile Dysfunction Pill Works Better for You?</h1>
           <p>
-            The choice between
+            If you're comparing
             <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>
-            treatments often involves comparing established medications with newer options.
-            <router-link to="/Viagra">Viagra</router-link> (sildenafil), the groundbreaking
-            original, faces competition from
-            <router-link to="/Stendra">Stendra</router-link> (avanafil), known for its rapid onset.
-            This comparison delves into Stendra vs Viagra, examining their key attributes to help
-            you determine which might align best with your needs and preferences.
+            treatments, chances are you've come across the debate of
+            <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>. Both are FDA-approved medications that
+            improve blood flow to the penis and help achieve an erection when sexually stimulated.
+            But how do they differ? And which one is right for you?
+          </p>
+          <p>
+            In this post, we'll break down <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> in terms of how fast they work, how long
+            they last, their side effects, and how they fit into your lifestyle.
           </p>
         </header>
 
         <!-- Content Sections -->
-        <section id="what-is-stendra" class="tab-content">
-          <h2>What Is Stendra?</h2>
+        <section id="what-are-drugs" class="tab-content">
+          <h2>1. What Are Stendra and Viagra?</h2>
           <p>
-            <router-link to="/Stendra">Stendra</router-link> (<router-link
-              to="/blog/avanafil-patient-guide"
-              >avanafil</router-link
-            >) is a second-generation PDE5 inhibitor, notable for being one of the fastest-acting ED
-            medications available. Many users experience effects in as little as 15 to 30 minutes
-            after taking the pill.
+            To start the <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> comparison, it's helpful to know the
+            basics:
           </p>
+          <ul>
+            <li>
+              <strong
+                ><router-link to="/Stendra">Stendra</router-link> (<router-link
+                  to="/blog/avanafil-patient-guide"
+                  >avanafil</router-link
+                >)</strong
+              >
+              is a newer medication, approved by the FDA in 2012. It belongs to a class of drugs
+              called PDE5 inhibitors and is known for its fast onset.
+            </li>
+            <li>
+              <strong
+                ><router-link to="/Viagra">Viagra</router-link> (<router-link
+                  to="/blog/sildenafil-generic-info"
+                  >sildenafil</router-link
+                >)</strong
+              >
+              is the original PDE5 inhibitor, approved in 1998, and one of the most well-known ED
+              treatments worldwide.
+            </li>
+          </ul>
           <p>
-            Its duration of action is typically up to 6 hours.
-            <router-link to="/Stendra">Stendra</router-link> is often highlighted for potentially
-            having a more favorable side effect profile compared to older drugs like Viagra,
-            especially concerning visual side effects. It can generally be taken with or without
-            food, although very high-fat meals might slightly delay absorption for some.
+            The <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> decision often comes down to speed versus
+            familiarity — <router-link to="/Stendra">Stendra</router-link> acts faster, while
+            <router-link to="/Viagra">Viagra</router-link> has been around longer.
           </p>
         </section>
 
-        <section id="what-is-viagra" class="tab-content">
-          <h2>What Is Viagra?</h2>
+        <section id="onset-duration" class="tab-content">
+          <h2>2. Stendra VS Viagra: Onset and Duration of Action</h2>
           <p>
-            <router-link to="/Viagra">Viagra</router-link> (<router-link
-              to="/blog/sildenafil-generic-info"
-              >sildenafil citrate</router-link
-            >) was the first oral PDE5 inhibitor approved for ED treatment, setting the benchmark
-            for subsequent medications. It works by enhancing blood flow to the penis during sexual
-            arousal.
+            Timing is everything when it comes to ED medication. Let's look at
+            <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> in this area:
           </p>
+          <ul>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> can start working in as little as 15
+              minutes and lasts for up to 6 hours.
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> typically begins working in 30–60
+              minutes and remains effective for about 4–6 hours.
+            </li>
+          </ul>
           <p>
-            <router-link to="/Viagra">Viagra</router-link> should be taken approximately 30 to 60
-            minutes before anticipated sexual activity, and its effects last for about 4 to 6 hours.
-            Its effectiveness is well-established, but it works best when taken on an empty stomach,
-            as fatty foods can significantly impede its absorption and effectiveness.
+            When comparing <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>, patients who want fast results often
+            lean toward <router-link to="/Stendra">Stendra</router-link>, while others who plan
+            ahead may still choose <router-link to="/Viagra">Viagra</router-link>.
           </p>
         </section>
 
-        <section id="key-differences" class="tab-content">
-          <h2>Stendra vs Viagra: Key Differences</h2>
-          <p>Here's a direct comparison of the defining features of Stendra and Viagra:</p>
+        <section id="food-alcohol" class="tab-content">
+          <h2>3. Stendra VS Viagra: Food and Alcohol Interaction</h2>
+          <p>
+            Another key factor in the <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> conversation is how the drugs interact
+            with food and alcohol:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> is less affected by food, meaning it
+              can be taken with or without meals.
+            </li>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> may be less effective if taken after a
+              heavy or fatty meal.
+            </li>
+          </ul>
+          <p>
+            In this aspect of <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>,
+            <router-link to="/Stendra">Stendra</router-link> offers more flexibility, especially for
+            spontaneous situations.
+          </p>
+        </section>
+
+        <section id="side-effects-comparison" class="tab-content">
+          <h2>4. Stendra VS Viagra: Side Effects</h2>
+          <p>
+            Side effects play a big role in the <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> choice. Both medications can cause:
+          </p>
+          <ul>
+            <li>Headache</li>
+            <li>Flushing</li>
+            <li>Nasal congestion</li>
+          </ul>
+          <p>
+            However, <router-link to="/Stendra">Stendra</router-link> may have fewer visual side
+            effects compared to <router-link to="/Viagra">Viagra</router-link>, which is known to
+            cause temporary vision changes (such as seeing a blue tint) in some users.
+          </p>
+          <p>
+            For those concerned about side effects, the
+            <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> choice might favor
+            <router-link to="/Stendra">Stendra</router-link>.
+          </p>
+        </section>
+
+        <section id="cost-availability" class="tab-content">
+          <h2>5. Stendra VS Viagra: Cost and Availability</h2>
+          <p>
+            Let's compare <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> from a cost perspective:
+          </p>
+          <ul>
+            <li>
+              <router-link to="/Viagra">Viagra</router-link> has been available longer and now has
+              many generic versions (<router-link to="/blog/sildenafil-generic-info"
+                >sildenafil</router-link
+              >), making it more affordable and widely available.
+            </li>
+            <li>
+              <router-link to="/Stendra">Stendra</router-link> is still under patent in many places,
+              so it's usually more expensive and not available as a generic.
+            </li>
+          </ul>
+          <p>
+            If price is a concern, <router-link to="/Viagra">Viagra</router-link> may be the better
+            choice in the <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> debate.
+          </p>
+        </section>
+
+        <section id="summary-table" class="tab-content">
+          <h2>6. Summary: Stendra VS Viagra Comparison Table</h2>
           <div class="comparison-table-container">
             <table>
               <thead>
@@ -77,122 +179,74 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>Active Ingredient</td>
-                  <td><router-link to="/blog/avanafil-patient-guide">Avanafil</router-link></td>
-                  <td><router-link to="/blog/sildenafil-generic-info">Sildenafil</router-link></td>
-                </tr>
-                <tr>
-                  <td>Onset Time</td>
-                  <td><strong>15–30 minutes</strong> (Fastest)</td>
+                  <td>Onset of Action</td>
+                  <td><strong>As fast as 15 minutes</strong></td>
                   <td>30–60 minutes</td>
                 </tr>
                 <tr>
                   <td>Duration</td>
                   <td>Up to 6 hours</td>
-                  <td>4–6 hours (Similar)</td>
-                </tr>
-                <tr>
-                  <td>Daily Use Option</td>
-                  <td>No</td>
-                  <td>No</td>
+                  <td>4–6 hours</td>
                 </tr>
                 <tr>
                   <td>Food Interaction</td>
-                  <td>Minimal (Potential slight delay with very high fat)</td>
-                  <td><strong>Yes</strong> (High-fat meals significantly delay/reduce effect)</td>
+                  <td>Minimal</td>
+                  <td>Can be affected by food</td>
                 </tr>
                 <tr>
-                  <td>Generation</td>
-                  <td>Second-Generation (More selective PDE5 targeting)</td>
-                  <td>First-Generation</td>
+                  <td>Visual Side Effects</td>
+                  <td>Less common</td>
+                  <td>More common</td>
                 </tr>
                 <tr>
-                  <td>Common Distinct Side Effects</td>
-                  <td>Generally considered milder profile</td>
-                  <td>Visual changes (e.g., blue tint) more common</td>
+                  <td>Generic Availability</td>
+                  <td>No (in most countries)</td>
+                  <td>Yes</td>
                 </tr>
                 <tr>
-                  <td>Ideal For</td>
-                  <td>Fastest onset, potentially fewer side effects, less food concern</td>
-                  <td>Proven track record, widely available generic, standard duration</td>
+                  <td>Cost</td>
+                  <td>Generally higher</td>
+                  <td>More affordable</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <p>
-            The most significant advantages of Stendra over Viagra are its faster onset and reduced
-            likelihood of being affected by food. Viagra's strengths lie in its long history of use
-            and the widespread availability and lower cost of its generic form (sildenafil).
-          </p>
         </section>
 
-        <section id="side-effects" class="tab-content">
-          <h2>Side Effects and Safety Considerations</h2>
+        <section id="final-verdict" class="tab-content">
+          <h2>7. Final Verdict: Stendra VS Viagra</h2>
           <p>
-            Both medications can cause common PDE5 inhibitor side effects like headache, flushing,
-            nasal congestion, and dizziness. However:
+            So, which should you choose — <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link>?
           </p>
           <ul>
             <li>
-              <strong><router-link to="/Stendra">Stendra</router-link>:</strong> Due to its higher
-              selectivity for the PDE5 enzyme, it is generally associated with a lower risk of
-              certain side effects, particularly the visual disturbances sometimes seen with Viagra.
+              Choose <router-link to="/Stendra">Stendra</router-link> if you want rapid onset, less
+              impact from food, and fewer visual side effects.
             </li>
             <li>
-              <strong><router-link to="/Viagra">Viagra</router-link>:</strong> Has a higher reported
-              incidence of temporary visual side effects (like blurred vision or blue-tinted vision)
-              compared to Stendra.
+              Choose <router-link to="/Viagra">Viagra</router-link> if you're looking for a proven
+              treatment with affordable generics and don't mind planning ahead.
             </li>
           </ul>
           <p>
-            As with all PDE5 inhibitors, neither Stendra nor Viagra should be taken with nitrate
-            medications due to the risk of a dangerous drop in blood pressure. Caution is also
-            advised with alpha-blockers and in men with significant cardiovascular conditions.
-            Always consult your doctor about your health history before use. Read more on
-            <router-link to="/blog/managing-side-effects"
-              >managing potential side effects</router-link
-            >.
-          </p>
-        </section>
-
-        <section id="which-is-better" class="tab-content">
-          <h2>Stendra vs Viagra: Which is the Right Choice?</h2>
-          <p>The ideal medication varies from person to person:</p>
-          <ul>
-            <li>
-              Choose <strong><router-link to="/Stendra">Stendra</router-link></strong> if: You
-              prioritize the fastest possible onset of action, want less concern about taking it
-              with food, or have experienced bothersome side effects (especially visual) with Viagra
-              or Levitra.
-            </li>
-            <li>
-              Choose <strong><router-link to="/Viagra">Viagra</router-link></strong> if: You are
-              comfortable with the standard 30-60 minute onset time, can take it on an empty stomach
-              for optimal results, prioritize a medication with the longest track record, or if cost
-              is a major factor (generic sildenafil is often very inexpensive).
-            </li>
-          </ul>
-          <p>
-            Effectiveness can be similar, but individual responses vary. Discussing your lifestyle,
-            expectations, and health status with your
-            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link> is the
-            best way to make an informed decision.
+            Ultimately, the <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> decision should be made with your
+            <router-link to="/blog/talking-to-doctor-ed">doctor</router-link> based on your health,
+            preferences, and budget.
           </p>
         </section>
 
         <section id="conclusion" class="tab-content">
-          <h2>Conclusion: Prioritizing Speed or Familiarity?</h2>
+          <h2>Conclusion: Stendra VS Viagra</h2>
           <p>
-            The Stendra vs Viagra comparison pits the newcomer's speed and potentially refined
-            profile against the established effectiveness and familiarity of the original ED pill.
-            <router-link to="/Stendra">Stendra</router-link> offers a clear advantage in onset time
-            and food flexibility, while <router-link to="/Viagra">Viagra</router-link> (and its
-            generics) provides a reliable, well-understood, and often cost-effective option.
-          </p>
-          <p>
-            By weighing these factors against your personal needs and consulting with your doctor,
-            you can select the medication most likely to provide a satisfactory and safe treatment
-            experience.
+            The <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> debate isn't about which drug is best
+            overall, but which one works best for you. Both are effective, safe, and widely used for
+            ED treatment. Whether you value speed or savings, understanding the differences between
+            <router-link to="/Stendra">Stendra</router-link> VS
+            <router-link to="/Viagra">Viagra</router-link> can help you make the right choice for
+            your life.
           </p>
         </section>
       </article>
@@ -201,6 +255,7 @@
       <DrugSidebar
         class="drug-sidebar-component"
         :sidebarData="stendraViagraComparisonSidebarData"
+        :customTitles="customSidebarTitles"
       />
     </main>
     <PageFooter />
@@ -214,17 +269,19 @@ import PageFooter from '../../components/PageFooter.vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue'
 
-// Navigation sections for SideNav
+// Navigation sections for SideNav (Updated)
 const comparisonSections = ref([
-  { id: 'what-is-stendra', title: 'What Is Stendra?' },
-  { id: 'what-is-viagra', title: 'What Is Viagra?' },
-  { id: 'key-differences', title: 'Key Differences' },
-  { id: 'side-effects', title: 'Side Effects & Safety' },
-  { id: 'which-is-better', title: 'Which Is Better?' },
+  { id: 'what-are-drugs', title: '1. What Are Stendra & Viagra?' },
+  { id: 'onset-duration', title: '2. Onset & Duration' },
+  { id: 'food-alcohol', title: '3. Food & Alcohol' },
+  { id: 'side-effects-comparison', title: '4. Side Effects' },
+  { id: 'cost-availability', title: '5. Cost & Availability' },
+  { id: 'summary-table', title: '6. Summary Table' },
+  { id: 'final-verdict', title: '7. Final Verdict' },
   { id: 'conclusion', title: 'Conclusion' },
 ])
 
-// Sidebar data specific to Stendra vs Viagra
+// Sidebar data specific to Stendra vs Viagra (Keep existing or update as needed)
 const stendraViagraComparisonSidebarData = ref({
   drugStatus: {
     availability: { text: 'Both Prescription', statusClass: '' },
@@ -241,12 +298,20 @@ const stendraViagraComparisonSidebarData = ref({
     ],
   },
   relatedResources: [
-    { text: 'Comparing All Major ED Drugs', to: '/blog/comparing-factors' },
-    { text: 'Avanafil (Stendra) Patient Guide', to: '/blog/avanafil-patient-guide' },
-    { text: 'Sildenafil (Viagra) Generic Info', to: '/blog/sildenafil-generic-info' },
-    { text: 'Side Effect Profiles of ED Meds', to: '/blog/side-effect-profiles' },
-    { text: 'Switching Between ED Meds Safely', to: '/blog/switching-ed-meds' },
+    { text: 'Levitra vs Viagra', to: '/Levitra-vs-Viagra' },
+    { text: 'Levitra vs Stendra', to: '/Levitra-vs-Stendra' },
+    { text: 'Cialis vs Viagra', to: '/Cialis-vs-Viagra' },
   ],
+})
+
+// Define custom titles for the sidebar (Optional - Add if needed)
+const customSidebarTitles = ref({
+  // Example:
+  // quickSummary: 'Stendra vs Viagra: Key Points',
+  // relatedResources: 'More Information'
+  drugStatus: 'Stendra VS Viagra: Drug Status',
+  quickSummary: 'Stendra vs Viagra: Key Points',
+  relatedResources: 'More Information',
 })
 </script>
 

@@ -11,157 +11,172 @@
 
       <!-- Main Content -->
       <article class="main-content">
-        <h1>Stendra Generic Drugs: Fast-Acting ED Treatment Online</h1>
-        <p>
-          <router-link to="/Stendra">Stendra</router-link>, known for its rapid onset, is a newer
-          option for treating
-          <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link>. While
-          brand-name Stendra can be costly, its generic version, containing the active ingredient
-          <router-link to="/blog/avanafil-patient-guide">avanafil</router-link>, provides the same
-          fast-acting results at a more affordable price point, making it an attractive choice for
-          many.
-        </p>
-        <p>
-          This page focuses on Stendra generic drugs, their availability online, safety, and how
-          they compare to other ED treatments.
-        </p>
-
-        <section id="what-are-generics">
-          <h2>What Are Stendra Generic Drugs?</h2>
+        <header class="page-header-content">
+          <h1>Buy Stendra Online: The Fast-Acting ED Solution for Modern Men</h1>
           <p>
-            Stendra generic drugs contain
-            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link>, the same active
-            ingredient as brand-name <router-link to="/Stendra">Stendra</router-link>. These
-            generics are approved based on bioequivalence, meaning they offer the same therapeutic
-            effect, dosage (typically 50mg, 100mg, 200mg), and safety profile. They work quickly,
-            often within 15-30 minutes. Compare
-            <router-link to="/blog/generic-vs-brand-deep-dive"
-              >generic vs. brand name drugs</router-link
-            >.
-          </p>
-        </section>
-
-        <section id="common-generics">
-          <h2>Common Stendra Generic Drugs (Avanafil)</h2>
-          <p>
-            Generic avanafil is becoming more accessible online. Here are examples, though
-            availability may vary.
-            <strong
-              >(Note: Purchasing ED medication online requires caution. Use only reputable
-              pharmacies that require a prescription.)</strong
-            >
+            If you're struggling with
+            <router-link to="/blog/understanding-ed">erectile dysfunction (ED)</router-link> and
+            looking for a quick, effective, and discreet solution, it's time to Buy Stendra Online.
+            As one of the fastest-acting ED medications on the market,
+            <router-link to="/Stendra">Stendra</router-link> (<router-link
+              to="/blog/avanafil-patient-guide"
+              >avanafil</router-link
+            >) offers convenience, speed, and fewer side effects than older alternatives.
           </p>
           <p>
-            <small
-              ><em
-                >Please note: For your convenience, we may provide links to external online
-                pharmacies. We are not responsible for the content, actions, or any consequences
-                resulting from purchases made on these third-party sites. Proceed at your own
-                discretion and risk.</em
-              ></small
-            >
+            In this guide, we'll explore why more men are choosing to Buy Stendra Online, how it
+            works, where to find safe and affordable options, and what to watch out for when
+            shopping online.
           </p>
+        </header>
 
-          <!-- Example Generic Item (Update with real data if available) -->
-          <div class="generic-drug-item">
-            <h3>1. Super Avana</h3>
-            <p>
-              Super Avana is a combination drug containing 100mg of Avanafil and 60mg of Dapoxetine.
-              Avanafil is used to treat erection problems, while Dapoxetine is used for premature
-              ejaculation treatment. Take one tablet of Super Avana about 30 minutes before sexual
-              activity. The effect usually lasts up to 6 hours.
-            </p>
-            <a
-              href="https://365careprime.com/super-avana"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="external-pharmacy-link"
-              >Buy Super Avana Online</a
-            >
-          </div>
-
-          <div class="generic-drug-item">
-            <h3>2. Extra Super Avana</h3>
-            <p>
-              Extra Super Avana contains 200 mg Avanafil and 60 mg Dapoxetine. It is used to treat
-              both erection problems and premature ejaculation. Take one tablet of Extra Super Avana
-              about 30 minutes before sexual activity. The effect lasts up to 6 hours.
-            </p>
-            <a
-              href="https://365careprime.com/extra-super-avana"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="external-pharmacy-link"
-              >Buy Extra Super Avana Online</a
-            >
-          </div>
-
-          <!-- Add more generic examples if applicable -->
-        </section>
-
-        <section id="safety">
-          <h2>Are Stendra Generic Drugs Safe?</h2>
+        <section id="popularity-stendra">
+          <h2>Why Men Prefer to Buy Stendra Online</h2>
           <p>
-            Generic avanafil, when obtained from legitimate, licensed pharmacies, is safe and
-            effective. Regulatory bodies like the FDA ensure these generics meet strict quality and
-            bioequivalence standards. The primary risk comes from counterfeit drugs sold by
-            unverified online sellers. Always require a prescription.
+            Let's face it—going to the doctor or pharmacy to discuss ED can be uncomfortable. That's
+            why many men now choose to Buy Stendra Online, where the experience is private, fast,
+            and stress-free.
           </p>
-        </section>
-
-        <section id="pros-cons">
-          <h2>Pros and Cons of Using Stendra Generic Drugs</h2>
-          <h3>Pros:</h3>
+          <p>Here's why it makes sense to Buy Stendra Online:</p>
           <ul>
+            <li>✅ Discreet ordering and shipping</li>
+            <li>✅ No in-person appointments required</li>
+            <li>✅ FDA-approved treatment at your fingertips</li>
+            <li>✅ Fast onset—works in as little as 15 minutes</li>
+            <li>✅ Fewer side effects and drug interactions</li>
             <li>
-              <strong>Fast onset:</strong> Often works within 15-30 minutes, faster than many other
-              ED drugs.
+              ✅ Secure checkout and licensed
+              <router-link to="/blog/talking-to-doctor-ed">providers</router-link>
             </li>
+          </ul>
+          <p>
+            For modern men who value convenience and privacy, there's no better way to manage ED
+            than to Buy Stendra Online.
+          </p>
+        </section>
+
+        <section id="why-stendra-different">
+          <h2>What Makes Stendra Different?</h2>
+          <p>
+            Before you Buy Stendra Online, it's important to know what sets it apart. Unlike
+            <router-link to="/Viagra">Viagra</router-link> or
+            <router-link to="/Cialis">Cialis</router-link>,
+            <router-link to="/Stendra">Stendra</router-link> is known for its rapid onset and lower
+            risk of side effects.
+          </p>
+          <ul>
+            <li><strong>Onset Time:</strong> 15–30 minutes</li>
+            <li><strong>Duration:</strong> Up to 6 hours</li>
+            <li><strong>Food Interactions:</strong> Minimal</li>
             <li>
-              <strong>Cost savings:</strong> Generic avanafil is cheaper than brand-name Stendra.
-            </li>
-            <li>
-              <strong>Fewer side effects:</strong> Generally considered to have a milder side effect
-              profile, especially regarding visual disturbances. Read about
+              <strong>Side Effects:</strong> Generally mild (e.g., headache, flushing). See
               <router-link to="/blog/managing-side-effects">managing side effects</router-link>.
             </li>
-            <li>
-              <strong>Less food interaction:</strong> Can be taken with or without food with minimal
-              impact on effectiveness.
-            </li>
           </ul>
-          <h3>Cons:</h3>
-          <ul>
-            <li>
-              <strong>Newer drug:</strong> Less long-term data compared to sildenafil or tadalafil.
-            </li>
-            <li>
-              <strong>Availability:</strong> Generic avanafil might be less widely stocked than
-              older generics.
-            </li>
-            <li>
-              <strong>Cost vs. older generics:</strong> May still be more expensive than generic
-              Viagra or Cialis.
-            </li>
-            <li>
-              <strong>Counterfeit risk online:</strong> Requires careful vetting of online sources.
-            </li>
-          </ul>
+          <p>
+            This makes it a perfect choice for spontaneous intimacy — one of the key reasons people
+            Buy Stendra Online over other ED medications.
+          </p>
         </section>
 
-        <section id="conclusion">
-          <h2>Conclusion: Is Generic Stendra (Avanafil) a Good Option?</h2>
+        <section id="safe-steps-stendra">
+          <h2>How to Safely Buy Stendra Online</h2>
+          <h3>To Buy Stendra Online safely and legally, follow these steps:</h3>
+          <ol>
+            <li>Choose a verified online pharmacy or telehealth service.</li>
+            <li>Complete a confidential medical assessment.</li>
+            <li>
+              Get a prescription from a licensed
+              <router-link to="/blog/talking-to-doctor-ed">doctor</router-link>.
+            </li>
+            <li>Buy Stendra Online through a secure payment process.</li>
+            <li>Receive your medication at home in discreet packaging.</li>
+          </ol>
           <p>
-            Stendra generic drugs (avanafil) offer a compelling combination of speed, effectiveness,
-            and often, a gentler side effect profile. If rapid onset is a priority and you're
-            looking for a modern, affordable ED treatment, generic avanafil is worth discussing with
-            your doctor.
+            Be cautious: never trust sites that offer to Buy Stendra Online without a prescription —
+            they often sell counterfeit or dangerous products.
+          </p>
+        </section>
+
+        <section id="trusted-sources-stendra">
+          <h2>Where to Buy Stendra Online – Trusted Sources</h2>
+          <h3>
+            These are some reputable websites where you can safely and confidently Buy Stendra
+            Online (please conduct your own verification):
+          </h3>
+          <ul>
+            <li>
+              <a href="https://www.hims.com" target="_blank" rel="noopener noreferrer"
+                >🔗 Buy Stendra Online at Hims</a
+              >
+              <br />Private consultations and delivery of FDA-approved medications.
+            </li>
+            <li>
+              <a href="https://ro.co/" target="_blank" rel="noopener noreferrer"
+                >🔗 Buy Stendra Online from Roman</a
+              >
+              <br />Trusted telehealth service offering real Stendra and medical support.
+            </li>
+            <li>
+              <a href="https://www.blinkhealth.com" target="_blank" rel="noopener noreferrer"
+                >🔗 Buy Stendra Online at Blink Health</a
+              >
+              <br />Compare prices and order securely from licensed pharmacies.
+            </li>
+            <li>
+              <a href="https://www.goodrx.com/" target="_blank" rel="noopener noreferrer"
+                >🔗 Check Stendra Prices on GoodRx</a
+              >
+              <br />Find affordable options locally or Buy Stendra Online with discounts.
+            </li>
+          </ul>
+          <p>
+            ⚠️ <strong>Please note:</strong> For your convenience, we may provide links to external
+            online pharmacies. We are not responsible for the content, actions, or any consequences
+            resulting from purchases made on these third-party sites. Proceed at your own discretion
+            and risk.
+          </p>
+        </section>
+
+        <section id="brand-vs-generic-stendra">
+          <h2>Generic Avanafil vs Brand-Name: What's Better When You Buy Stendra Online?</h2>
+          <p>
+            While <router-link to="/Stendra">Stendra</router-link> is the brand name,
+            <router-link to="/blog/avanafil-patient-guide">avanafil</router-link> is the generic
+            equivalent. Both offer the same effectiveness, but generic versions are typically
+            cheaper. See our
+            <router-link to="/blog/generic-vs-brand-deep-dive">comparison</router-link>.
           </p>
           <p>
-            Ensure you consult a
-            <router-link to="/blog/talking-to-doctor-ed">healthcare provider</router-link> and
-            purchase only from verified, prescription-requiring pharmacies to guarantee safety and
-            authenticity.
+            When you Buy Stendra Online, many providers will offer both options. If you're looking
+            to save money without compromising on results, generic avanafil may be your best bet.
+          </p>
+        </section>
+
+        <section id="legality-stendra">
+          <h2>Is It Legal to Buy Stendra Online?</h2>
+          <p>
+            Yes — as long as you use a licensed and legitimate platform, it is 100% legal to Buy
+            Stendra Online in the U.S. You'll need a valid prescription, which can be obtained
+            through a telehealth consultation.
+          </p>
+          <p>
+            Avoid illegal sellers or "no-prescription" sites that promise to Buy Stendra Online
+            instantly. They are often unsafe, unregulated, and risky to your health.
+          </p>
+        </section>
+
+        <section id="final-thoughts-stendra">
+          <h2>Final Thoughts: Should You Buy Stendra Online?</h2>
+          <p>
+            If you're seeking fast results, less planning, and more spontaneity,
+            <router-link to="/Stendra">Stendra</router-link> is an ideal ED medication — and
+            choosing to Buy Stendra Online is the most efficient way to access it.
+          </p>
+          <p>
+            Don't let <router-link to="/blog/understanding-ed">ED</router-link> limit your
+            confidence. With just a few clicks, you can Buy Stendra Online, have it delivered
+            discreetly, and enjoy a more satisfying intimate life.
           </p>
         </section>
       </article>
@@ -180,14 +195,18 @@ import PageFooter from '../../components/PageFooter.vue'
 import SideNav from '../../components/SideNav.vue'
 import DrugSidebar from '../../components/DrugSidebar.vue'
 
+// Updated nav sections to match new content
 const navSections = ref([
-  { id: 'what-are-generics', title: 'What are Generics?' },
-  { id: 'common-generics', title: 'Common Generics' },
-  { id: 'safety', title: 'Safety' },
-  { id: 'pros-cons', title: 'Pros & Cons' },
-  { id: 'conclusion', title: 'Conclusion' },
+  { id: 'popularity-stendra', title: 'Why Buy Online?' },
+  { id: 'why-stendra-different', title: 'Why Stendra?' },
+  { id: 'safe-steps-stendra', title: 'Buy Safely' },
+  { id: 'trusted-sources-stendra', title: 'Trusted Sources' },
+  { id: 'brand-vs-generic-stendra', title: 'Generic vs. Brand' },
+  { id: 'legality-stendra', title: 'Is It Legal?' },
+  { id: 'final-thoughts-stendra', title: 'Final Thoughts' },
 ])
 
+// Updated sidebar data - removed FAQs based on CialisOnline changes
 const sidebarData = ref({
   relatedResources: [
     { text: 'Stendra Overview', to: '/Stendra' },
@@ -196,21 +215,9 @@ const sidebarData = ref({
     { text: 'Generic vs. Brand Name ED Drugs', to: '/blog/generic-vs-brand-deep-dive' },
     { text: 'Comparing ED Drugs', to: '/blog/comparing-factors' },
     { text: 'Managing Side Effects', to: '/blog/managing-side-effects' },
+    { text: 'Talking to Your Doctor About ED', to: '/blog/talking-to-doctor-ed' }, // Added this link previously
   ],
-  frequentlyAskedQuestions: [
-    {
-      text: 'How fast does Stendra work?',
-      to: '/questions/stendra-speed', // Placeholder
-    },
-    {
-      text: 'Is generic Stendra available?',
-      to: '/questions/generic-stendra-availability', // Placeholder
-    },
-    {
-      text: 'Does Stendra have fewer side effects?',
-      to: '/questions/stendra-side-effects-comparison', // Placeholder
-    },
-  ],
+  // Removed frequentlyAskedQuestions array
 })
 </script>
 
@@ -266,7 +273,8 @@ h1 {
   margin-bottom: 1em;
 }
 
-.main-content ul {
+.main-content ul,
+.main-content ol {
   margin-left: 1.5em;
   margin-bottom: 1em;
   padding-left: 0.5em;
@@ -276,39 +284,36 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-.generic-drug-item {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px dotted #ccc;
-}
-.generic-drug-item:last-child {
-  border-bottom: none;
-}
+/* Removed styles for .generic-drug-item and .external-pharmacy-link */
 
-.generic-drug-item strong {
-  color: #555;
-}
-
-.external-pharmacy-link {
-  display: inline-block;
-  margin-top: 0.8rem;
-  padding: 0.4rem 0.8rem;
-  font-size: 0.85rem;
+/* Style for links */
+a {
   color: #007bff;
-  border: 1px solid #007bff;
-  border-radius: 4px;
   text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
+}
+a:hover {
+  text-decoration: underline;
 }
 
-.external-pharmacy-link:hover {
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
+/* Style for links within the trusted sources list */
+#trusted-sources-stendra ul li a {
+  font-weight: bold; /* Make the link itself bold */
+}
+#trusted-sources-stendra ul li {
+  margin-bottom: 1em; /* Add more space between list items */
 }
 
 small em {
   font-size: 0.9em;
   color: #666;
+}
+
+/* Style for Warning/Note */
+strong {
+  font-weight: bold;
+}
+
+header.page-header-content {
+  margin-bottom: 2rem;
 }
 </style> 
