@@ -72,7 +72,16 @@ export default defineConfig({
         {
           userAgent: '*',
           allow: '/',
-          disallow: ['/.git/', '/node_modules/', '/author-*.html', '/post/', '/tags-*.html'],
+          disallow: [
+            '/.git/',
+            '/node_modules/',
+            '/author-*.html',
+            '/post/',
+            '/tags-*.html',
+            '/category-*.html',
+            '/page_*.html',
+            '/date-*.html',
+          ],
         },
       ],
       // Sitemap directive is automatically added based on hostname
