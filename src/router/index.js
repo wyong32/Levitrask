@@ -329,7 +329,6 @@ router.afterEach((to, from) => {
     const pageDescription = to.meta.description || DEFAULT_DESCRIPTION
     const pageKeywords = to.meta.keywords || DEFAULT_KEYWORDS
     const canonicalUrl = window.location.origin + to.fullPath
-    // Use specific og:image from meta if available, otherwise use default
     const ogImageUrl = window.location.origin + (to.meta.ogImage || DEFAULT_OG_IMAGE)
 
     // Set Title
@@ -345,16 +344,33 @@ router.afterEach((to, from) => {
     setCanonicalUrl(canonicalUrl)
 
     // --- Set Open Graph Tags ---
-    setMetaTag('property', 'og:title', pageTitle) // Use page title for og:title
-    setMetaTag('property', 'og:description', pageDescription) // Use page description for og:description
-    setMetaTag('property', 'og:url', canonicalUrl) // Use canonical URL for og:url
-    setMetaTag('property', 'og:image', ogImageUrl) // Set og:image
-    setMetaTag('property', 'og:type', 'website') // Default type, can be 'article' for blog posts
-    // Optional: Add more tags like og:site_name
-    // setMetaTag('property', 'og:site_name', 'Levitrask Demo');
+    setMetaTag('property', 'og:title', pageTitle)
+    setMetaTag('property', 'og:description', pageDescription)
+    setMetaTag('property', 'og:url', canonicalUrl)
+    setMetaTag('property', 'og:image', ogImageUrl)
+    setMetaTag('property', 'og:type', 'website')
+
+    // --- Set Robots Meta Tag based on route name ---
+    let robotsMeta = document.querySelector('meta[name="robots"]')
+
+    if (to.name === 'NotFound') {
+      // If it's the NotFound route, ensure noindex
+      if (!robotsMeta) {
+        robotsMeta = document.createElement('meta')
+        robotsMeta.name = 'robots'
+        document.head.appendChild(robotsMeta)
+      }
+      robotsMeta.content = 'noindex'
+    } else {
+      // For all other routes, remove the robots meta tag if it exists
+      // This assumes default is index, follow, and only NotFound should be noindex
+      if (robotsMeta) {
+        document.head.removeChild(robotsMeta)
+      }
+    }
 
     // --- Optional: Add Twitter Card Tags (Similar to Open Graph) ---
-    // setMetaTag('name', 'twitter:card', 'summary_large_image'); // or 'summary'
+    // setMetaTag('name', 'twitter:card', 'summary_large_image');
     // setMetaTag('name', 'twitter:title', pageTitle);
     // setMetaTag('name', 'twitter:description', pageDescription);
     // setMetaTag('name', 'twitter:image', ogImageUrl);
